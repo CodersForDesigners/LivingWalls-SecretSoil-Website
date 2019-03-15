@@ -1,3 +1,13 @@
+<?php
+
+// Page-specific preparatory code goes here.
+
+?>
+
+<?php require_once __DIR__ . '/../inc/above.php'; ?>
+
+
+
 
 <!-- Contact Section -->
 <section class="contact-section">
@@ -41,3 +51,8 @@
 		</div>
 	</div>
 </section> <!-- END : Contact Section -->
+
+
+
+
+<?php require_once __DIR__ . '/../inc/below.php'; ?>

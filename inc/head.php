@@ -133,7 +133,7 @@ $pageTitle = getCurrentPageTitle( $links, $siteTitle );
 	- -->
 	<?php echo getContent( <<<ARB
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/ufg3dmd.css">
 	<!-- Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ARB
