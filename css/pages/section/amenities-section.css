@@ -1,0 +1,15 @@
+/*
+ * Amenities Section 
+ */
+
+
+.amenities-section {}
+
+@media( min-width: 400px )  {}
+@media( min-width: 640px )  {}
+@media( min-width: 800px )  {}
+@media( min-width: 1040px ) {}
+@media( min-width: 1200px ) {}
+@media( min-width: 1480px ) {}
+@media( min-width: 1600px ) {}
+@media( min-width: 1940px ) {}

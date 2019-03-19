@@ -1,0 +1,15 @@
+/*
+ * Large 4BHK Section 
+ */
+
+
+.large-4bhk-section.section-bg { padding-bottom: 320px; }
+
+@media( min-width: 400px )  { .large-4bhk-section.section-bg { padding-bottom: 520px; } }
+@media( min-width: 640px )  { .large-4bhk-section.section-bg { padding-bottom: 620px; } }
+@media( min-width: 800px )  { .large-4bhk-section.section-bg { padding-bottom: 800px; } }
+@media( min-width: 1040px ) { .large-4bhk-section.section-bg { padding-bottom: 940px; } }
+@media( min-width: 1200px ) { .large-4bhk-section.section-bg { padding-bottom: 1200px; } }
+@media( min-width: 1480px ) { .large-4bhk-section.section-bg { padding-bottom: 1240px; } }
+@media( min-width: 1600px ) { .large-4bhk-section.section-bg { padding-bottom: 1500px; } }
+@media( min-width: 1940px ) { .large-4bhk-section.section-bg { padding-bottom: 80%; } }

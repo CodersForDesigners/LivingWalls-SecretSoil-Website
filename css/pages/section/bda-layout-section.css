@@ -1,0 +1,15 @@
+/*
+ * BDA Layout Section 
+ */
+
+
+.bda-layout-section.section-bg { padding-top: 80px; }
+
+@media( min-width: 400px )  { .bda-layout-section.section-bg { padding-top: 120px; } }
+@media( min-width: 640px )  { .bda-layout-section.section-bg { padding-top: 150px; } }
+@media( min-width: 800px )  { .bda-layout-section.section-bg { padding-top: 200px; } }
+@media( min-width: 1040px ) { .bda-layout-section.section-bg { padding-top: 240px; } }
+@media( min-width: 1200px ) { .bda-layout-section.section-bg { padding-top: 310px; } }
+@media( min-width: 1480px ) { .bda-layout-section.section-bg { padding-top: 360px; } }
+@media( min-width: 1600px ) { .bda-layout-section.section-bg { padding-top: 420px; } }
+@media( min-width: 1940px ) { .bda-layout-section.section-bg { padding-top: 22%; } }

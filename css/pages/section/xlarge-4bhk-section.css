@@ -1,0 +1,15 @@
+/*
+ * XLarge 4BHK Section 
+ */
+
+
+.xlarge-4bhk-section.section-bg { padding-bottom: 320px; }
+
+@media( min-width: 400px )  { .xlarge-4bhk-section.section-bg { padding-bottom: 520px; } }
+@media( min-width: 640px )  { .xlarge-4bhk-section.section-bg { padding-bottom: 620px; } }
+@media( min-width: 800px )  { .xlarge-4bhk-section.section-bg { padding-bottom: 800px; } }
+@media( min-width: 1040px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 940px; } }
+@media( min-width: 1200px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 1200px; } }
+@media( min-width: 1480px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 1240px; } }
+@media( min-width: 1600px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 1500px; } }
+@media( min-width: 1940px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 80%; } }

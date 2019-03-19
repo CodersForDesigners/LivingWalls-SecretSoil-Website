@@ -1,0 +1,15 @@
+/*
+ * Masterplan Section 
+ */
+
+
+.masterplan-section.section-bg { padding-top: 120px; }
+
+@media( min-width: 400px )  { .masterplan-section.section-bg { padding-top: 180px; } }
+@media( min-width: 640px )  { .masterplan-section.section-bg { padding-top: 200px; } }
+@media( min-width: 800px )  { .masterplan-section.section-bg { padding-top: 240px; } }
+@media( min-width: 1040px ) { .masterplan-section.section-bg { padding-top: 340px; } }
+@media( min-width: 1200px ) { .masterplan-section.section-bg { padding-top: 480px; } }
+@media( min-width: 1480px ) { .masterplan-section.section-bg { padding-top: 500px; } }
+@media( min-width: 1600px ) { .masterplan-section.section-bg { padding-top: 680px; } }
+@media( min-width: 1940px ) { .masterplan-section.section-bg { padding-top: 30%; } }

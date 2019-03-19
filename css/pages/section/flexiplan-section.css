@@ -1,0 +1,15 @@
+/*
+ * Flexiplan Section 
+ */
+
+
+.flexiplan-section.section-bg { padding-top: 120px; }
+
+@media( min-width: 400px )  { .flexiplan-section.section-bg { padding-top: 200px; } }
+@media( min-width: 640px )  { .flexiplan-section.section-bg { padding-top: 260px; } }
+@media( min-width: 800px )  { .flexiplan-section.section-bg { padding-top: 340px; } }
+@media( min-width: 1040px ) { .flexiplan-section.section-bg { padding-top: 400px; } }
+@media( min-width: 1200px ) { .flexiplan-section.section-bg { padding-top: 480px; } }
+@media( min-width: 1480px ) { .flexiplan-section.section-bg { padding-top: 540px; } }
+@media( min-width: 1600px ) { .flexiplan-section.section-bg { padding-top: 680px; } }
+@media( min-width: 1940px ) { .flexiplan-section.section-bg { padding-top: 35%; } }
