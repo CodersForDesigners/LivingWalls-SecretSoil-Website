@@ -2,7 +2,19 @@
  * Construction Section 
  */
 
+.contact-section { padding-bottom: var(--space-half); }
 
-@media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1480px ) {}
+@media( min-width: 640px )  {
+	.contact-section .contact,
+	.contact-section .pricing { height: 265px; }
+}
+@media( min-width: 1040px ) {
+	.contact-section { padding-bottom: 0 }
+
+	.contact-section .contact,
+	.contact-section .pricing { height: 340px; }
+}
+@media( min-width: 1480px ) {
+	.contact-section .contact,
+	.contact-section .pricing { height: 480px; }
+}

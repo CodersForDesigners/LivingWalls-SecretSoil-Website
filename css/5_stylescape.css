@@ -536,3 +536,24 @@ select:focus {
 
 .text-auto-align-large { text-align: center; }
 @media( min-width: 1040px ) { .text-auto-align-large { text-align: inherit; } }
+
+
+
+
+
+/*
+ * Secret
+ */
+
+.secret .secret-number {
+	padding-bottom: 5px;
+}
+
+.secret .secret-icon {
+	transform: translate(5px, 5px);
+}
+@media( min-width: 1480px ) {
+	.secret .secret-icon {
+		transform: translate(7px, 7px);
+	}
+}

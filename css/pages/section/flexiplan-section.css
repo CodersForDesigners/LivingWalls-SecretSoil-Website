@@ -13,3 +13,34 @@
 @media( min-width: 1480px ) { .flexiplan-section.section-bg { padding-top: 540px; } }
 @media( min-width: 1600px ) { .flexiplan-section.section-bg { padding-top: 680px; } }
 @media( min-width: 1940px ) { .flexiplan-section.section-bg { padding-top: 35%; } }
+
+
+.flexiplan-section .pricing-engine {
+	padding-bottom: var(--space-half);
+}
+
+.flexiplan-section .pricing-engine .pricing-video {
+	font-size: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+@media( min-width: 640px )  {}
+
+@media( min-width: 1040px ) {
+	.flexiplan-section .pricing-engine {
+		padding-bottom: 0;
+		margin: 220px 0;
+	}
+
+	.flexiplan-section .pricing-engine .pricing-video {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+@media( min-width: 1480px ) {
+	.flexiplan-section .pricing-engine {
+		margin: 340px 0;
+	}
+}

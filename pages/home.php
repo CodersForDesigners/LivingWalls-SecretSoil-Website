@@ -58,10 +58,10 @@
 
 
 <!-- Intro Section -->
-<section class="intro-section">
+<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('/media/section-bg/canopy.png'), url('/media/section-bg/canopy-bg-px.png');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 medium-6 medium-offset-6 large-4 large-offset-8">
+			<div class="columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
 				<div class="h2 strong">
 					Secretly <br>
 					Kickass <br>
@@ -69,8 +69,7 @@
 					Houses
 				</div>
 
-				<div class="h4 strong">Live under the trees <br>
-				in secure gated neighbourhood.</div>
+				<div class="h4">Live under the trees in a secure gated neighbourhood.</div>
 			</div>
 		</div>
 	</div>
@@ -97,27 +96,51 @@
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">No Common Walls</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No Common Walls</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">A Standalone 4BHK House</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Ground and 2 Floors</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Ground and 2 Floors</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">With Back Door Access</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">With Back Door Access</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -130,7 +153,7 @@
 					<div class="row">
 						<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
 							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
-							<div class="label strong text-uppercase">Real-time pricing & Availability</div>
+							<div class="h6">Real-time pricing & Availability</div>
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
@@ -153,33 +176,63 @@
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Landscaped Terrace Garden</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Landscaped Terrace Garden</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Hidden Utility Terrace</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Hidden Utility Terrace</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">2 Private Car Parks</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 Private Car Parks</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">15 Floor Plan Configurations</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 Floor Plan Configurations</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Dedicated Servants Quarters</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -219,109 +272,157 @@
 <section class="masterplan-section space-one-top-bottom section-bg top" style="color: #F18838; background-color: #0E0D0D; background-image: url('/media/section-bg/soil.png'), url('/media/section-bg/soil-bg-px.png');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom">
-				<div class="h1 strong text-light">Masterplan</div>
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h1 strong text-light space-quarter-bottom">Masterplan</div>
 				<div class="h3">Minimised Concrete Footprint</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom">
-				<div class="h3"><span class="text-light">Unlock 25 secrets of the</span> Masterplan</div>
-				<div class="button fill-green">Unlock Now</div>
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Masterplan</div>
+				<div class="button button-large fill-green">Unlock Now</div>
 			</div>
 
 			<div class="columns small-12 large-8">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">2 years of design before execution</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 years of design before execution</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">No concrete podium or Basement</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No concrete podium or Basement</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">73% exposed natural soil</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">73% exposed natural soil</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">1.2 acre wooden central park</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">1.2 acre wooden central park</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 				
-			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-4 space-half-bottom">
+			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-4 space-quarter-left-right">
 				<div class="h2 text-light text-auto-align-large">Just <span class="text-green">12</span> houses per acre, instead of 15 or 17 houses per acre.</div>
 			</div>
-
-			<div class="columns small-12 space-half-bottom">
-				<div class="table">
-					<div class="h4">
-						Assetz <br>
-						Soul & Soil
-					</div>
-
-					<div class="h6">7 Acres</div>
-					<div class="h6">124 Houses</div>
-					<div class="h6">17.7 per acre</div>
-					<div class="h6">3 & 4 BHK</div>
-					<div class="h6">Row Houses</div>
-
-					<div class="h4">
-						LW <br>
-						Secret Soil
-					</div>
-
-					<div class="h6">6.4 Acres</div>
-					<div class="h6">77 Houses</div>
-					<div class="h6">11.8 per acre</div>
-					<div class="h6">4 BHK</div>
-					<div class="h6">Standalone Houses</div>
-
-					<div class="h4">
-						GoyalCo <br>
-						Alanoville
-					</div>
-
-					<div class="h6">5 Acres</div>
-					<div class="h6">75 Houses</div>
-					<div class="h6">15 per acre</div>
-					<div class="h6">4 BHK</div>
-					<div class="h6">Row Houses</div>
+		</div>
+	</div>
+	
+	<!-- Comparison Table -->
+	<div class="row">
+		<div class="table">
+			<div class="table-data inline-top fill-dark">
+				<div class="table-row space-half-left-right table-head h3">
+					Assetz <br>
+					Soul & Soil
 				</div>
+				<div class="table-row space-half-left-right h5">7 Acres</div>
+				<div class="table-row space-half-left-right h5">124 Houses</div>
+				<div class="table-row space-half-left-right h5">17.7 per acre</div>
+				<div class="table-row space-half-left-right h5">3 & 4 BHK</div>
+				<div class="table-row space-half-left-right table-foot h5 strong">Row Houses</div>
 			</div>
+			<div class="table-data inline-top fill-green">
+				<div class="table-row space-half-left-right table-head h3">
+					LW <br>
+					Secret Soil
+				</div>
+				<div class="table-row space-half-left-right h5">6.4 Acres</div>
+				<div class="table-row space-half-left-right h5">77 Houses</div>
+				<div class="table-row space-half-left-right h5">11.8 per acre</div>
+				<div class="table-row space-half-left-right h5">4 BHK</div>
+				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
+			</div>
+			<div class="table-data inline-top fill-off-dark">
+				<div class="table-row space-half-left-right table-head h3">
+					GoyalCo <br>
+					Alanoville
+				</div>
+				<div class="table-row space-half-left-right h5">5 Acres</div>
+				<div class="table-row space-half-left-right h5">75 Houses</div>
+				<div class="table-row space-half-left-right h5">15 per acre</div>
+				<div class="table-row space-half-left-right h5">4 BHK</div>
+				<div class="table-row space-half-left-right table-foot h5 strong">Row Houses</div>
+			</div>
+		</div>
+	</div>
+	<!-- END: Comparison Table -->
 
+	<div class="row">
+		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">More than 50 elderly trees</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">More than 50 elderly trees</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">15 elderly jackfruit trees</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 elderly jackfruit trees</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Vehicular traffic hugs the peripheral wall</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Vehicular traffic hugs the peripheral wall</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</div>
 </section>
@@ -358,50 +459,86 @@
 <section class="bda-layout-section space-one-top-bottom section-bg top" style="color: #FFD561; background-color: #24272B; background-image: url('/media/section-bg/road.png'), url('/media/section-bg/road-bg-px.png');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom">
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 strong text-light">The charm of a BDA Layout House without the hassles</div>
 			</div>
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom">
-				<div class="h3"><span class="text-light">Unlock 25 secrets of</span> buying a house vs building one</div>
-				<div class="button fill-green">Unlock Now</div>
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of</span> buying a house vs building one</div>
+				<div class="button button-large fill-green">Unlock Now</div>
 			</div>
 			<div class="columns small-12 large-8">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Upgradable underground infrastructure</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Upgradable underground infrastructure</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Authorised pedestrian and vehicular access</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Authorised pedestrian and vehicular access</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Child friendly interior roads</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Child friendly interior roads</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Electrified boundary wall</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Electrified boundary wall</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Quiet streets with few neighbours</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Quiet streets with few neighbours</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">You don’t need to supervise the build</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">You don’t need to supervise the build</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -442,46 +579,57 @@
 <section class="flexiplan-section space-one-top-bottom section-bg top" style="color: #EF6135; background-color: #17191B; background-image: url('/media/section-bg/architects.png'), url('/media/section-bg/architects-bg-px.png');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom">
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h1 strong text-light">Flexi-plan</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom">
-				<div class="h3"><span class="text-light">Unlock 25 secrets of the</span> Flexi-Plan</div>
-				<div class="button fill-green">Unlock Now</div>
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Flexi-Plan</div>
+				<div class="button button-large fill-green">Unlock Now</div>
 			</div>
 
 			<div class="columns small-12 large-8">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Convert Bedroom to Home Theater Room</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Convert Bedroom to Home Theater Room</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Add the provision for an Optional Lift</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Add the provision for an Optional Lift</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-4 text-auto-align-large space-half-bottom">
+			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 text-light">Upto <span class="text-green">14</span> unique Flexi-Plan Layouts Available</div>
 			</div>
 		</div>
 	</div>
-	<div class="row fill-green">
+	<div class="pricing-engine row fill-green">
 		<div class="container">
-			<div class="columns small-12">
-				<div class="h3">Customise your house online</div>
-				<div class="button">Customise Now</div>
-
-				<pre>
-					[looping screen video]
-				</pre>
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom">Customise your house online</div>
+				<div class="button button-large">Customise Now</div>
+			</div>
+			<div class="pricing-video columns small-12 large-8">
+				<img src="https://via.placeholder.com/1920x1920">
 			</div>
 		</div>
 	</div>
@@ -491,15 +639,27 @@
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Add a walk-in dressing room</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Add a walk-in dressing room</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Opt for a large island kitchen</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Opt for a large island kitchen</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -539,42 +699,66 @@
 <section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #F07; background-color: #0B2938; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large">
-				<div class="h1 strong text-light">XLarge 4BHK</div>
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h1 strong text-light space-quarter-bottom">XLarge 4BHK</div>
 				<div class="label strong text-uppercase">2984<span class="opacity-50">sft</span> & 2988<span class="opacity-50">sft</span></div>
 				<div class="h3">Spacious Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large">
-				<div class="h3"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
-				<div class="button fill-green">Unlock Now</div>
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
+				<div class="button button-large fill-green">Unlock Now</div>
 			</div>
 
 			<div class="columns small-12 large-8">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">No Common Walls</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No Common Walls</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">A Standalone 4BHK House</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Ground and 2 Floors</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Ground and 2 Floors</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">With Back Door Access</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">With Back Door Access</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -585,19 +769,19 @@
 			<div class="columns small-12">
 				<div class="pricing">
 					<div class="row">
-						<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large">
-							<div class="h3">Find out Secret price breakdown</div>
-							<div class="label strong text-uppercase">Real-time pricing & Availability</div>
+						<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
+							<div class="h6">Real-time pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large">
-							<div class="h3 strong">XLarge 4BHK House</div>
-							<div class="h4">Basic Price 2.0Cr</div>
-							<div class="button">Download Details</div>
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right">
+							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
+							<div class="h4 space-quarter-bottom">Basic Price 2.0Cr</div>
+							<div class="button button-large">Download Details</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large">
-							<div class="h3 strong">XLarge 4BHK + Private Garden</div>
-							<div class="h4">Basic Price 2.3Cr</div>
-							<div class="button">Download Details</div>
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right">
+							<div class="h3 strong space-quarter-bottom">XLarge 4BHK + Private Garden</div>
+							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
+							<div class="button button-large">Download Details</div>
 						</div>
 					</div>
 				</div>
@@ -606,37 +790,67 @@
 	</div>
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4">
+			<div class="columns small-12 large-8 large-offset-4 space-half-top">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Landscaped Terrace Garden</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Landscaped Terrace Garden</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Hidden Utility Terrace</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Hidden Utility Terrace</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">2 Private Car Parks</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 Private Car Parks</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">15 Floor Plan Configurations</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 Floor Plan Configurations</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium">Dedicated Servants Quarters</div>
-						<div class="secret-icon float-left"><i class="material-icons">cake</i></div>
-						<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -673,44 +887,210 @@
 
 
 <!-- Amenities Section -->
-<section class="amenities-section space-one-top-bottom section-bg top" style="color: #09F; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
 	<div class="row">
 		<div class="container">
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h1 strong text-light space-quarter-bottom">Amenities</div>
+			</div>
+
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
+				<div class="button button-large fill-green">Unlock Now</div>
+			</div>
+
+			<div class="columns small-12 medium-6 large-4">
+				<div class="row">
+					<div class="h4 text-auto-align-medium space-quarter-left-right space-quarter-bottom">Indoor Amenities</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Multipurpose Hall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Party Hall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Badminton Court</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Gym</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Steam, Sauna & Spa</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Indoor Games</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="columns small-12 medium-6 large-4">
+				<div class="row">
+					<div class="h4 text-auto-align-medium space-quarter-left-right space-quarter-bottom">Outdoor Amenities</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Party Lawn</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Swimming Pool</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Community Seating</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Pavilion</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Childrens Play Area</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Walkways</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-8 large-offset-4 text-auto-align-large space-quarter-bottom">
+				<div class="h3"><span class="text-light">A</span> 10,000sft Clubhouse<span class="text-light"> that blends into the trees</span></div>
+			</div>
+
+			<div class="columns small-12 medium-6 medium-offset-6 large-4 large-offset-8">
+				<div class="row">
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Reflective Water Body</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Jogging Path</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Outdoor Gym</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Rock Climbing</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h5 text-light">Stage & Amphitheater</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="columns small-12">
-				<div class="h1">Amenities</div>
-					
-				<pre>
-					[left column] Unlock the detailed floorplans of the clubhouse [unlock button]
-				</pre>
-
-				<pre>
-					[middle column] Indoor Amenities 
-					Multipurpose Hall 
-					Party Hall 
-					Badminton Court 
-					Gym 
-					Steam, Sauna & Spa 
-					Indoor Games   
-
-					[right column] Outdoor Amenities 
-					Party Lawn 
-					Swimming Pool 
-					Community Seating 
-					Pavilion 
-					Childrens Play Area 
-					Walkways 
-
-					[across middle and right] A 10,000sft clubhouse that blends into the trees 
-
-					[right column] Reflective Water Body 
-					Jogging Path 
-					Outdoor Gym 
-					Rock Climbing 
-					Stage & Amphitheatre 
-
-
-					[3d renders of the clubhouse]
-				</pre>
+				<pre>[3d renders of the clubhouse]</pre>
 			</div>
 		</div>
 	</div>
@@ -719,35 +1099,58 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section">
+<section class="construction-section fill-off-green space-half-top-bottom">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4">
-				<div class="h2 strong">Construction Status</div>
+			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
+				<div class="h2 strong space-half-top-bottom">Construction Status</div>
 			</div>
 
-			<div class="columns small-12 large-4">
-				<div class="h3">October 2015</div>
-				<div class="button">Previous Months</div>
+			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
+				<div class="h3 space-quarter-bottom">October 2015</div>
+				<div class="button button-large">Previous Months</div>
 			</div>
 
-			<div class="columns small-12 large-8">
-				<div class="h4">Structure</div>
-				<div class="h6">• Block A - 17th Floor in progress. Block B & C - Completed</div>
+			<!-- Status -->
+			<div class="status columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right">
+				<div class="title text-auto-align-large h4 strong">Structure</div>
+				<div class="point text-auto-align-large h6">Block A - 17th Floor in progress.</div>
+				<div class="point text-auto-align-large h6">Block B & C - Completed.</div>
 
-				<div class="h4">Masonry</div>
-				<div class="h6">• Block A - 13th Floor in progress. Block B - 15th floor Completed. Block C - 16th floor Completed</div>
-				<div class="h6">• STP Work in progress</div>
-				<div class="h6">• Basement ramps structure in progress</div>
-				<div class="h6">• GFRC work in the ducts in progress</div>
-				<div class="h6">• Fire suppression sprinkler system is being installed</div>
-				<div class="h6">• Plumbing - Down take line in shaft in progress</div>
+				<div class="title text-auto-align-large h4 strong">Masonry</div>
+				<div class="point text-auto-align-large h6">Block A - 13th Floor in progress.</div>
+				<div class="point text-auto-align-large h6">Block B - 15th floor Completed.</div>
+				<div class="point text-auto-align-large h6">Block C - 16th floor Completed</div>
+				<div class="point text-auto-align-large h6">STP Work in progress</div>
+				<div class="point text-auto-align-large h6">Basement ramps structure in progress</div>
+				<div class="point text-auto-align-large h6">GFRC work in the ducts in progress</div>
+				<div class="point text-auto-align-large h6">Fire suppression sprinkler system is being installed</div>
+				<div class="point text-auto-align-large h6">Plumbing - Down take line in shaft in progress</div>
+			</div>
+			<!-- End: Status -->
+		</div>
+	</div>
 
-				<pre>
-					[ Gallery ]
-				</pre>
+	<div class="row">
+		<!-- Gallery -->
+		<div class="gallery">
+			<div class="image">
+				<img src="https://via.placeholder.com/1920x1080">
+			</div>
+			<div class="image">
+				<img src="https://via.placeholder.com/1920x1920">
+			</div>
+			<div class="image">
+				<img src="https://via.placeholder.com/1920x1080">
+			</div>
+			<div class="image">
+				<img src="https://via.placeholder.com/1920x1920">
+			</div>
+			<div class="image">
+				<img src="https://via.placeholder.com/1920x1080">
 			</div>
 		</div>
+		<!-- End: Gallery -->
 	</div>
 </section>
 <!-- END: Construction Section -->
@@ -769,27 +1172,36 @@
 
 
 <!-- Contact Section -->
-<section class="contact-section">
+<section class="contact-section fill-green">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-4">
-				<div class="label">Contact us</div>
-				<div class="h3 strong">Get in touch with us</div>
-				<div class="h5 strong">Fill in your details and a Customer Service executive will call you back, Soon.</div>
+			<div class="columns small-12 large-4 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+				<div class="label strong text-uppercase">Contact us</div>
+				<div class="h3 strong space-quarter-bottom">Get in touch</div>
+				<div class="h5 space-half-bottom">Fill in your details and a Customer Service executive will call you back, Soon.</div>
 
-				<div class="h4">Or Call</div>
+				<div class="h4 text-off-green">Or Call</div>
 				<div class="h3"><i class="material-icons">phone</i>96633 96979</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">
-				<div class="h5">Full Name</div>
-				<div class="h5">Email ID</div>
-				<div class="h5">Mobile Number</div>
-				<div class="h5">Contact Me</div>
+			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right">
+				<label class="label block space-quarter-bottom">
+					<span class="visuallyhidden">Full Name</span>
+					<input class="block" type="text" placeholder="Full Name">
+				</label>
+				<label class="label block space-quarter-bottom">
+					<span class="visuallyhidden">Email ID</span>
+					<input class="block" type="text" placeholder="Email ID">
+				</label>
+				<label class="label block space-half-bottom">
+					<span class="visuallyhidden">Mobile Number</span>
+					<input class="block" type="text" placeholder="Mobile Number">
+				</label>
+				<button class="button block fill-green">Contact Me</button>
 			</div>
-			<div class="columns small-12 medium-6 large-4">
-				<div class="h3 strong">Pick your house online now.</div>
-				<div class="h5 strong">Use our Real-time Pricing Engine. </div>
-				<div class="button">Download Prices</div>
+			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom">Pick your house online now.</div>
+				<div class="h5 strong space-half-bottom">Use our Real-time Pricing Engine. </div>
+				<div class="button button-large">Download Prices</div>
 			</div>
 		</div>
 	</div>
@@ -798,7 +1210,7 @@
 
 
 <!-- About Section -->
-<section class="about-section space-one-top-bottom section-bg top" style="color: #09F; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="about-section space-one-top-bottom section-bg top" style="color: #F07; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-4">
@@ -822,37 +1234,43 @@
 
 
 <!-- Footer Section -->
-<section class="footer-section">
+<section class="footer-section fill-dark space-one-top space-half-bottom">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12">
-				<pre>
-					[ Logo ]
-				</pre>
+			<div class="columns small-10 small-offset-1 medium-3 medium-offset-0 large-2 text-auto-align-medium space-half-bottom">
+				<img src="https://via.placeholder.com/150">
+			</div>
 
-				<div class="h6">Corporate Office</div>
+			<div class="columns small-10 small-offset-1 medium-3 large-4 text-auto-align-medium space-half-bottom">
+				<div class="h6 strong text-uppercase space-quarter-bottom">Corporate Office</div>
 
-				<div class="h6">
+				<div class="h6 opacity-50">
 					VDB Infra & Realty Pvt. Ltd. <br>
 					VDB House, 842/A <br>
 					100ft Road, Indiranagar <br>
 					Bangalore - 5600 38.
 				</div>
+			</div>
 
+			<div class="columns small-10 small-offset-1 medium-4 text-auto-align-medium space-half-bottom">
+				<div class="h6 strong text-uppercase space-quarter-bottom">Site Map</div>
 
-				<div class="h6">Site Map</div>
-
-				<div class="h6">–  Large 4BHK </div>
-				<div class="h6">–  Masterplan</div>
-				<div class="h6">–  Flexi-Plan</div>
-				<div class="h6">–  XLarge 4BHK</div>
-				<div class="h6">–  Amenities</div>
-
-				<div class="h6">–  Infrastructure</div>
-				<div class="h6">–  Updates</div>
-				<div class="h6">–  Contact us</div>
-				<div class="h6">–  Location</div>
-				<div class="h6">–  Pricing</div>
+				<div class="row text-off-green">
+					<div class="columns small-6">
+						<div class="h6">Large 4BHK </div>
+						<div class="h6">Masterplan</div>
+						<div class="h6">Flexi-Plan</div>
+						<div class="h6">XLarge 4BHK</div>
+						<div class="h6">Amenities</div>
+					</div>
+					<div class="columns small-6">
+						<div class="h6">Infrastructure</div>
+						<div class="h6">Updates</div>
+						<div class="h6">Contact us</div>
+						<div class="h6">Location</div>
+						<div class="h6">Pricing</div>
+					</div>
+				</div>
 			</div>
 
 		</div>
@@ -862,12 +1280,12 @@
 
 
 <!-- RERA Disclaimer Section -->
-<section class="rera-disclaimer-section">
+<section class="rera-disclaimer-section fill-off-dark space-one-top-bottom">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12">
-				<div class="h6">Disclaimer</div>
-				<div class="small">
+				<div class="h6 strong text-uppercase space-quarter-bottom">Disclaimer</div>
+				<div class="small text-justify">
 					By using or accessing the Website you agree with the Disclaimer without any qualification or limitation. The Company reserves the right to terminate, revoke, modify, alter, add and delete any one or more of the terms and conditions of the website. The Company shall be under no obligation to notify the visitor of the amendment to the terms and conditions and the visitor shall be bound by such amended terms and conditions.<br><br>
 					The visuals and information contained herein marked as "artistic impression" are artistic impressions being indicative in nature and are for general information purposes only. The visuals contained marked as "generic image" and other visuals /image /photographs are general images and do not have any correlation with the project.<br><br>
 					The imagery used on the website may not represent actuals or may be indicative of style only. Photographs of interiors, surrounding views and location may not represent actuals or may have been digitally enhanced or altered. These photographs may not represent actuals or may be indicative only. Computer generated images, walkthroughs and render images are the artist's impression and are an indicative of the actual designs.<br><br>

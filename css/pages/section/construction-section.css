@@ -2,7 +2,48 @@
  * Contact Section 
  */
 
+.construction-section {}
+
+/* -- Status -- */
+
+.construction-section .status .title,
+.construction-section .status .point {
+	margin-bottom: 5px;
+}
+
+.construction-section .status .title { margin-top: var(--space-half); }
 
 @media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
+@media( min-width: 1040px ) {
+	.construction-section .status .title { margin-top: 0; }
+	.construction-section .status .point + .title { margin-top: var(--space-half); }
+}
 @media( min-width: 1480px ) {}
+
+
+
+
+/* -- Gallery -- */
+
+.construction-section .gallery {
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+
+	padding: var(--space-half) calc( (100vw - var(--container-width))/2 );
+	scroll-snap-type: x mandatory;
+}
+
+.construction-section .gallery .image {
+	display: inline-block;
+	padding: 5px;
+	scroll-snap-align: center;
+}
+
+.construction-section .gallery .image img {
+	width: auto;
+	height: calc(var(--space-one)*4);
+
+	box-shadow: 0 0 1px 2px rgba(0, 50, 50, 0.03), 0 1px 1px 2px rgba(0, 50, 50, 0.03), 0 -1px 1px 2px rgba(0, 50, 50, 0.03), 0 0 1px 5px rgba(0, 50, 50, 0.05);
+}
