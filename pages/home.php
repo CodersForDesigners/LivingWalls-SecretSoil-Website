@@ -89,7 +89,7 @@
 
 
 <!-- Large 4BHK Section -->
-<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/large-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/large-villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -110,7 +110,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No Common Walls</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-commonwalls.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -122,7 +122,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-standalone4.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -134,7 +134,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Ground and 2 Floors</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-ground2.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -146,7 +146,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">With Back Door Access</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -190,7 +190,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Landscaped Terrace Garden</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-terracegarden.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -202,7 +202,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Hidden Utility Terrace</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-hiddenutility.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -214,7 +214,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 Private Car Parks</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-carparks.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -226,7 +226,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 Floor Plan Configurations</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-15floorplan.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -238,7 +238,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<!-- <div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div> -->
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -300,7 +300,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 years of design before execution</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-2yearsdesign.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -312,7 +312,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No concrete podium or Basement</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-noconcrete.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -324,7 +324,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">73% exposed natural soil</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-exposedsoil.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -336,7 +336,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">1.2 acre wooden central park</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-woodencentralpark.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -401,7 +401,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">More than 50 elderly trees</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-elderlytrees.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -413,7 +413,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 elderly jackfruit trees</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-elderlyjackfruit.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -425,7 +425,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Vehicular traffic hugs the peripheral wall</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-vehicularhugs.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -484,7 +484,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Upgradable underground infrastructure</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-undergroundstructure.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -496,7 +496,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Authorised pedestrian and vehicular access</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-pedestrianvehicularaccess.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -508,7 +508,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Child friendly interior roads</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-childinteriorroads.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -520,7 +520,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Electrified boundary wall</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-electrifiedboundary.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -532,7 +532,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Quiet streets with few neighbours</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-quietstreets.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -544,7 +544,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">You don’t need to supervise the build</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-youdontneedtosupervise.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -606,7 +606,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Convert Bedroom to Home Theater Room</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-optionalhometheatre.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -618,7 +618,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Add the provision for an Optional Lift</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-optionallift.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -653,7 +653,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Add a walk-in dressing room</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-addawalkindressing.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -665,7 +665,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Opt for a large island kitchen</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-optforalargekitchenisland.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -707,7 +707,7 @@
 
 
 <!-- XLarge 4BHK Section -->
-<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #F07; background-color: #0B2938; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="xlarge-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/xlarge-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/xlarge-villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -728,7 +728,19 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">No Common Walls</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-commonwalls.svg<?php echo $ver ?>"></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Double Height Living Room</div>
+						<div class="row">
+							<div class="columns small-2">
+								<div class="secret-icon float-left"><img src="media/icons/icon-doubleheightlivingroom.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -740,19 +752,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Ground and 2 Floors</div>
-						<div class="row">
-							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-standalone4.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -764,7 +764,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">With Back Door Access</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -808,7 +808,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Landscaped Terrace Garden</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-terracegarden.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -820,7 +820,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Hidden Utility Terrace</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-hiddenutility.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -832,19 +832,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 Private Car Parks</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 01</div>
-						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">15 Floor Plan Configurations</div>
-						<div class="row">
-							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-carparks.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -856,7 +844,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<!-- <div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div> -->
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -898,7 +886,7 @@
 
 
 <!-- Amenities Section -->
-<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('media/section-bg/large-villa-3d~png<?php echo $ver ?>'), url('media/section-bg/large-villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -916,7 +904,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-multipurposehall.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Multipurpose Hall</div>
@@ -926,7 +914,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-partyhall.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Party Hall</div>
@@ -936,7 +924,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-badmintoncourt.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Badminton Court</div>
@@ -946,7 +934,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-gym.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Gym</div>
@@ -956,7 +944,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-steamsaunaspa.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Steam, Sauna & Spa</div>
@@ -966,7 +954,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-indoorgames.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Indoor Games</div>
@@ -982,7 +970,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-partylawn.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Party Lawn</div>
@@ -992,7 +980,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-swimmingpool.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Swimming Pool</div>
@@ -1002,7 +990,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-communityseating.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Community Seating</div>
@@ -1012,7 +1000,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-pavillion.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Pavilion</div>
@@ -1022,7 +1010,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-childrensplayarea.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Childrens Play Area</div>
@@ -1032,7 +1020,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-walkways.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Walkways</div>
@@ -1051,7 +1039,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-waterbody.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Reflective Water Body</div>
@@ -1061,7 +1049,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-jogging.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Jogging Path</div>
@@ -1071,7 +1059,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-outdoorgym.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Outdoor Gym</div>
@@ -1081,7 +1069,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-rockclimbing.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Rock Climbing</div>
@@ -1091,7 +1079,7 @@
 					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
-								<div class="secret-icon float-left"><img src="https://via.placeholder.com/200x200"></div>
+								<div class="secret-icon float-left"><img src="media/icons/icon-stageamphitheatre.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h5 text-light">Stage & Amphitheater</div>
