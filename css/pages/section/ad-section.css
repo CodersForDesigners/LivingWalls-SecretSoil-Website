@@ -2,6 +2,12 @@
  * Ad Section 
  */
 
+.ad-section {}
+
+.ad-section .thumbnail-hero { font-size: 0; }
+.ad-section .character { font-size: 0; }
+.ad-section .thumbnail-strip { font-size: 0; }
+.ad-section .thumbnail-strip .frame { font-size: 0; }
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {}

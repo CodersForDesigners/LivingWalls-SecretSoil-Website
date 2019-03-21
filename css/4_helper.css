@@ -213,6 +213,21 @@
 }
 
 
+@media ( max-width: 1039px ) {
+	.hide-for-tablet {
+		display: none !important;
+	}
+}
+
+.show-for-tablet { display: none !important; }
+
+@media ( max-width: 1039px ) {
+	.show-for-tablet {
+		display: block !important;
+	}
+}
+
+
 
 /*
  * Form error handling

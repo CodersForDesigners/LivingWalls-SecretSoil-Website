@@ -11,6 +11,7 @@
 
 <?php require_once __DIR__ . '/../inc/above.php'; ?>
 
+<!-- Media Version <img src="media/logo.svg<?php //echo $ver ?>"> -->
 
 
 <!-- Sample Section -->
@@ -26,30 +27,22 @@
 <!-- END: Sample Section -->
 
 
-<!-- Navigation Section -->
+<!-- Navigation Section : Menu 1 -->
 <section class="navigation-section">
-	<div class="row">
+	<div class="menu-1 row">
 		<div class="container">
-			<div class="columns small-12">
-				<!-- Menu 1 -->
-				<pre>
-					[ LOGO ]
-				</pre>
-					
-				<div class="h5">Real-time Pricing</div>
-				<div class="h5">Location</div>
-				<div class="h5">Call 9663396979</div>
-				<div class="h5">Enquire Now</div>
-
-				<!-- Menu 2 -->
-				<div class="label">Large 4BHK</div>
-				<div class="label">Masterplan</div>
-				<div class="label">Flexi-Plan</div>
-				<div class="label">XLarge 4BHK</div>
-				<div class="label">Amenities</div>
-				<div class="label">Infrastructure</div>
-				<div class="label">Updates</div>
-				<div class="label">Contact Us</div>
+			<div class="columns small-12 clearfix">
+				<div class="float-left">
+					<a class="logo" href="https://google.com">
+						<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
+					</a>
+				</div>
+				<div class="float-right hide-for-tablet">
+					<a class="link h5 text-uppercase" href="https://google.com">Real-time Pricing</a>
+					<a class="link h5 text-uppercase" href="https://google.com">Location</a>
+					<a class="link h5 text-uppercase" href="https://google.com">Call 9663396979</a>
+					<a class="link h5 text-uppercase fill-green" href="https://google.com">Enquire Now</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -58,7 +51,7 @@
 
 
 <!-- Intro Section -->
-<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('/media/section-bg/canopy.png'), url('/media/section-bg/canopy-bg-px.png');">
+<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
@@ -77,8 +70,26 @@
 <!-- END: Intro Section -->
 
 
+<!-- Navigation Section : Menu 2 -->
+<section class="navigation-section">
+	<div class="row fill-dark">
+		<div class="menu-2">
+			<a class="link label text-uppercase" href="https://google.com">Large 4BHK</a>
+			<a class="link label text-uppercase active" href="https://google.com">Masterplan</a>
+			<a class="link label text-uppercase" href="https://google.com">Flexi-Plan</a>
+			<a class="link label text-uppercase" href="https://google.com">XLarge 4BHK</a>
+			<a class="link label text-uppercase" href="https://google.com">Amenities</a>
+			<a class="link label text-uppercase" href="https://google.com">Infrastructure</a>
+			<a class="link label text-uppercase" href="https://google.com">Updates</a>
+			<a class="link label text-uppercase" href="https://google.com">Contact Us</a>
+		</div>
+	</div>
+</section>
+<!-- END: Navigation Section -->
+
+
 <!-- Large 4BHK Section -->
-<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -269,7 +280,7 @@
 
 
 <!-- Masterplan Section -->
-<section class="masterplan-section space-one-top-bottom section-bg top" style="color: #F18838; background-color: #0E0D0D; background-image: url('/media/section-bg/soil.png'), url('/media/section-bg/soil-bg-px.png');">
+<section class="masterplan-section space-one-top-bottom section-bg top" style="color: #F18838; background-color: #0E0D0D; background-image: url('media/section-bg/soil.png<?php echo $ver ?>'), url('media/section-bg/soil-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -335,7 +346,7 @@
 				</div>
 			</div>
 				
-			<div class="columns small-12 medium-10 medium-offset-1 large-8 large-offset-4 space-quarter-left-right">
+			<div class="columns small-12 large-8 large-offset-4 space-quarter-left-right">
 				<div class="h2 text-light text-auto-align-large">Just <span class="text-green">12</span> houses per acre, instead of 15 or 17 houses per acre.</div>
 			</div>
 		</div>
@@ -456,7 +467,7 @@
 
 
 <!-- BDA Layout Section -->
-<section class="bda-layout-section space-one-top-bottom section-bg top" style="color: #FFD561; background-color: #24272B; background-image: url('/media/section-bg/road.png'), url('/media/section-bg/road-bg-px.png');">
+<section class="bda-layout-section space-one-top-bottom section-bg top" style="color: #FFD561; background-color: #24272B; background-image: url('media/section-bg/road.png<?php echo $ver ?>'), url('media/section-bg/road-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -576,7 +587,7 @@
 
 
 <!-- Flexiplan Section -->
-<section class="flexiplan-section space-one-top-bottom section-bg top" style="color: #EF6135; background-color: #17191B; background-image: url('/media/section-bg/architects.png'), url('/media/section-bg/architects-bg-px.png');">
+<section class="flexiplan-section space-one-top-bottom section-bg top" style="color: #EF6135; background-color: #17191B; background-image: url('media/section-bg/architects.png<?php echo $ver ?>'), url('media/section-bg/architects-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -696,7 +707,7 @@
 
 
 <!-- XLarge 4BHK Section -->
-<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #F07; background-color: #0B2938; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #F07; background-color: #0B2938; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -869,7 +880,7 @@
 				<div class="h3 strong space-quarter-bottom">You can walk around this house?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4">[Characters]</div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -887,7 +898,7 @@
 
 
 <!-- Amenities Section -->
-<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('media/section-bg/villa-3d.png<?php echo $ver ?>'), url('media/section-bg/villa-3d-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -1098,6 +1109,32 @@
 <!-- END: Amenities Section -->
 
 
+<!-- Ad Section -->
+<section class="ad-section">
+	<div class="row fill-dark space-half-top-bottom">
+		<div class="container fill-off-light">
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom">Lorem ipsum dolor sit amet?</div>
+				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: Ad Section -->
+
+
 <!-- Construction Section -->
 <section class="construction-section fill-off-green space-half-top-bottom">
 	<div class="row">
@@ -1157,13 +1194,13 @@
 
 
 <!-- Location Section -->
-<section class="location-section">
+<section class="location-section fill-off-light space-one-top-bottom">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12">
-				<div class="label">Location</div>
-				<div class="h3">Where is Secret Soil Located?</div>
-				<div class="h5"><i class="material-icons">location_on</i>google maps</div>
+			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-0 space-quarter-left-right text-auto-align-large">
+				<div class="label strong text-uppercase">Location</div>
+				<div class="h3 space-quarter-bottom">Where is <span class="text-green">Secret Soil</span> Located?</div>
+				<div class="button button-large"><i class="material-icons">location_on</i>google maps</div>
 			</div>
 		</div>
 	</div>
@@ -1175,7 +1212,7 @@
 <section class="contact-section fill-green">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-4 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
 				<div class="label strong text-uppercase">Contact us</div>
 				<div class="h3 strong space-quarter-bottom">Get in touch</div>
 				<div class="h5 space-half-bottom">Fill in your details and a Customer Service executive will call you back, Soon.</div>
@@ -1210,19 +1247,19 @@
 
 
 <!-- About Section -->
-<section class="about-section space-one-top-bottom section-bg top" style="color: #F07; background-color: #000; background-image: url('/media/section-bg/villa-3d.png'), url('/media/section-bg/villa-3d-bg-px.png');">
+<section class="about-section space-one-top-bottom section-bg bottom" style="color: var(--dark); background-color: #F7F7F7; background-image: url('media/section-bg/team.png<?php echo $ver ?>'), url('media/section-bg/team-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-4">
-				<div class="label">About us</div>
-				<div class="h3">Who Is Living Walls?</div>
+			<div class="columns small-10 small-offset-1 large-4 large-offset-0 space-half-bottom space-quarter-left-right text-auto-align-large">
+				<div class="label strong text-uppercase">About us</div>
+				<div class="h3">Who is <span class="text-green">Living Walls?</span></div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">
+			<div class="columns small-10 small-offset-1 medium-5 large-4 large-offset-0 space-half-bottom space-quarter-left-right text-auto-align-medium">
 				<div class="h6">
 					Living Walls is the brand name we use for all real estate projects undertaken by VDB Infra & Realty Pvt. Ltd....that's us...a sister concern of our parent company, the infrastructure conglomerate; VDB Projects Pvt. Ltd. has been involved in infrastructure development namely roads & highways, storm water drains across South India since it's inception.
 				</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">
+			<div class="columns small-10 small-offset-1 medium-5 medium-offset-0 large-4 space-half-bottom space-quarter-left-right text-auto-align-medium">
 				<div class="h6">
 					We ventured into Real Estate Development in 2011. By virtue of lineage, we inherently adhere to the same high standards of quality and commitment that VDB has been known for over the years. We're a young company at heart, fueled by an urge to create relevant living experiences, the kind that we see ourselves living in.
 				</div>
@@ -1237,11 +1274,11 @@
 <section class="footer-section fill-dark space-one-top space-half-bottom">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-10 small-offset-1 medium-3 medium-offset-0 large-2 text-auto-align-medium space-half-bottom">
-				<img src="https://via.placeholder.com/150">
+			<div class="logo columns small-10 small-offset-1 medium-3 medium-offset-0 large-2 text-auto-align-medium space-half-bottom">
+				<img src="media/lw-logo-square-green-light.svg<?php echo $ver ?>">
 			</div>
 
-			<div class="columns small-10 small-offset-1 medium-3 large-4 text-auto-align-medium space-half-bottom">
+			<div class="address columns small-10 small-offset-1 medium-3 large-4 text-auto-align-medium space-half-bottom">
 				<div class="h6 strong text-uppercase space-quarter-bottom">Corporate Office</div>
 
 				<div class="h6 opacity-50">
@@ -1252,23 +1289,23 @@
 				</div>
 			</div>
 
-			<div class="columns small-10 small-offset-1 medium-4 text-auto-align-medium space-half-bottom">
+			<div class="links columns small-10 small-offset-1 medium-4 text-auto-align-medium space-half-bottom">
 				<div class="h6 strong text-uppercase space-quarter-bottom">Site Map</div>
 
 				<div class="row text-off-green">
 					<div class="columns small-6">
-						<div class="h6">Large 4BHK </div>
-						<div class="h6">Masterplan</div>
-						<div class="h6">Flexi-Plan</div>
-						<div class="h6">XLarge 4BHK</div>
-						<div class="h6">Amenities</div>
+						<a class="h6 block" href="https://google.com">Large 4BHK </a>
+						<a class="h6 block" href="https://google.com">Masterplan</a>
+						<a class="h6 block" href="https://google.com">Flexi-Plan</a>
+						<a class="h6 block" href="https://google.com">XLarge 4BHK</a>
+						<a class="h6 block" href="https://google.com">Amenities</a>
 					</div>
 					<div class="columns small-6">
-						<div class="h6">Infrastructure</div>
-						<div class="h6">Updates</div>
-						<div class="h6">Contact us</div>
-						<div class="h6">Location</div>
-						<div class="h6">Pricing</div>
+						<a class="h6 block" href="https://google.com">Infrastructure</a>
+						<a class="h6 block" href="https://google.com">Updates</a>
+						<a class="h6 block" href="https://google.com">Contact us</a>
+						<a class="h6 block" href="https://google.com">Location</a>
+						<a class="h6 block" href="https://google.com">Pricing</a>
 					</div>
 				</div>
 			</div>

@@ -3,13 +3,14 @@
  */
 
 
-.about-section {}
 
-@media( min-width: 400px )  {}
-@media( min-width: 640px )  {}
-@media( min-width: 800px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1200px ) {}
-@media( min-width: 1480px ) {}
-@media( min-width: 1600px ) {}
-@media( min-width: 1940px ) {}
+.about-section.section-bg { padding-bottom: 120px; }
+
+@media( min-width: 400px )  { .about-section.section-bg { padding-bottom: 160px; } }
+@media( min-width: 640px )  { .about-section.section-bg { padding-bottom: 220px; } }
+@media( min-width: 800px )  { .about-section.section-bg { padding-bottom: 280px; } }
+@media( min-width: 1040px ) { .about-section.section-bg { padding-bottom: 300px; } }
+@media( min-width: 1200px ) { .about-section.section-bg { padding-bottom: 380px; } }
+@media( min-width: 1480px ) { .about-section.section-bg { padding-bottom: 420px; } }
+@media( min-width: 1600px ) { .about-section.section-bg { padding-bottom: 500px; } }
+@media( min-width: 1940px ) { .about-section.section-bg { padding-bottom: 26%; } }

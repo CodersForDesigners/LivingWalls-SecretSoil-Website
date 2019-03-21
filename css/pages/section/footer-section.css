@@ -2,7 +2,24 @@
  * Footer Section
  */
 
+.footer-section .logo img {
+	width: 120px;
+}
+
+.footer-section .links a {
+	color: inherit;
+	text-decoration: none;
+	line-height: 1.375;
+}
 
 @media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1480px ) {}
+@media( min-width: 1040px ) {
+	.footer-section .logo img {
+		width: 160px;
+	}
+}
+@media( min-width: 1480px ) {
+	.footer-section .logo img {
+		width: 200px;
+	}
+}
