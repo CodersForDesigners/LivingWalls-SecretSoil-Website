@@ -1,33 +1,125 @@
+/*
+ * Phone Trap Module
+ */
 
+
+/* -- Phone Form -- */
 .phone-form {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
-}
-.phone-form .container-phone-country-code {
 	position: relative;
 }
-.phone-form .container-phone-country-code select {
-	width: 100%;
-	opacity: 0;
+
+.phone-form .feedback-message { padding-top: 7px; }
+
+.phone-form .text-field {
+	position: relative;
+	z-index: 1;
+	padding: 0 calc( var(--space-one) + 8px);
 }
-.phone-form .container-phone-country-code .container-country-code-label {
+
+.phone-form .container-phone-country-code {
 	position: absolute;
+	z-index: 2;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--off-light);
-	color: var(--dark);
-	font-size: 1.4rem;
+}
+
+.phone-form .container-phone-country-code .container-country-code-label {
+	position: absolute;
+	z-index: 3;
+	top: 0;
+	left: 0;
+	width: var(--space-one);
+	padding: 0;
+	text-align: right;
+
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+
+	box-shadow: none;
 	pointer-events: none;
 }
 
-.otp-form {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
+.phone-form .container-phone-country-code select {
+	width: var(--space-one);
+	padding: 0;
+	opacity: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+
+	box-shadow: none;
 }
+
+.phone-form .submit {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	width: var(--space-one);
+	padding: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+
+	box-shadow: none;
+}
+
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.phone-form .container-phone-country-code .container-country-code-label {
+		width: var(--space-three-quarter);
+	}
+
+	.phone-form .container-phone-country-code select {
+		width: var(--space-three-quarter);
+	}
+
+	.phone-form .text-field {
+		padding: 0 calc( var(--space-three-quarter) + 8px);
+	}
+
+	.phone-form .submit {
+		width: var(--space-three-quarter);
+	}
+
+}
+@media( min-width: 1480px ) {}
+
+
+
+/* -- OTP Form -- */
+.otp-form {
+	position: relative;
+}
+
+.otp-form .feedback-message { padding-top: 7px; }
+
+.otp-form .text-field {
+	position: relative;
+	z-index: 1;
+	padding-right: calc( var(--space-one) + 8px);
+}
+.otp-form .submit {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	width: var(--space-one);
+	padding: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+
+	box-shadow: none;
+}
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.otp-form .text-field {
+		padding-right: calc( var(--space-three-quarter) + 8px);
+	}
+
+	.otp-form .submit {
+		width: var(--space-three-quarter);
+	}
+
+}
+@media( min-width: 1480px ) {}

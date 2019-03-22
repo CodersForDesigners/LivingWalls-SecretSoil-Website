@@ -899,19 +899,21 @@
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
-						<select class="js_phone_country_code">
+						<select class="input-large fill-green js_phone_country_code">
 							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
 						</select>
-						<div class="container-country-code-label">
+						<div class="container-country-code-label button button-large fill-off-light">
 							<span class="js_phone_country_code_label">+91</span>
 						</div>
 					</div>
-					<input type="text" name="phone" placeholder="Phone number" class="js_phone_number">
-					<button type="submit">→</button>
+					<input class="text-field input-large block" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center">Enter Mobile Number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
-					<input type="text" name="otp" placeholder="OTP">
-					<button type="submit">→</button>
+					<input class="text-field input-large block" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center">OTP Sent Check Your Phone</div>
 				</form>
 			</div>
 
