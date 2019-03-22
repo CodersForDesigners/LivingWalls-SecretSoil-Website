@@ -47,7 +47,6 @@
 	<script type="text/javascript" src="/js/modules/omega/user.js"></script>
 	<script type="text/javascript" src="/js/modules/phone-forms.js"></script>
 	<script type="text/javascript" src="/js/modules/disclaimer.js"></script>
-	<script type="text/javascript" src="/js/modules/navigation.js"></script>
 
 	<!-- Other Modules -->
 	<?php // require __DIR__ . '/inc/can-user-hover.php' ?>
