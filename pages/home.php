@@ -895,7 +895,24 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<div class="button button-large fill-green js_user_required">Unlock Now</div>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input type="text" name="phone" placeholder="Phone number" class="js_phone_number">
+					<button type="submit">→</button>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input type="text" name="otp" placeholder="OTP">
+					<button type="submit">→</button>
+				</form>
 			</div>
 
 			<div class="columns small-12 large-8">
