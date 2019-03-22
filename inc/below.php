@@ -28,7 +28,6 @@
 
 	<!-- JS Modules -->
 	<!-- <script type="text/javascript" src="/js/modules/device-charge.js"></script> -->
-	<script type="text/javascript" src="/js/modules/pageless.js"></script>
 
 	<script type="text/javascript">
 
