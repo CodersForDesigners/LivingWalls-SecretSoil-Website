@@ -257,12 +257,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-1.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">It's not a row house?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-1.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -388,6 +388,17 @@
 				<div class="table-row space-half-left-right h5">4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Row Houses</div>
 			</div>
+			<div class="table-data inline-top fill-dark">
+				<div class="table-row space-half-left-right table-head h3">
+					MIMS <br>
+					Northbrooks
+				</div>
+				<div class="table-row space-half-left-right h5">2 Acres</div>
+				<div class="table-row space-half-left-right h5">27 Houses</div>
+				<div class="table-row space-half-left-right h5">13.5 per acre</div>
+				<div class="table-row space-half-left-right h5">4 BHK</div>
+				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
+			</div>
 		</div>
 	</div>
 	<!-- END: Comparison Table -->
@@ -444,12 +455,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">15 fully grown Jackfruit trees?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-3.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -564,12 +575,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">It’s like an independent house?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-4.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -684,12 +695,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-6.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">It has a hidden utility terrace?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-6.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -863,12 +874,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-2.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">You can walk around this house?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="character columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-2.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>
@@ -886,7 +897,7 @@
 
 
 <!-- Amenities Section -->
-<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #09F; background-color: #000; background-image: url('media/section-bg/large-villa-3d~png<?php echo $ver ?>'), url('media/section-bg/large-villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #EA984D; background-color: #005995; background-image: url('media/section-bg/clubhouse.png<?php echo $ver ?>'), url('media/section-bg/clubhouse-bg-px.png<?php echo $ver ?>');">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -1107,10 +1118,6 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="columns small-12">
-				<pre>[3d renders of the clubhouse]</pre>
-			</div>
 		</div>
 	</div>
 </section>
@@ -1121,12 +1128,12 @@
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-off-light">
-			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="https://via.placeholder.com/800x600/F07/FFF"></div>
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-5.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
-				<div class="h3 strong space-quarter-bottom">Lorem ipsum dolor sit amet?</div>
+				<div class="h3 strong space-quarter-bottom"><!-- [5] --> Lorem ipsum dolor sit amet?</div>
 				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
 			</div>
-			<div class="character columns small-12 medium-6 large-4">[Characters]</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-5.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
 					<div class="frame columns small-2"><img class="block" src="https://via.placeholder.com/1920x1080/F07/FFF"></div>

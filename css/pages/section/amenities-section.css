@@ -3,13 +3,13 @@
  */
 
 
-.amenities-section {}
+.amenities-section.section-bg { padding-bottom: 240px; }
 
-@media( min-width: 400px )  {}
-@media( min-width: 640px )  {}
-@media( min-width: 800px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1200px ) {}
-@media( min-width: 1480px ) {}
-@media( min-width: 1600px ) {}
-@media( min-width: 1940px ) {}
+@media( min-width: 400px )  { .amenities-section.section-bg { padding-bottom: 400px; } }
+@media( min-width: 640px )  { .amenities-section.section-bg { padding-bottom: 500px; } }
+@media( min-width: 800px )  { .amenities-section.section-bg { padding-bottom: 660px; } }
+@media( min-width: 1040px ) { .amenities-section.section-bg { padding-bottom: 780px; } }
+@media( min-width: 1200px ) { .amenities-section.section-bg { padding-bottom: 940px; } }
+@media( min-width: 1480px ) { .amenities-section.section-bg { padding-bottom: 1040px; } }
+@media( min-width: 1600px ) { .amenities-section.section-bg { padding-bottom: 1260px; } }
+@media( min-width: 1940px ) { .amenities-section.section-bg { padding-bottom: 66%; } }
