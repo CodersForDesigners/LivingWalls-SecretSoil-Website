@@ -28,7 +28,7 @@
 
 
 <!-- Navigation Section : Menu 1 -->
-<section class="navigation-section">
+<section class="navigation-section primary-nav js_primary_nav_container">
 	<div class="menu-1 row">
 		<div class="container">
 			<div class="columns small-12 clearfix">
@@ -51,7 +51,7 @@
 
 
 <!-- Intro Section -->
-<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');">
+<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');" id="intro" data-section="Intro">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
@@ -71,17 +71,16 @@
 
 
 <!-- Navigation Section : Menu 2 -->
-<section class="navigation-section">
-	<div class="row fill-dark">
+<section class="navigation-section secondary-nav-container js_secondary_nav_container">
+	<div class="row fill-dark secondary-nav js_secondary_nav">
 		<div class="menu-2">
-			<a class="link label text-uppercase" href="https://google.com">Large 4BHK</a>
-			<a class="link label text-uppercase active" href="https://google.com">Masterplan</a>
-			<a class="link label text-uppercase" href="https://google.com">Flexi-Plan</a>
-			<a class="link label text-uppercase" href="https://google.com">XLarge 4BHK</a>
-			<a class="link label text-uppercase" href="https://google.com">Amenities</a>
-			<a class="link label text-uppercase" href="https://google.com">Infrastructure</a>
-			<a class="link label text-uppercase" href="https://google.com">Updates</a>
-			<a class="link label text-uppercase" href="https://google.com">Contact Us</a>
+			<a class="link label text-uppercase" href="#large-4bhk">Large 4BHK</a>
+			<a class="link label text-uppercase" href="#masterplan">Masterplan</a>
+			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
+			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
+			<a class="link label text-uppercase" href="#amenities">Amenities</a>
+			<a class="link label text-uppercase" href="#construction">Updates</a>
+			<a class="link label text-uppercase" href="#contact">Contact Us</a>
 		</div>
 	</div>
 </section>
@@ -89,7 +88,7 @@
 
 
 <!-- Large 4BHK Section -->
-<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/large-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/large-villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="large-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/large-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/large-villa-3d-bg-px.png<?php echo $ver ?>');" id="large-4bhk" data-section="Large 4BHK">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -280,7 +279,7 @@
 
 
 <!-- Masterplan Section -->
-<section class="masterplan-section space-one-top-bottom section-bg top" style="color: #F18838; background-color: #0E0D0D; background-image: url('media/section-bg/soil.png<?php echo $ver ?>'), url('media/section-bg/soil-bg-px.png<?php echo $ver ?>');">
+<section class="masterplan-section space-one-top-bottom section-bg top" style="color: #F18838; background-color: #0E0D0D; background-image: url('media/section-bg/soil.png<?php echo $ver ?>'), url('media/section-bg/soil-bg-px.png<?php echo $ver ?>');" id="masterplan" data-section="Masterplan">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -345,13 +344,13 @@
 					</div>
 				</div>
 			</div>
-				
+
 			<div class="columns small-12 large-8 large-offset-4 space-quarter-left-right">
 				<div class="h2 text-light text-auto-align-large">Just <span class="text-green">12</span> houses per acre, instead of 15 or 17 houses per acre.</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- Comparison Table -->
 	<div class="row">
 		<div class="table">
@@ -478,7 +477,7 @@
 
 
 <!-- BDA Layout Section -->
-<section class="bda-layout-section space-one-top-bottom section-bg top" style="color: #FFD561; background-color: #24272B; background-image: url('media/section-bg/road.png<?php echo $ver ?>'), url('media/section-bg/road-bg-px.png<?php echo $ver ?>');">
+<section class="bda-layout-section space-one-top-bottom section-bg top" style="color: #FFD561; background-color: #24272B; background-image: url('media/section-bg/road.png<?php echo $ver ?>'), url('media/section-bg/road-bg-px.png<?php echo $ver ?>');" id="bda-layout" data-section="BDA Layout">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -598,7 +597,7 @@
 
 
 <!-- Flexiplan Section -->
-<section class="flexiplan-section space-one-top-bottom section-bg top" style="color: #EF6135; background-color: #17191B; background-image: url('media/section-bg/architects.png<?php echo $ver ?>'), url('media/section-bg/architects-bg-px.png<?php echo $ver ?>');">
+<section class="flexiplan-section space-one-top-bottom section-bg top" style="color: #EF6135; background-color: #17191B; background-image: url('media/section-bg/architects.png<?php echo $ver ?>'), url('media/section-bg/architects-bg-px.png<?php echo $ver ?>');" id="flexiplan" data-section="Flexi-Plan">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -718,7 +717,7 @@
 
 
 <!-- XLarge 4BHK Section -->
-<section class="xlarge-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/xlarge-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/xlarge-villa-3d-bg-px.png<?php echo $ver ?>');">
+<section class="xlarge-4bhk-section space-one-top-bottom section-bg bottom" style="color: #7194C8; background-color: #0B2938; background-image: url('media/section-bg/xlarge-villa-3d.png<?php echo $ver ?>'), url('media/section-bg/xlarge-villa-3d-bg-px.png<?php echo $ver ?>');" id="xlarge-4bhk" data-section="XLarge 4BHK">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -897,7 +896,7 @@
 
 
 <!-- Amenities Section -->
-<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #EA984D; background-color: #005995; background-image: url('media/section-bg/clubhouse.png<?php echo $ver ?>'), url('media/section-bg/clubhouse-bg-px.png<?php echo $ver ?>');">
+<section class="amenities-section space-one-top-bottom section-bg bottom" style="color: #EA984D; background-color: #005995; background-image: url('media/section-bg/clubhouse.png<?php echo $ver ?>'), url('media/section-bg/clubhouse-bg-px.png<?php echo $ver ?>');" id="amenities" data-section="Amenities">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -1151,7 +1150,7 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom">
+<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
@@ -1224,7 +1223,7 @@
 
 
 <!-- Contact Section -->
-<section class="contact-section fill-green">
+<section class="contact-section fill-green" id="contact" data-section="Contact">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
@@ -1262,7 +1261,7 @@
 
 
 <!-- About Section -->
-<section class="about-section space-one-top-bottom section-bg bottom" style="color: var(--dark); background-color: #F7F7F7; background-image: url('media/section-bg/team.png<?php echo $ver ?>'), url('media/section-bg/team-bg-px.png<?php echo $ver ?>');">
+<section class="about-section space-one-top-bottom section-bg bottom" style="color: var(--dark); background-color: #F7F7F7; background-image: url('media/section-bg/team.png<?php echo $ver ?>'), url('media/section-bg/team-bg-px.png<?php echo $ver ?>');" id="about" data-section="About">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-4 large-offset-0 space-half-bottom space-quarter-left-right text-auto-align-large">

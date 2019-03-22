@@ -1,5 +1,5 @@
 /*
- * Navigation Section 
+ * Navigation Section
  */
 
 .navigation-section {}
@@ -88,7 +88,7 @@
 	padding: 0 var(--space-half);
 	opacity: 0.5;
 	scroll-snap-align: center;
-	transition: all .3s .2s ease-out; 
+	transition: all .3s .2s ease-out;
 }
 
 .navigation-section .menu-2 .link:after {
@@ -102,19 +102,19 @@
 	background-color: var(--green);
 	width: 0%;
 	transform: translateX(-50%);
-	transition: all .3s .2s ease-out; 
+	transition: all .3s .2s ease-out;
 }
 
 .navigation-section .menu-2 .link:hover,
 .navigation-section .menu-2 .link.active {
 	opacity: 1;
-	transition: all .3s .0s ease-out; 
+	transition: all .3s .0s ease-out;
 }
 
 .navigation-section .menu-2 .link:hover:after,
 .navigation-section .menu-2 .link.active:after {
 	width: 100%;
-	transition: all .3s .0s ease-out; 
+	transition: all .3s .0s ease-out;
 }
 
 @media( min-width: 640px )  {}
@@ -136,4 +136,38 @@
 	.navigation-section .menu-2 .link:after {
 		height: 6px;
 	}
+}
+
+/*
+ * For when the navigation menus have to get sticky and slippery
+ */
+.navigation-section.primary-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	transition: transform 0.3s linear;
+}
+.navigation-section.primary-nav.hide {
+	transform: translateY( -100% );
+}
+.navigation-section.secondary-nav-container {
+	position: relative;
+	height: var(--secondary-nav-height);
+}
+.navigation-section .secondary-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	transition: transform 0.3s linear;
+}
+
+.navigation-section.secondary-nav-container .affix-to-top {
+	position: fixed;
+	top: var(--primary-nav-height, 0);
+}
+.navigation-section.secondary-nav-container .affix-to-top.offset-a-bit {
+	transform: translateY( calc( -1 * var(--primary-nav-height) ) );
 }
