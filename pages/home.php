@@ -238,7 +238,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
-								<!-- <div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div> -->
+								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -844,7 +844,7 @@
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
-								<!-- <div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div> -->
+								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
@@ -898,65 +898,65 @@
 				<div class="button button-large fill-green">Unlock Now</div>
 			</div>
 
-			<div class="columns small-12 medium-6 large-4">
+			<div class="columns small-12 large-8">
 				<div class="row">
-					<div class="h4 text-auto-align-medium space-quarter-left-right space-quarter-bottom">Indoor Amenities</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="h3 columns small-12 space-quarter-bottom space-quarter-left-right text-auto-align-large">Indoor Amenities</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-multipurposehall.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Multipurpose Hall</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-partyhall.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Party Hall</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-badmintoncourt.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Badminton Court</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-gym.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Gym</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-steamsaunaspa.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Steam, Sauna & Spa</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-indoorgames.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Indoor Games</div>
 							</div>
 						</div>
@@ -964,65 +964,65 @@
 				</div>
 			</div>
 
-			<div class="columns small-12 medium-6 large-4">
+			<div class="columns small-12 large-8 large-offset-4">
 				<div class="row">
-					<div class="h4 text-auto-align-medium space-quarter-left-right space-quarter-bottom">Outdoor Amenities</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="h3 columns small-12 space-quarter-bottom space-quarter-left-right text-auto-align-large">Outdoor Amenities</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-partylawn.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Party Lawn</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-swimmingpool.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Swimming Pool</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-communityseating.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Community Seating</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-pavillion.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Pavilion</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-childrensplayarea.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Childrens Play Area</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-walkways.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Walkways</div>
 							</div>
 						</div>
@@ -1030,64 +1030,65 @@
 				</div>
 			</div>
 
-			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-8 large-offset-4 text-auto-align-large space-quarter-bottom">
-				<div class="h3"><span class="text-light">A</span> 10,000sft Clubhouse<span class="text-light"> that blends into the trees</span></div>
+			<div class="columns small-10 small-offset-1 large-8 large-4 large-offset-4 text-auto-align-large space-quarter-bottom space-quarter-left-right">
+				<div class="h2"><span class="text-light">A</span> 10,000sft Clubhouse<span class="text-light"> that blends into the trees</span></div>
 			</div>
 
-			<div class="columns small-12 medium-6 medium-offset-6 large-4 large-offset-8">
+			<div class="columns small-12 large-8 large-offset-4">
 				<div class="row">
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-waterbody.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Reflective Water Body</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-jogging.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Jogging Path</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-outdoorgym.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Outdoor Gym</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-rockclimbing.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Rock Climbing</div>
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
-							<div class="columns small-2">
+							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-stageamphitheatre.svg<?php echo $ver ?>"></div>
 							</div>
-							<div class="columns small-9 small-offset-1">
+							<div class="columns small-9 small-offset-1 inline-middle">
 								<div class="secret-description h5 text-light">Stage & Amphitheater</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
 			<div class="columns small-12">
 				<pre>[3d renders of the clubhouse]</pre>
 			</div>
