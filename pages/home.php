@@ -893,7 +893,7 @@
 				<div class="h1 strong text-light space-quarter-bottom">Amenities</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Amenities">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
 				<div class="button button-large fill-green js_user_required">Unlock Now</div>
 				<!-- Phone Trap -->
