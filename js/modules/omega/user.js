@@ -124,6 +124,7 @@ function isUserLoggedIn () {
 
 function triggerAuthFlowIfRequired ( event ) {
 
+	var $targetElement = $( event.target ).closest( ".js_user_required" );
 	var loginPrompt = $( event.target ).closest( "[ data-loginner ]" ).data( "loginner" );
 
 	// If the user is logged in, let the user through
@@ -134,16 +135,19 @@ function triggerAuthFlowIfRequired ( event ) {
 			var url = $anchor.data( "href" );
 			$anchor.attr( "href", url );
 		} );
-		var context = loginPrompt;
-		var user = getCookieData( "omega-user" );
-		Loginner.prompts[ loginPrompt ].onLogin( user, context );
+		// Prevent this from going into an infinite loop,
+		//  because login hooks will trigger form submissions will trigger login hooks.....
+		if ( ! $targetElement.is( "form" ) ) {
+			var context = loginPrompt;
+			var user = getCookieData( "omega-user" );
+			Loginner.prompts[ loginPrompt ].onLogin( user, context );
+		}
 		return;
 	}
 
 	// If the user **is not** logged in, but limited preview(s) are being allowed
 	// 		then also let the user through
 	// 			but do set/update a/the cookie for the next time round
-	var $targetElement = $( event.target ).closest( ".js_user_required" );
 	var viewThreshold = $targetElement.data( "views" ) || 0;
 	if ( timesUserHasBeenLetBefore() < viewThreshold ) {
 		// Update ( or create ) the cookie

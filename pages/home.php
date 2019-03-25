@@ -29,28 +29,29 @@
 
 <!-- Navigation Section : Menu 1 -->
 <section class="navigation-section">
-	<div class="menu-1 row">
+	<div class="menu-1 row js_primary_nav">
 		<div class="container">
 			<div class="columns small-12 clearfix">
-				<a class="logo" href="https://google.com">
+				<a class="logo" href="/">
 					<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
 				</a>
 				<div class="float-right show-for-tablet">
-					<div class="menu-toggle" tabindex="-1">
+					<div class="menu-toggle js_primary_nav_menu_toggle" tabindex="-1">
 						<span class="h5 text-uppercase inline-middle">Menu</span>
 						<span class="h4 inline-middle"> &#9776;</span>
 					</div>
 				</div>
-				<div class="link-tray"><!-- To Toggle Reveal: Add show class for small & medium Breakpoints -->
-					<a class="link h5 text-uppercase" href="https://google.com">Real-time Pricing</a>
-					<a class="link h5 text-uppercase" href="https://google.com">Location</a>
-					<a class="link h5 text-uppercase" href="https://google.com">Call 9663396979</a>
-					<a class="link h5 text-uppercase fill-green" href="https://google.com">Enquire Now</a>
+				<div class="link-tray js_primary_nav_link_tray"><!-- To Toggle Reveal: Add show class for small & medium Breakpoints -->
+					<div class="close-link-tray js_close_nav_link_tray"></div>
+					<a class="link h5 text-uppercase" href="pricing">Real-time Pricing</a>
+					<a class="link h5 text-uppercase" href="#location">Location</a>
+					<a class="link h5 text-uppercase" href="tel:+919663396979">Call 9663396979</a>
+					<a class="link h5 text-uppercase fill-green" href="#contact">Enquire Now</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="menu-2 row fill-dark">
+	<div class="menu-2 row fill-dark js_secondary_nav">
 		<div class="link-tray">
 			<a class="link label text-uppercase" href="#large-4bhk">Large 4BHK</a>
 			<a class="link label text-uppercase" href="#masterplan">Masterplan</a>
@@ -1650,25 +1651,63 @@
 				<div class="h4 text-off-green">Or Call</div>
 				<a class="h3 call-phone" href="tel:+919663396979"><img src="media/glyph/32-phone.svg<?php echo $ver ?>">96633 96979</a>
 			</div>
-			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right">
-				<label class="label block space-quarter-bottom">
-					<span class="visuallyhidden">Full Name</span>
-					<input class="block" type="text" placeholder="Full Name">
-				</label>
-				<label class="label block space-quarter-bottom">
-					<span class="visuallyhidden">Email ID</span>
-					<input class="block" type="text" placeholder="Email ID">
-				</label>
-				<label class="label block space-half-bottom">
-					<span class="visuallyhidden">Mobile Number</span>
-					<input class="block" type="text" placeholder="Mobile Number">
-				</label>
-				<button class="button block fill-green">Contact Me</button>
+			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Enquiry">
+				<form class="js_enquiry_form js_user_required">
+					<label class="label block space-quarter-bottom">
+						<span class="visuallyhidden">Full Name</span>
+						<input class="block" type="text" name="name" placeholder="Full Name" required>
+					</label>
+					<label class="label block space-half-bottom">
+						<span class="visuallyhidden">Email ID</span>
+						<input class="block" type="text" name="email" placeholder="Email ID" required>
+					</label>
+					<button type="submit" class="button button-large block fill-green">Contact Me</button>
+				</form>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
-			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right">
+			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Contact">
 				<div class="h3 strong space-quarter-bottom">Pick your house online now.</div>
 				<div class="h5 strong space-half-bottom">Use our Real-time Pricing Engine. </div>
-				<div class="button button-large">Download Prices</div>
+				<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Prices</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 		</div>
 	</div>

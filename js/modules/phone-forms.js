@@ -371,3 +371,62 @@ Loginner.registerLoginPrompt( "Amenities", {
 		}
 	}
 } );
+
+// Enquiry section
+var $enquiryFormSite = $( "[ data-loginner = 'Enquiry' ]" );
+Loginner.registerLoginPrompt( "Enquiry", {
+	onTrigger: function onTrigger ( event ) {
+		$enquiryFormSite.find( ".js_enquiry_form" ).addClass( "hidden" );
+		$enquiryFormSite
+			.find( ".loginner_form_phone" )
+				.removeClass( "hidden" )
+				.find( ".js_phone_number" )
+					.get( 0 ).focus();
+	},
+	onPhoneValidationError: onPhoneValidationError,
+	onPhoneSend: onPhoneSend,
+	onShowOTP: onShowOTP,
+	onOTPSend: onOTPSend,
+	onPhoneError: onPhoneError,
+	onOTPError: onOTPError,
+	onOTPVerified: onOTPVerified,
+	onLogin: function ( user, context ) {
+		if ( this ) {
+			// Disable and Hide the form
+			$( this )
+				.find( "input, select, button" )
+				.prop( "disabled", true )
+			$( this ).addClass( "hidden" );
+			// Bring back the enquiry form, and submit it
+			$enquiryFormSite.find( ".js_enquiry_form" )
+				.removeClass( "hidden" )
+				.trigger( "submit" );
+		}
+	}
+} );
+
+// Contact section
+var $contactFormSite = $( "[ data-loginner = 'Contact' ]" );
+Loginner.registerLoginPrompt( "Contact", {
+	onTrigger: onTrigger,
+	onPhoneValidationError: onPhoneValidationError,
+	onPhoneSend: onPhoneSend,
+	onShowOTP: onShowOTP,
+	onOTPSend: onOTPSend,
+	onPhoneError: onPhoneError,
+	onOTPError: onOTPError,
+	onOTPVerified: onOTPVerified,
+	onLogin: function ( user, context ) {
+		if ( this ) {
+			// Disable and Hide the form
+			$( this )
+				.find( "input, select, button" )
+				.prop( "disabled", true )
+			$( this ).addClass( "hidden" );
+			// Bring back the button
+			$contactFormSite.find( ".js_user_required" )
+				.text( "This Way →" )
+				.removeClass( "hidden" );
+		}
+	}
+} );
