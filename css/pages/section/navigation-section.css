@@ -141,7 +141,7 @@
 /*
  * For when the navigation menus have to get sticky and slippery
  */
-.navigation-section.primary-nav {
+/*.navigation-section.primary-nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -170,4 +170,4 @@
 }
 .navigation-section.secondary-nav-container .affix-to-top.offset-a-bit {
 	transform: translateY( calc( -1 * var(--primary-nav-height) ) );
-}
+}*/

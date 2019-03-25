@@ -47,7 +47,7 @@
 	<script type="text/javascript" src="/js/modules/phone-forms.js"></script>
 	<script type="text/javascript" src="/js/modules/disclaimer.js"></script>
 	<script type="text/javascript" src="/plugins/lodash/lodash-v4.17.5-custom.min.js"></script>
-	<script type="text/javascript" src="/js/modules/navigation.js"></script>
+	<!-- <script type="text/javascript" src="/js/modules/navigation.js"></script> -->
 
 	<!-- Other Modules -->
 	<?php // require __DIR__ . '/inc/can-user-hover.php' ?>

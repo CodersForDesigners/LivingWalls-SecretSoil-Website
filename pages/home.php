@@ -255,8 +255,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-1.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
@@ -454,8 +453,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-3.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
@@ -575,8 +573,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
@@ -696,8 +693,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-6.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
@@ -876,8 +872,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-2.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
@@ -1131,8 +1126,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: 
-#D9E0E3">
+		<div class="container fill-light" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-5.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [5] --> Lorem ipsum dolor sit amet?</div>
@@ -1156,7 +1150,7 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-light space-half-top-bottom" id="construction" data-section="Construction">
+<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
@@ -1214,17 +1208,234 @@
 
 
 <!-- Location Section -->
-<!-- <section class="location-section fill-off-light space-one-top-bottom">
+<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-0 space-quarter-left-right text-auto-align-large">
-				<div class="label strong text-uppercase">Location</div>
-				<div class="h3 space-quarter-bottom">Where is <span class="text-green">Secret Soil</span> Located?</div>
-				<div class="button button-large"><i class="material-icons">location_on</i>google maps</div>
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h1 strong space-quarter-bottom">Location</div>
+				<!-- <div class="label strong text-uppercase">2984<span class="opacity-50">sft</span> & 2988<span class="opacity-50">sft</span></div> -->
+				<div class="h2"><span class="text-green">Secret Soil</span> is located in North Bangalore, just off Hennur Main Road</div>
+			</div>
+
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-green">Get directions</span> on Google Maps</div>
+				<div class="button button-large fill-green"><i class="material-icons">location_on</i>google maps</div>
+			</div>
+
+			<div class="columns small-12 large-8">
+				<div class="row">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Byg Brewski</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">XLR8 Indoor Sports Arena</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Deacthlon Hennur</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Lulu Supermarket</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">KLAY Preschool</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">6<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Legacy Montessori School</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">12<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">5km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Bangalore International School</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">9km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Manayata Tech Park</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">22<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Elements Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">24<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Karle Town Center SEZ</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">29<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">KIADB Aerospace SEZ</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">30<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">21km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">International Airport</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="columns small-12 large-8 large-4 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h2">Almost everything you might need within a <span class="text-green">30min commute</span>.</div>
+			</div>
+
+			<div class="columns small-12 large-8 large-offset-4">
+				<div class="row">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Orion East Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">15km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Kirloskar Tech Park, Hebbal</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Garuda Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">1MG Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">42<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">17km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">RMZ Infinity, Old Madras Road</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">45<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50">Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">RMZ Millennia, Ulsoor</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>
 <!-- END: Location Section -->
 
 
