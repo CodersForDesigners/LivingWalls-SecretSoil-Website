@@ -28,22 +28,37 @@
 
 
 <!-- Navigation Section : Menu 1 -->
-<section class="navigation-section primary-nav js_primary_nav_container">
+<section class="navigation-section">
 	<div class="menu-1 row">
 		<div class="container">
 			<div class="columns small-12 clearfix">
-				<div class="float-left">
-					<a class="logo" href="https://google.com">
-						<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
-					</a>
+				<a class="logo" href="https://google.com">
+					<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
+				</a>
+				<div class="float-right show-for-tablet">
+					<div class="menu-toggle" tabindex="-1">
+						<span class="h5 text-uppercase inline-middle">Menu</span>
+						<span class="h4 inline-middle"> &#9776;</span>
+					</div>
 				</div>
-				<div class="float-right hide-for-tablet">
+				<div class="link-tray"><!-- To Toggle Reveal: Add show class for small & medium Breakpoints -->
 					<a class="link h5 text-uppercase" href="https://google.com">Real-time Pricing</a>
 					<a class="link h5 text-uppercase" href="https://google.com">Location</a>
 					<a class="link h5 text-uppercase" href="https://google.com">Call 9663396979</a>
 					<a class="link h5 text-uppercase fill-green" href="https://google.com">Enquire Now</a>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="menu-2 row fill-dark">
+		<div class="link-tray">
+			<a class="link label text-uppercase" href="#large-4bhk">Large 4BHK</a>
+			<a class="link label text-uppercase" href="#masterplan">Masterplan</a>
+			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
+			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
+			<a class="link label text-uppercase" href="#amenities">Amenities</a>
+			<a class="link label text-uppercase" href="#construction">Updates</a>
+			<a class="link label text-uppercase" href="#contact">Contact Us</a>
 		</div>
 	</div>
 </section>
@@ -68,23 +83,6 @@
 	</div>
 </section>
 <!-- END: Intro Section -->
-
-
-<!-- Navigation Section : Menu 2 -->
-<section class="navigation-section secondary-nav-container js_secondary_nav_container">
-	<div class="row fill-dark secondary-nav js_secondary_nav">
-		<div class="menu-2">
-			<a class="link label text-uppercase" href="#large-4bhk">Large 4BHK</a>
-			<a class="link label text-uppercase" href="#masterplan">Masterplan</a>
-			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
-			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
-			<a class="link label text-uppercase" href="#amenities">Amenities</a>
-			<a class="link label text-uppercase" href="#construction">Updates</a>
-			<a class="link label text-uppercase" href="#contact">Contact Us</a>
-		</div>
-	</div>
-</section>
-<!-- END: Navigation Section -->
 
 
 <!-- Large 4BHK Section -->
@@ -112,7 +110,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-commonwalls.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Not a single house at Secret Soil shares a common wall with another. These houses are not Row Houses. You can actually walk around them.</div>
 							</div>
 						</div>
 					</div>
@@ -124,7 +122,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-standalone4.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every unit is a free-standing, 4 bedroom house that resembles the functionality of what we Bangaloreans refer to as an “Independent House”.</div>
 							</div>
 						</div>
 					</div>
@@ -136,7 +134,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-ground2.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">With bedrooms available on every floor, as a family, you get to hang out together, eat together...but still have your own space for some 'me' time.</div>
 							</div>
 						</div>
 					</div>
@@ -148,7 +146,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can sneak in through the back door if you want to avoid a gathering in the living room.</div>
 							</div>
 						</div>
 					</div>
@@ -192,7 +190,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-terracegarden.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every Master Bedroom at Secret Soil looks on to a gorgeous landscaped terrace garden. It has that penthouse style glamour to it.</div>
 							</div>
 						</div>
 					</div>
@@ -204,7 +202,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-hiddenutility.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">A utility terrace open to the sky that is hidden from public view. Why hasn't anyone done this before?</div>
 							</div>
 						</div>
 					</div>
@@ -216,7 +214,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-carparks.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">The only project in the area that offers 2 private covered car parks per house.</div>
 							</div>
 						</div>
 					</div>
@@ -228,7 +226,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-15floorplan.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">There is no one size fits all. Tweak your home to suit your families needs with our flexi-plan customisation module.</div>
 							</div>
 						</div>
 					</div>
@@ -240,7 +238,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Servants Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
 							</div>
 						</div>
 					</div>
