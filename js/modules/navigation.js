@@ -17,38 +17,35 @@ var scrollThreshold = 10;
 
 /*
  *
- * Navigation Menus Sticking and Slipping Into and Out of the Viewport
+ * Navigation Menu Expand on Mobile
  *
  */
-var $primaryNavContainer = $( ".js_primary_nav_container" );
-var primaryNavContainerHeight;
-var $secondaryNavContainer = $( ".js_secondary_nav_container" );
-var $secondaryNav = $secondaryNavContainer.find( ".js_secondary_nav" );
-var secondaryNavContainerTopY;
-var secondaryNavContainerBottomY;
-var secondaryNavContainerHeight;
+var $primaryNavLinkTray = $( ".js_primary_nav_link_tray" );
+var $primaryNavLinkTrayToggle = $( ".js_primary_nav_menu_toggle" );
+$primaryNavLinkTrayToggle.on( "click", function ( event ) {
+	$primaryNavLinkTray.toggleClass( "show" );
+} );
+$( ".js_close_nav_link_tray" ).on( "click", function ( event ) {
+	$primaryNavLinkTray.removeClass( "show" );
+} );
+// $( document ).on( "click", function ( event ) {
+// 	if ( $primaryNavLinkTrayToggle.find( event.target ).length )
+// 		if ( $primaryNavLinkTray.hasClass( "show" ) )
+// 			$primaryNavLinkTray.removeClass( "show" )
+// } );
 
-function getPositionsAndDimensions () {
-	primaryNavContainerHeight = $primaryNavContainer.height();
-	window.document.documentElement.style.setProperty( "--primary-nav-height", primaryNavContainerHeight + "px" );
-	secondaryNavContainerHeight = $secondaryNavContainer.height();
-	secondaryNavContainerTopY = $secondaryNavContainer.offset().top;
-	secondaryNavContainerBottomY = secondaryNavContainerTopY + secondaryNavContainerHeight;
-	window.document.documentElement.style.setProperty( "--secondary-nav-height", $secondaryNav.height() + "px" );
-}
-getPositionsAndDimensions();
-$( window ).on( "resize", _.debounce( getPositionsAndDimensions, 500 ) );
+
+/*
+ *
+ * Navigation Menu Auto-Hide
+ *
+ */
+var $primaryNav = $( ".js_primary_nav" );
+var $secondaryNav = $( ".js_secondary_nav" );
+
 function layoutNavigation () {
 
 	currentScrollTop = window.scrollY || document.body.scrollTop;
-
-	/*
-	 * Sticking the Secondary Navigation
-	 */
-	if ( ( currentScrollTop + primaryNavContainerHeight ) > secondaryNavContainerTopY )
-		$secondaryNav.addClass( "affix-to-top" )
-	else
-		$secondaryNav.removeClass( "affix-to-top" )
 
 	/*
 	 * Stick-rolling the Primary Navigation
@@ -60,16 +57,11 @@ function layoutNavigation () {
 
 	// If scrolling ↓.....
 	if ( currentScrollTop > previousScrollTop ) {
-		if ( currentScrollTop > secondaryNavContainerBottomY ) {
-			$primaryNavContainer.addClass( "hide" );
-			$secondaryNav.addClass( "offset-a-bit" );
-		}
+		$primaryNav.addClass( "hide" );
+		$primaryNavLinkTray.removeClass( "show" );
 	}
 	else {	// if scrolling ↑.....
-		if ( currentScrollTop > secondaryNavContainerBottomY ) {
-			$primaryNavContainer.removeClass( "hide" );
-			$secondaryNav.removeClass( "offset-a-bit" );
-		}
+		$primaryNav.removeClass( "hide" );
 	}
 
 	previousScrollTop = currentScrollTop;

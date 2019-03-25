@@ -20,7 +20,14 @@
 	background-color: rgba(0,0,0,0.85);
 	font-size: 0;
 	color: var(--light);
+
+	transition: transform 0.3s ease-out;
 }
+	/*- For when the Primary Navigation menu has to slide out of the viewport -*/
+.navigation-section .menu-1.hide {
+	transform: translateY( -100% );
+}
+
 
 .navigation-section .menu-1 .logo {
 	display: inline-block;
@@ -62,6 +69,13 @@
 	opacity: 1;
 	top: var(--space-one);
 	box-shadow: 0 0 1px 2px rgba(0,0,0,0.1), 0 0 3px 5px rgba(0,0,0,0.15);
+}
+.navigation-section .menu-1 .link-tray.show .close-link-tray {
+	position: absolute;
+	top: 0;
+	left: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 .navigation-section .menu-1 .link-tray .link {
@@ -208,37 +222,3 @@
 		height: 6px;
 	}
 }
-
-/*
- * For when the navigation menus have to get sticky and slippery
- */
-/*.navigation-section.primary-nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
-	transition: transform 0.3s linear;
-}
-.navigation-section.primary-nav.hide {
-	transform: translateY( -100% );
-}
-.navigation-section.secondary-nav-container {
-	position: relative;
-	height: var(--secondary-nav-height);
-}
-.navigation-section .secondary-nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 1;
-	transition: transform 0.3s linear;
-}
-
-.navigation-section.secondary-nav-container .affix-to-top {
-	position: fixed;
-	top: var(--primary-nav-height, 0);
-}
-.navigation-section.secondary-nav-container .affix-to-top.offset-a-bit {
-	transform: translateY( calc( -1 * var(--primary-nav-height) ) );
-}*/
