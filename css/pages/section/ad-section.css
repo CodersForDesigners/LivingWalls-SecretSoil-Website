@@ -9,6 +9,33 @@
 .ad-section .thumbnail-strip { font-size: 0; }
 .ad-section .thumbnail-strip .frame { font-size: 0; }
 
+.ad-section .watch-ad-link {
+	line-height: 2;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.ad-section .watch-ad-link img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	margin-top: -4px;
+	margin-right: 6px;
+	pointer-events: none;
+}
+
 @media( min-width: 640px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1480px ) {}
+@media( min-width: 1040px ) {
+	.ad-section .watch-ad-link img {
+		width: 32px;
+		margin-top: -5px;
+		margin-right: 8px;
+	}
+}
+@media( min-width: 1480px ) {
+	.ad-section .watch-ad-link img {
+		width: 48px;
+		margin-top: -6px;
+		margin-right: 10px;
+	}
+}

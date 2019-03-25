@@ -97,7 +97,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Large 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -317,7 +317,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-1.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-1.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -347,7 +347,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Masterplan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Masterplan</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -535,7 +535,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-3.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-3.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -563,7 +563,7 @@
 			</div>
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="BDA Layout">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of</span> buying a house vs building one</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -675,7 +675,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-4.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -704,7 +704,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Flexi-plan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Flexi-Plan</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -835,7 +835,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-6.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-6.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -866,7 +866,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="XLarge 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -1074,7 +1074,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-2.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-2.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -1103,7 +1103,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Amenities">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -1329,7 +1329,7 @@
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-5.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [5] --> Lorem ipsum dolor sit amet?</div>
-				<div class="h5 text-green"><i class="material-icons inline-middle">videocam</i>Watch the ad film</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
 			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-5.png<?php echo $ver ?>"></div>
 			<div class="thumbnail-strip columns small-12 hide-for-mobile">
@@ -1358,7 +1358,7 @@
 
 			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
 				<div class="h3 space-quarter-bottom">October 2015</div>
-				<div class="button button-large">Previous Months</div>
+				<div class="button button-large"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">Previous Months</div>
 			</div>
 
 			<!-- Status -->
@@ -1418,7 +1418,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h3 space-quarter-bottom"><span class="text-green">Get directions</span> on Google Maps</div>
-				<div class="button button-large fill-green"><i class="material-icons">location_on</i>google maps</div>
+				<div class="button button-large fill-green"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</div>
 			</div>
 
 			<div class="columns small-12 large-8">
@@ -1429,7 +1429,7 @@
 								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Byg Brewski</div>
 							</div>
 						</div>
@@ -1440,7 +1440,7 @@
 								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">XLR8 Indoor Sports Arena</div>
 							</div>
 						</div>
@@ -1451,7 +1451,7 @@
 								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Deacthlon Hennur</div>
 							</div>
 						</div>
@@ -1462,7 +1462,7 @@
 								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Lulu Supermarket</div>
 							</div>
 						</div>
@@ -1473,7 +1473,7 @@
 								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">KLAY Preschool</div>
 							</div>
 						</div>
@@ -1484,7 +1484,7 @@
 								<div class="h3 secret-icon float-left text-center">6<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Legacy Montessori School</div>
 							</div>
 						</div>
@@ -1495,7 +1495,7 @@
 								<div class="h3 secret-icon float-left text-center">12<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">5km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">5km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Bangalore International School</div>
 							</div>
 						</div>
@@ -1506,7 +1506,7 @@
 								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">9km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">9km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Manayata Tech Park</div>
 							</div>
 						</div>
@@ -1517,7 +1517,7 @@
 								<div class="h3 secret-icon float-left text-center">22<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Elements Mall</div>
 							</div>
 						</div>
@@ -1528,7 +1528,7 @@
 								<div class="h3 secret-icon float-left text-center">24<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Karle Town Center SEZ</div>
 							</div>
 						</div>
@@ -1539,7 +1539,7 @@
 								<div class="h3 secret-icon float-left text-center">29<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">KIADB Aerospace SEZ</div>
 							</div>
 						</div>
@@ -1550,7 +1550,7 @@
 								<div class="h3 secret-icon float-left text-center">30<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">21km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">21km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">International Airport</div>
 							</div>
 						</div>
@@ -1570,7 +1570,7 @@
 								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Orion East Mall</div>
 							</div>
 						</div>
@@ -1581,7 +1581,7 @@
 								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">15km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">15km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Kirloskar Tech Park, Hebbal</div>
 							</div>
 						</div>
@@ -1592,7 +1592,7 @@
 								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Garuda Mall</div>
 							</div>
 						</div>
@@ -1603,7 +1603,7 @@
 								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">1MG Mall</div>
 							</div>
 						</div>
@@ -1614,7 +1614,7 @@
 								<div class="h3 secret-icon float-left text-center">42<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">17km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">17km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">RMZ Infinity, Old Madras Road</div>
 							</div>
 						</div>
@@ -1625,7 +1625,7 @@
 								<div class="h3 secret-icon float-left text-center">45<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50">Commute</span></div>
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">RMZ Millennia, Ulsoor</div>
 							</div>
 						</div>
@@ -1648,7 +1648,7 @@
 				<div class="h5 space-half-bottom">Fill in your details and a Customer Service executive will call you back, Soon.</div>
 
 				<div class="h4 text-off-green">Or Call</div>
-				<div class="h3"><i class="material-icons">phone</i>96633 96979</div>
+				<a class="h3 call-phone" href="tel:+919663396979"><img src="media/glyph/32-phone.svg<?php echo $ver ?>">96633 96979</a>
 			</div>
 			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right">
 				<label class="label block space-quarter-bottom">
