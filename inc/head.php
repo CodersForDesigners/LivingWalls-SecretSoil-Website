@@ -153,4 +153,52 @@ ARB
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css<?php echo $ver ?>"/>
 	<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css<?php echo $ver ?>"/>
 
+	<script>
+
+		var __envProduction = true;
+
+		/*
+		 * Omega Settings
+		 */
+		// Establish global state
+		window.__OMEGA = window.__OMEGA || { };
+
+		( function ( __OMEGA ) {
+
+			var settings = __OMEGA.settings || { };
+
+				// Project
+			settings.Project = "LivingWalls Secret Soil";
+				// OTP Template
+			settings.OTPTemplate = "LivingWalls";
+				// API endpoint
+			settings.apiEndpoint = settings.apiEndpoint || location.origin.replace( /\/+$/, "" ) + "/omega";
+			if ( ! __envProduction ) {
+				settings.apiEndpoint = "http://omega.api.192.168.0.19.xip.io";
+			}
+			settings.apiEndpoint = "https://livingwalls.in/omega";
+				// Base URL
+			settings.baseURL = "";
+			if ( __envProduction ) {
+				if ( document.getElementsByTagName( "base" ).length ) {
+					settings.baseURL = document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
+				}
+				else {
+					var urlParts = location.pathname.match( /[^/?]+/ );
+					if ( urlParts )
+						settings.baseURL = urlParts[ 0 ]
+				}
+			}
+				// Implicit prefix that an auto-generated user gets
+			settings.userImplicitNamePrefix = "AG";
+				// project base URL
+			settings.projectBaseURL = "secret-soil";
+				// Zoho Assignment Rule ID
+			settings.assignmentRuleId = "3261944000000278029";
+			__OMEGA.settings = settings;
+
+		}( window.__OMEGA ) );
+
+	</script>
+
 </head>

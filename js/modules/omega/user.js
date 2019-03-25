@@ -30,6 +30,7 @@ var docCookies={getItem:function(e){return e?decodeURIComponent(document.cookie.
 var Loginner = window.Loginner = { };
 Loginner.prompts = { };
 Loginner.registerLoginPrompt = function registerLoginPrompt ( name, handlers ) {
+	// Loginner.prompts[ name ].trapSite = document.querySelector( "[ data-loginner = '" + name + "' ]" );
 	Loginner.prompts[ name ] = handlers;
 };
 
@@ -133,6 +134,9 @@ function triggerAuthFlowIfRequired ( event ) {
 			var url = $anchor.data( "href" );
 			$anchor.attr( "href", url );
 		} );
+		var context = loginPrompt;
+		var user = getCookieData( "omega-user" );
+		Loginner.prompts[ loginPrompt ].onLogin( user, context );
 		return;
 	}
 
@@ -424,7 +428,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 	 * Pull the data from the form
 	 ----- */
 	// OTP
-	$otp = $form.find( ".js_otp input" );
+	$otp = $form.find( ".js_otp" );
 
 	/* -----
 	 * Validate the data
@@ -463,7 +467,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 			var project = __OMEGA.settings.Project;
 				// Call the `onOTPVerified` hook
 			if ( Loginner.prompts[ loginPrompt ].onOTPVerified )
-				Loginner.prompts[ loginPrompt ].onOTPVerified( context, phoneNumber, project );
+				Loginner.prompts[ loginPrompt ].onOTPVerified.call( domForm, context, phoneNumber, project );
 
 			createUser( phoneNumber, context, project )
 				// Then, log in the user

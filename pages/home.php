@@ -95,9 +95,29 @@
 				<div class="h3">Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Large 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 
 			<div class="columns small-12 large-8">
@@ -163,15 +183,55 @@
 							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
 							<div class="h6">Real-time pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.0Cr</div>
-							<div class="button button-large">Download Details</div>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<!-- Phone Trap -->
+							<form class="phone-form loginner_form_phone hidden">
+								<div class="container-phone-country-code">
+									<select class="input-large fill-green js_phone_country_code">
+										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+									</select>
+									<div class="container-country-code-label button button-large fill-off-light">
+										<span class="js_phone_country_code_label">+91</span>
+									</div>
+								</div>
+								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+								<button class="submit button button-large fill-green" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+							</form>
+							<form class="otp-form loginner_form_otp hidden">
+								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+								<button class="submit button button-large" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+							</form>
+							<!-- END: Phone Trap -->
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right">
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK with Private Garden">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
-							<div class="button button-large">Download Details</div>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<!-- Phone Trap -->
+							<form class="phone-form loginner_form_phone hidden">
+								<div class="container-phone-country-code">
+									<select class="input-large fill-green js_phone_country_code">
+										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+									</select>
+									<div class="container-country-code-label button button-large fill-off-light">
+										<span class="js_phone_country_code_label">+91</span>
+									</div>
+								</div>
+								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+								<button class="submit button button-large fill-green" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+							</form>
+							<form class="otp-form loginner_form_otp hidden">
+								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+								<button class="submit button button-large" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+							</form>
+							<!-- END: Phone Trap -->
 						</div>
 					</div>
 				</div>
@@ -285,9 +345,29 @@
 				<div class="h3">Minimised Concrete Footprint</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Masterplan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Masterplan</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 
 			<div class="columns small-12 large-8">
@@ -481,9 +561,29 @@
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 strong text-light">The charm of a BDA Layout House without the hassles</div>
 			</div>
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="BDA Layout">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of</span> buying a house vs building one</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 			<div class="columns small-12 large-8">
 				<div class="row">
@@ -602,9 +702,29 @@
 				<div class="h1 strong text-light">Flexi-plan</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Flexi-plan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Flexi-Plan</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 
 			<div class="columns small-12 large-8">
@@ -643,9 +763,29 @@
 	</div>
 	<div class="pricing-engine row fill-green">
 		<div class="container">
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right" data-loginner="Customise House">
 				<div class="h3 space-quarter-bottom">Customise your house online</div>
-				<div class="button button-large">Customise Now</div>
+				<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Customise Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 			<div class="pricing-video columns small-12 large-8">
 				<img src="https://via.placeholder.com/1920x1920">
@@ -724,9 +864,29 @@
 				<div class="h3">Spacious Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="XLarge 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 25 secrets of the</span> Large 4BHK House</div>
-				<div class="button button-large fill-green">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 
 			<div class="columns small-12 large-8">
@@ -792,15 +952,55 @@
 							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
 							<div class="h6">Real-time pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.0Cr</div>
-							<div class="button button-large">Download Details</div>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<!-- Phone Trap -->
+							<form class="phone-form loginner_form_phone hidden">
+								<div class="container-phone-country-code">
+									<select class="input-large fill-green js_phone_country_code">
+										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+									</select>
+									<div class="container-country-code-label button button-large fill-off-light">
+										<span class="js_phone_country_code_label">+91</span>
+									</div>
+								</div>
+								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+								<button class="submit button button-large fill-green" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+							</form>
+							<form class="otp-form loginner_form_otp hidden">
+								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+								<button class="submit button button-large" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+							</form>
+							<!-- END: Phone Trap -->
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right">
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House with Private Garden">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
-							<div class="button button-large">Download Details</div>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<!-- Phone Trap -->
+							<form class="phone-form loginner_form_phone hidden">
+								<div class="container-phone-country-code">
+									<select class="input-large fill-green js_phone_country_code">
+										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+									</select>
+									<div class="container-country-code-label button button-large fill-off-light">
+										<span class="js_phone_country_code_label">+91</span>
+									</div>
+								</div>
+								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+								<button class="submit button button-large fill-green" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+							</form>
+							<form class="otp-form loginner_form_otp hidden">
+								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+								<button class="submit button button-large" type="submit">→</button>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+							</form>
+							<!-- END: Phone Trap -->
 						</div>
 					</div>
 				</div>
@@ -903,7 +1103,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Amenities">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
-				<div class="button button-large fill-green js_user_required">Unlock Now</div>
+				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -914,15 +1114,16 @@
 							<span class="js_phone_country_code_label">+91</span>
 						</div>
 					</div>
-					<input class="text-field input-large block" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center">Enter Mobile Number</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
-					<input class="text-field input-large block" type="text" name="otp" placeholder="OTP">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
 					<button class="submit button button-large" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center">OTP Sent Check Your Phone</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
 				</form>
+				<!-- END: Phone Trap -->
 			</div>
 
 			<div class="columns small-12 large-8">

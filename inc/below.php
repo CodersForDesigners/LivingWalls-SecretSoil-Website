@@ -31,8 +31,6 @@
 
 	<script type="text/javascript">
 
-		window.__OMEGA = { };
-
 		$( function () {
 			//
 		} );
