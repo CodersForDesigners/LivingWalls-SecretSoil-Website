@@ -1426,7 +1426,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h3 space-quarter-bottom"><span class="text-green">Get directions</span> on Google Maps</div>
-				<div class="button button-large fill-green"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</div>
+				<a class="button button-large fill-green" href="https://goo.gl/maps/1R91KXC6Ag62" target="_blank"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</a>
 			</div>
 
 			<div class="columns small-12 large-8">
