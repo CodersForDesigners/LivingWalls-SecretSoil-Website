@@ -38,8 +38,8 @@
 
 .navigation-section .menu-1 .logo img {
 	width: auto;
-	height: 23px;
-	transform: translateY(7px);
+	height: 20px;
+	transform: translateY(3px);
 }
 
 .navigation-section .menu-1 .menu-toggle {
@@ -116,8 +116,8 @@
 		line-height: var(--space-three-quarter);
 	}
 	.navigation-section .menu-1 .logo img {
-		height: 28px;
-		transform: translateY(12px);
+		height: 23px;
+		transform: translateY(3px);
 	}
 
 	.navigation-section .menu-1 .link-tray.show,
@@ -140,8 +140,8 @@
 }
 @media( min-width: 1480px ) {
 	.navigation-section .menu-1 .logo img {
-		height: 40px;
-		transform: translateY(18px);
+		height: 31px;
+		transform: translateY(5px);
 	}
 }
 

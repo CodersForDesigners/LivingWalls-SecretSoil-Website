@@ -33,7 +33,7 @@
 		<div class="container">
 			<div class="columns small-12 clearfix">
 				<a class="logo" href="/">
-					<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
+					<img src="media/ss-logo-long-green-light.svg<?php echo $ver ?>">
 				</a>
 				<div class="menu-toggle js_primary_nav_menu_toggle float-right show-for-tablet" tabindex="-1">
 					<span class="h5 text-uppercase inline-middle">Menu</span>
