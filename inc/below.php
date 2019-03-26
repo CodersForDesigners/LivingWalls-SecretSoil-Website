@@ -43,7 +43,6 @@
 	<script type="text/javascript" src="js/modules/omega/user.js"></script>
 	<script type="text/javascript" src="js/modules/phone-forms.js"></script>
 	<script type="text/javascript" src="js/modules/disclaimer.js"></script>
-	<script type="text/javascript" src="plugins/lodash/lodash-v4.17.5-custom.min.js"></script>
 	<script type="text/javascript" src="js/modules/navigation.js"></script>
 	<script type="text/javascript" src="js/forms.js"></script>
 
