@@ -79,7 +79,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/IfII8Om6OYc?rel=0&amp;showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>

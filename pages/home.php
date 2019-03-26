@@ -35,11 +35,9 @@
 				<a class="logo" href="/">
 					<img src="media/lw-logo-long-green-light.svg<?php echo $ver ?>">
 				</a>
-				<div class="float-right show-for-tablet">
-					<div class="menu-toggle js_primary_nav_menu_toggle" tabindex="-1">
-						<span class="h5 text-uppercase inline-middle">Menu</span>
-						<span class="h4 inline-middle"> &#9776;</span>
-					</div>
+				<div class="menu-toggle js_primary_nav_menu_toggle float-right show-for-tablet" tabindex="-1">
+					<span class="h5 text-uppercase inline-middle">Menu</span>
+					<span class="h4 inline-middle"> &#9776;</span>
 				</div>
 				<div class="link-tray js_primary_nav_link_tray"><!-- To Toggle Reveal: Add show class for small & medium Breakpoints -->
 					<div class="close-link-tray js_close_nav_link_tray"></div>
@@ -67,11 +65,11 @@
 
 
 <!-- Intro Section -->
-<section class="intro-section space-one-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');" id="intro" data-section="Intro">
+<section class="intro-section space-double-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');" id="intro" data-section="Intro">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
-				<div class="h2 strong">
+				<div class="h2 strong space-quarter-bottom">
 					Secretly <br>
 					Kickass <br>
 					Standalone <br>
@@ -529,6 +527,13 @@
 <!-- END: Masterplan Section -->
 
 
+<!-- Masterplan 3D Section -->
+<section class="fill-off-green">
+	<img class="block" src="media/section-bg/masterplan-3d.png<?php echo $ver ?>">
+</section>
+<!-- END: Masterplan 3D Section -->
+
+
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
@@ -789,7 +794,7 @@
 				<!-- END: Phone Trap -->
 			</div>
 			<div class="pricing-video columns small-12 large-8">
-				<img src="https://via.placeholder.com/1920x1920">
+				<video id autoplay loop muted playsinline  src="media/flexi-plan.mp4<?php echo $ver ?>"></video>
 			</div>
 		</div>
 	</div>
@@ -900,7 +905,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-commonwalls.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Not a single house at Secret Soil shares a common wall with another. These houses are not Row Houses. You can actually walk around them.</div>
 							</div>
 						</div>
 					</div>
@@ -924,7 +929,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-standalone4.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every unit is a free-standing, 4 bedroom house that resembles the functionality of what we Bangaloreans refer to as an “Independent House”.</div>
 							</div>
 						</div>
 					</div>
@@ -936,7 +941,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-backdoor.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can sneak in through the back door if you want to avoid a gathering in the living room.</div>
 							</div>
 						</div>
 					</div>
@@ -1020,7 +1025,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-terracegarden.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every Master Bedroom at Secret Soil looks on to a gorgeous landscaped terrace garden. It has that penthouse style glamour to it. </div>
 							</div>
 						</div>
 					</div>
@@ -1032,7 +1037,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-hiddenutility.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">A utility terrace open to the sky that is hidden from public view. Why hasn't anyone done this before?</div>
 							</div>
 						</div>
 					</div>
@@ -1044,7 +1049,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-carparks.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">The only project in the area that offers 2 private covered car parks per house.</div>
 							</div>
 						</div>
 					</div>
@@ -1056,7 +1061,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Servants Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
 							</div>
 						</div>
 					</div>
@@ -1408,7 +1413,7 @@
 
 
 <!-- Location Section -->
-<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
+<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">

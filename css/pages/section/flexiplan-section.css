@@ -25,6 +25,11 @@
 	border-radius: 10px;
 }
 
+.flexiplan-section .pricing-engine .pricing-video video {
+	width: 100%;
+	height: auto;
+}
+
 @media( min-width: 640px )  {}
 
 @media( min-width: 1040px ) {
