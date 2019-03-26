@@ -152,9 +152,13 @@
 		<div class="modal-box-content js_modal_box_content" data-mod-id="secrets-coming-soon">
 			<div class="container">
 				<div class="row">
-					<div class="columns small-10 small-offset-1 medium-6 large-4">
-						<div class="h2 strong text-light space-half-bottom">Show me the secrets!</div>
-						<div class="h4 text-light">These are not the secrets you are looking for.</div>
+					<div class="columns small-10 small-offset-1 medium-6 large-4 space-half-bottom">
+						<div class="h2 strong text-light">Show me the secrets!</div>
+					</div>
+					<div class="columns small-10 small-offset-1 medium-8 large-5">
+						<div class="h4 text-light" style="line-height: 1.5;">
+							Our team is working really hard to bring all these secrets to light soon &nbsp; <span class="inline-middle">&#128522;</span> <br><br>We have your number and we will inform you as soon as we put it online. Enjoy the rest of the website.
+						</div>
 					</div>
 				</div>
 			</div>
