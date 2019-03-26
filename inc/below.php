@@ -42,7 +42,7 @@
 	<script type="text/javascript" src="js/modules/omega/utils.js"></script>
 	<script type="text/javascript" src="js/modules/omega/user.js"></script>
 	<script type="text/javascript" src="js/modules/phone-forms.js"></script>
-	<script type="text/javascript" src="js/modules/disclaimer.js"></script>
+	<!-- <script type="text/javascript" src="js/modules/disclaimer.js"></script> -->
 	<script type="text/javascript" src="js/modules/navigation.js"></script>
 	<script type="text/javascript" src="js/forms.js"></script>
 
