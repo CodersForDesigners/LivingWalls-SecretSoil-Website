@@ -13,6 +13,7 @@ $links = getContent( $defaultLinks, 'pages' );
 $siteTitle = getContent( 'Brownie As Fudge', 'site_title' );
 $pageUrl = $siteUrl . $_SERVER[ 'REQUEST_URI' ];
 $pageTitle = getCurrentPageTitle( $links, $siteTitle );
+$pageTitle = "Overview" . " | " . $siteTitle;
 
 
 /*
