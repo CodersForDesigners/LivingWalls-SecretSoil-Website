@@ -627,3 +627,13 @@ select { cursor: pointer; }
 		transform: translate(7px, 7px);
 	}
 }
+
+
+
+/*
+ * Text Blur
+ */
+ 
+.text-blur {
+	filter: blur(5px);
+}

@@ -49,7 +49,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/vhHnDR-z0pQ?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/zV26jURU1X4?rel=0&amp;showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -94,7 +94,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/tHKxNbSDZk0?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/5b7ci76Tjgs?rel=0&amp;showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
