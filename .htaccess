@@ -3,13 +3,13 @@
 
 RewriteEngine On
 
+# The Pricing page
+RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
+RewriteRule ^/?pricing(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/pricing$1 [P]
+
 RewriteRule ^/?$ pages/home.php [QSA,L,NC]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteRule ^/?([^/]+)/?$ pages/$1.php [QSA,L,NC]
-
-# The Pricing page
-RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
-RewriteRule ^/?pricing(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/pricing$1 [P]
 
 </IfModule>
