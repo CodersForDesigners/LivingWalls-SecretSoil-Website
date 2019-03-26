@@ -9,13 +9,17 @@
 .footer-section .links a {
 	color: inherit;
 	text-decoration: none;
-	line-height: 1.375;
+	line-height: 2;
 }
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
 	.footer-section .logo img {
 		width: 160px;
+	}
+
+	.footer-section .links a {
+		line-height: 1.375;
 	}
 }
 @media( min-width: 1480px ) {

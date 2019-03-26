@@ -1364,7 +1364,7 @@
 
 			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
 				<div class="h3 space-quarter-bottom">October 2015</div>
-				<div class="button button-large"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">Previous Months</div>
+				<div class="button button-large js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">Previous Months</div>
 			</div>
 
 			<!-- Status -->

@@ -8,11 +8,11 @@
 @media( min-width: 400px )  { .large-4bhk-section.section-bg { padding-bottom: 520px; } }
 @media( min-width: 640px )  { .large-4bhk-section.section-bg { padding-bottom: 620px; } }
 @media( min-width: 800px )  { .large-4bhk-section.section-bg { padding-bottom: 800px; } }
-@media( min-width: 1040px ) { .large-4bhk-section.section-bg { padding-bottom: 940px; } }
-@media( min-width: 1200px ) { .large-4bhk-section.section-bg { padding-bottom: 1200px; } }
-@media( min-width: 1480px ) { .large-4bhk-section.section-bg { padding-bottom: 1240px; } }
-@media( min-width: 1600px ) { .large-4bhk-section.section-bg { padding-bottom: 1500px; } }
-@media( min-width: 1940px ) { .large-4bhk-section.section-bg { padding-bottom: 80%; } }
+@media( min-width: 1040px ) { .large-4bhk-section.section-bg { padding-bottom: 900px; } }
+@media( min-width: 1200px ) { .large-4bhk-section.section-bg { padding-bottom: 1100px; } }
+@media( min-width: 1480px ) { .large-4bhk-section.section-bg { padding-bottom: 1200px; } }
+@media( min-width: 1600px ) { .large-4bhk-section.section-bg { padding-bottom: 1440px; } }
+@media( min-width: 1940px ) { .large-4bhk-section.section-bg { padding-bottom: 74%; } }
 
 .large-4bhk-section .pricing {
 	padding-bottom: var(--space-half);
