@@ -32,7 +32,7 @@
 	<div class="menu-1 row js_primary_nav">
 		<div class="container">
 			<div class="columns small-12 clearfix">
-				<a class="logo" href="/">
+				<a class="logo" href="">
 					<img src="media/ss-logo-long-green-light.svg<?php echo $ver ?>">
 				</a>
 				<div class="menu-toggle js_primary_nav_menu_toggle float-right show-for-tablet" tabindex="-1">
