@@ -68,8 +68,8 @@
 <section class="intro-section space-double-top-bottom section-bg bottom" style="color: #FFFFFF; background-color: #292C33; background-image: url('media/section-bg/canopy.png<?php echo $ver ?>'), url('media/section-bg/canopy-bg-px.png<?php echo $ver ?>');" id="intro" data-section="Intro">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
-				<div class="h2 strong space-quarter-bottom">
+			<div class="intro columns small-8 small-offset-2 medium-6 medium-offset-6 large-4 large-offset-8 text-auto-align-medium">
+				<div class="title h2 strong space-quarter-bottom">
 					Secretly <br>
 					Kickass <br>
 					Standalone <br>
@@ -80,6 +80,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- <a class="scroll-glyph" tabindex="-1"><img src="media/glyph/32-scroll-animate.svg<?php //echo $ver ?>"></a> -->
 </section>
 <!-- END: Intro Section -->
 

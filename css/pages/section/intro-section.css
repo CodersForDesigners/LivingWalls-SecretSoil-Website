@@ -5,11 +5,55 @@
 
 .intro-section {}
 
-@media( min-width: 400px )  {}
-@media( min-width: 640px )  {}
-@media( min-width: 800px )  {}
-@media( min-width: 1040px ) {}
-@media( min-width: 1200px ) {}
-@media( min-width: 1480px ) {}
-@media( min-width: 1600px ) {}
+.intro-section .intro {
+	transform: translateY(60px);
+}
+
+.intro-section .intro .title {
+	line-height: 0.95;
+}
+
+@media( max-width: 399px ) {
+	.intro-section {
+		background-position: center center;
+		background-size: cover;
+	}
+}
+
+@media( min-width: 400px )  {
+	.intro-section .intro {
+		transform: translateY(50px);
+	}
+}
+@media( min-width: 640px )  {
+	.intro-section .intro {
+		transform: translateY(60px);
+	}
+}
+@media( min-width: 800px )  {
+	.intro-section .intro {
+		transform: translateY(0);
+	}
+}
+@media( min-width: 1040px ) {
+	.intro-section .intro {
+		transform: translateY(40px);
+	}
+}
+@media( min-width: 1200px ) {
+	.intro-section .intro {
+		transform: translateY(0);
+	}
+}
+@media( min-width: 1480px ) {
+	.intro-section .intro {
+		transform: translateY(100px);
+	}
+}
+@media( min-width: 1600px ) {
+	.intro-section .intro {
+		transform: translateY(0px);
+	}
+}
 @media( min-width: 1940px ) {}
+
