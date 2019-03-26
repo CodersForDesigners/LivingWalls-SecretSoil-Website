@@ -128,20 +128,6 @@ $pageTitle = getCurrentPageTitle( $links, $siteTitle );
 
 	<!--
 	*
-	*	Arbitrary Code
-	*
-	- -->
-	<?php echo getContent( <<<ARB
-	<!-- Fonts -->
-	<link rel="stylesheet" href="https://use.typekit.net/ufg3dmd.css">
-	<!-- Icons -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-ARB
-, 'arbitrary_code' ) ?>
-
-
-	<!--
-	*
 	*	Enqueue Files
 	*
 	- -->
@@ -200,5 +186,28 @@ ARB
 		}( window.__OMEGA ) );
 
 	</script>
+
+
+	<!--
+	*
+	*	Fonts and Icons
+	*
+	- -->
+	<?php echo getContent( <<<ARB
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://use.typekit.net/ufg3dmd.css">
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ARB
+, 'fonts_and_icons' ) ?>
+
+
+	<!--
+	*
+	*	Arbitrary Code ( Bottom of Head )
+	*
+	- -->
+	<?php echo getContent( '', 'arbitrary_code_head_bottom' ) ?>
+
 
 </head>
