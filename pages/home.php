@@ -314,7 +314,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad1-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-1.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
@@ -381,7 +381,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-2yearsdesign.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">The goal of minimising the need for trees to be cut extended our design period to over 2 years. It was time well spent.</div>
 							</div>
 						</div>
 					</div>
@@ -393,7 +393,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-noconcrete.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">There is no concrete bunker the size of a football field below you. You drop a seed into the ground and you can grow a tree.</div>
 							</div>
 						</div>
 					</div>
@@ -405,7 +405,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-exposedsoil.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">When it rains at Secret Soil, do you know where the water goes? Into the ground, where it's supposed to.</div>
 							</div>
 						</div>
 					</div>
@@ -417,7 +417,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-woodencentralpark.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">It's not fair to take credit for this. All we did was make sure we designed around these trees, the rest is all kudos to mother nature.</div>
 							</div>
 						</div>
 					</div>
@@ -493,7 +493,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-elderlytrees.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Tamarind, Sapota, Mango, Neem, Silver Oak, Coconut, Teak...and more.</div>
 							</div>
 						</div>
 					</div>
@@ -505,7 +505,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-elderlyjackfruit.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Like noble sentinels; 15 Jackfruits trees stand tall across Secret Soil. These huge giants have extremely large canopies and are laden with fruit.</div>
 							</div>
 						</div>
 					</div>
@@ -517,7 +517,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-vehicularhugs.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">To retain the central wooded area, we created vehicular roads that hug the peripheral walls. Leaving the central area wooded as well as pedestrian friendly.</div>
 							</div>
 						</div>
 					</div>
@@ -532,7 +532,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad3-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-3.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
@@ -596,7 +596,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-undergroundstructure.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">A maintenance-friendly, underground system of conduits allows for future cables or pipelines to be laid and connected without inconveniencing the community.</div>
 							</div>
 						</div>
 					</div>
@@ -608,7 +608,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-pedestrianvehicularaccess.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">The degree of safety offered by a gated community that is protected by access control is invaluable.</div>
 							</div>
 						</div>
 					</div>
@@ -620,7 +620,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-childinteriorroads.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">By fielding vehicular movement to the peripheral road, all interior roads benefit with a reduction in traffic limited to only those living on a particular street.</div>
 							</div>
 						</div>
 					</div>
@@ -632,7 +632,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-electrifiedboundary.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">An electrified fence along the compound wall is an added layer of protection to the community.</div>
 							</div>
 						</div>
 					</div>
@@ -644,7 +644,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-quietstreets.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">With lesser houses per acre than our competitors, we directly benefit from having lower noise levels and consumption patterns in terms of water usage.</div>
 							</div>
 						</div>
 					</div>
@@ -656,7 +656,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-youdontneedtosupervise.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">Supervising the construction of your own house is a soul-killing and unforgiving endeavour.</div>
 							</div>
 						</div>
 					</div>
@@ -672,7 +672,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad4-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
@@ -738,7 +738,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-optionalhometheatre.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can optionally convert the Guest Bedroom on the Ground Floor into a Home Theatre Room.</div>
 							</div>
 						</div>
 					</div>
@@ -750,7 +750,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-optionallift.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can optionally upgrade your house to include an elevator if it suits you.</div>
 							</div>
 						</div>
 					</div>
@@ -805,7 +805,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-addawalkindressing.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can opt to swap your Servants Quarters for a luxurious Walk-in closet.</div>
 							</div>
 						</div>
 					</div>
@@ -817,7 +817,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-optforalargekitchenisland.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">You can super size the kitchen by swapping out the utility area for a much larger island kitchen.</div>
 							</div>
 						</div>
 					</div>
@@ -832,7 +832,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad6-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-6.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
@@ -1071,7 +1071,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad2-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-2.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
@@ -1326,7 +1326,7 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light" style="background-color: #D9E0E3">
+		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad5-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-5.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [5] --> Lorem ipsum dolor sit amet?</div>
@@ -1408,7 +1408,7 @@
 
 
 <!-- Location Section -->
-<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;">
+<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">

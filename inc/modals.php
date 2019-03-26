@@ -43,6 +43,124 @@
 		</div><!-- END : Sample Form -->
 
 
+		<!-- Modal Content : ad1 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad1-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/vhHnDR-z0pQ?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad1 Video -->
+
+		<!-- Modal Content : ad2 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad2-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/ZQxYyOwxwP8?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad2 Video -->
+
+		<!-- Modal Content : ad3 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad3-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad3 Video -->
+
+		<!-- Modal Content : ad4 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad4-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/tHKxNbSDZk0?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad4 Video -->
+
+		<!-- Modal Content : ad5 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad5-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/PQeO5JmnD7g?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad5 Video -->
+
+		<!-- Modal Content : ad6 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad6-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/_eywpSVgHoU?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad6 Video -->
+
+		<!-- Modal Content : ad7 Video -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="ad7-video">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12">
+						<!-- video embed -->
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0">
+							<div class="youtube_load"></div>
+							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : ad7 Video -->
+
+		<!-- Modal Content : Secrets Coming Soon -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="secrets-coming-soon">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-10 small-offset-1 medium-6 large-4">
+						<div class="h2 strong text-light space-half-bottom">Show me the secrets!</div>
+						<div class="h4 text-light">These are not the secrets you are looking for.</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : Secrets Coming Soon -->
+
+
 		<!-- Modal Close Button -->
 		<div class="modal-close js_modal_close">&times;</div>
 	</div>

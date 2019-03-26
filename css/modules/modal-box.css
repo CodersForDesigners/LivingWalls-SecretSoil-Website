@@ -58,3 +58,6 @@
 	text-align: center;
 	background-color: #FFFFFF;
 }
+
+.js_modal_trigger { cursor: pointer; }
+.js_modal_trigger * { pointer-events: none; }
