@@ -112,6 +112,9 @@ var manageHistoryAndNavigationOnScroll = function () {
 
 	// Get all the sections in the reverse order
 	var $sections = Array.prototype.slice.call( $( "[ data-section ]" ) )
+					.filter( function ( domSection ) {
+						return ! $( domSection ).hasClass( "hidden" );
+					} )
 					.reverse()
 					.map( function ( el ) { return $( el ) } );
 	// Get all the navigational links from the navigation menu
