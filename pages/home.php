@@ -187,7 +187,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.1Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
 							<!-- Phone Trap -->
 							<form class="phone-form loginner_form_phone hidden">
 								<div class="container-phone-country-code">
@@ -212,7 +212,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK with Private Garden">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
 							<!-- Phone Trap -->
 							<form class="phone-form loginner_form_phone hidden">
 								<div class="container-phone-country-code">
@@ -963,7 +963,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.5Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
 							<!-- Phone Trap -->
 							<form class="phone-form loginner_form_phone hidden">
 								<div class="container-phone-country-code">
@@ -988,7 +988,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House with Private Garden">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.8Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
 							<!-- Phone Trap -->
 							<form class="phone-form loginner_form_phone hidden">
 								<div class="container-phone-country-code">
