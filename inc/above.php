@@ -23,6 +23,11 @@ $ver = '?v=20181126';
 
 	<body id="body" class="body">
 
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M356D67"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<!--  ★  MARKUP GOES HERE  ★  -->
 
 	<div id="page-wrapper"><!-- Page Wrapper -->

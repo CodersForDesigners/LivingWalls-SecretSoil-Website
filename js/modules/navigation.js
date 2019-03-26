@@ -28,11 +28,29 @@ $primaryNavLinkTrayToggle.on( "click", function ( event ) {
 $( ".js_close_nav_link_tray" ).on( "click", function ( event ) {
 	$primaryNavLinkTray.removeClass( "show" );
 } );
-// $( document ).on( "click", function ( event ) {
-// 	if ( $primaryNavLinkTrayToggle.find( event.target ).length )
-// 		if ( $primaryNavLinkTray.hasClass( "show" ) )
-// 			$primaryNavLinkTray.removeClass( "show" )
-// } );
+// Whenever an item on the menu is clicked and the page jumps to some place,
+//  	close the menu
+$( window ).on( "hashchange", function ( event ) {
+	$primaryNavLinkTray.removeClass( "show" );
+} );
+
+/*
+ *
+ * Smooth-scroll to sections
+ *
+ */
+$( document ).on( "click", "a[ href ^= '#' ]", function ( event ) {
+	event.preventDefault();
+	event.stopPropagation();
+	event.stopImmediatePropagation();
+	var $link = $( event.target ).closest( "a" );
+	var toSectionId = $link.attr( "href" ).slice( 1 );
+	// setTimeout( function () {
+		var domSection = document.getElementById( toSectionId );
+		window.scrollTo( { top: domSection.offsetTop - 50, behavior: "smooth" } );
+	// }, 0 );
+	return false;
+} );
 
 
 /*
@@ -86,8 +104,9 @@ var manageHistoryAndNavigationOnScroll = function () {
 
 	var currentScrollTop;
 	var previousScrollTop;
-	var currentSection;
-	var previousSection;
+	var currentSectionId;
+	var previousSectionId;
+	var currentSectionName;
 	var sectionScrollTop;
 	var $currentNavItem;
 
@@ -102,7 +121,7 @@ var manageHistoryAndNavigationOnScroll = function () {
 
 		var viewportHeight = $( window ).height();
 		currentScrollTop = window.scrollY || document.body.scrollTop;
-		currentSection = null;
+		currentSectionId = null;
 
 		var _i
 		for ( _i = 0; _i < $sections.length; _i += 1 ) {
@@ -112,22 +131,23 @@ var manageHistoryAndNavigationOnScroll = function () {
 				&&
 				( currentScrollTop <= sectionScrollTop + $sections[ _i ].height() + viewportHeight / 2 )
 			) {
-				currentSection = $sections[ _i ].attr( "id" );
+				currentSectionId = $sections[ _i ].attr( "id" );
 				break;
 			}
 		}
-		if ( ! currentSection ) {
-			currentSection = "/";
-			sectionScrollTop = 0;
+		if ( ! currentSectionId ) {
+			return;
+			// currentSectionId = "/";
+			// sectionScrollTop = 0;
 		}
 
 		// Mark the corresponding item in the navigation menu
 		$currentNavItem = $navItems
 							.removeClass( "active" )
-							.filter( "[ href = '#" + currentSection + "' ]" )
+							.filter( "[ href = '#" + currentSectionId + "' ]" )
 		$currentNavItem.addClass( "active" );
 		// Scroll to the corresponding item in the navigation menu
-		if ( currentSection != previousSection )
+		if ( currentSectionId != previousSectionId )
 			if ( $currentNavItem.length )
 				$currentNavItem.parent().get( 0 ).scroll( {
 					top: 0,
@@ -139,14 +159,15 @@ var manageHistoryAndNavigationOnScroll = function () {
 		 * If the previous and the current section are the same, then add time
 		 * Else, reset the "time spent on a section" counter
 		 */
-		if ( currentSection == previousSection ) {
+		if ( currentSectionId == previousSectionId ) {
 			timeSpentOnASection += intervalToCheckForEngagement
 			if ( timeSpentOnASection >= thresholdTimeForEngagement ) {
-				if ( ! ( history.state && history.state.section == currentSection ) ) {
+				currentSectionName = $sections[ _i ].data( "section" );
+				if ( ! ( history.state && history.state.section == currentSectionName ) ) {
 					history.pushState( {
-						section: currentSection,
+						section: currentSectionName,
 						scrollPosition: sectionScrollTop
-					}, "", "#" + currentSection );
+					}, "", "#" + currentSectionId );
 				}
 			}
 		}
@@ -155,7 +176,7 @@ var manageHistoryAndNavigationOnScroll = function () {
 		}
 
 		previousScrollTop = currentScrollTop;
-		previousSection = currentSection;
+		previousSectionId = currentSectionId;
 
 	};
 
