@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// Open Modal Box
-	$('.js_modal_trigger').on('click', function( event ){
+	$( document ).on( "click", ".js_modal_trigger", function( event ){
 		event.preventDefault();
 
 		var modId = $(event.target).data('modId');
