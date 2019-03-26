@@ -6,6 +6,7 @@
 	font-family: inherit, sans-serif;
 	background-color: #FFF;
 	border-top: solid 1px #d9dde6;
+	margin-bottom: var(--space-one);
 }
 
 	.lazaro-section .lazaro-link {
@@ -32,7 +33,7 @@
 		color: #E30F13;
 	}
 
-@media ( max-width: 640px ) {
+@media ( max-width: 639px ) {
 
 	.lazaro-section .lazaro-link {
 		font-size: 0;
@@ -43,4 +44,10 @@
 		font-size: 12px;
 	}
 
+}
+
+@media ( min-width: 1040px ) {
+	.lazaro-section {
+		margin-bottom: var(--space-half);
+	}
 }
