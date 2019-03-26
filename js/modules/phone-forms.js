@@ -108,8 +108,7 @@ Loginner.registerLoginPrompt( "Large 4BHK", {
 
 			// Bring back the button
 			$large4BHKFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
-				.removeClass( "hidden" );
+				.removeClass( "hidden" )
 		}
 	}
 } );
@@ -184,7 +183,6 @@ Loginner.registerLoginPrompt( "Masterplan", {
 			$( this ).addClass( "hidden" );
 			// Bring back the button
 			$masterplanFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
@@ -210,7 +208,6 @@ Loginner.registerLoginPrompt( "BDA Layout", {
 			$( this ).addClass( "hidden" );
 			// Bring back the button
 			$bdaLayoutFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
@@ -236,7 +233,6 @@ Loginner.registerLoginPrompt( "Flexi-plan", {
 			$( this ).addClass( "hidden" );
 			// Bring back the button
 			$flexiplanFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
@@ -289,7 +285,6 @@ Loginner.registerLoginPrompt( "XLarge 4BHK", {
 
 			// Bring back the button
 			$xLarge4BHKFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
@@ -366,7 +361,6 @@ Loginner.registerLoginPrompt( "Amenities", {
 			$( this ).addClass( "hidden" );
 			// Bring back the button
 			$amenitiesFormSite.find( ".js_user_required" )
-				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}

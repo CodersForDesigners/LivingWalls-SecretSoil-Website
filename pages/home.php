@@ -98,7 +98,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Large 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> Large 4BHK</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<div class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</div>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -348,7 +348,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Masterplan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 7 more secrets behind the</span> Masterplan</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -571,7 +571,7 @@
 			</div>
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="BDA Layout">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 10 more reasons to</span> buy a house vs build one</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -712,7 +712,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Flexi-plan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 14 more</span>  Flexi-Plan <span class="text-light">secrets</span></div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -874,7 +874,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="XLarge 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> XLarge 4BHK</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
@@ -1111,7 +1111,7 @@
 
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Amenities">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
-				<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
