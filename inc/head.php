@@ -202,12 +202,12 @@ ARB
 , 'fonts_and_icons' ) ?>
 
 
-	<!--
-	*
-	*	Arbitrary Code ( Bottom of Head )
-	*
-	- -->
-	<?php echo getContent( '', 'arbitrary_code_head_bottom' ) ?>
+	<?php
+		/*
+		 * Arbitrary Code ( Bottom of Head )
+		 */
+		echo getContent( '', 'arbitrary_code_head_bottom' );
+	?>
 
 
 </head>
