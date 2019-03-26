@@ -56,7 +56,7 @@
 			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
 			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
 			<a class="link label text-uppercase" href="#amenities">Amenities</a>
-			<a class="link label text-uppercase" href="#construction">Updates</a>
+			<!-- <a class="link label text-uppercase" href="#construction">Updates</a> -->
 			<a class="link label text-uppercase" href="#contact">Contact Us</a>
 		</div>
 	</div>
@@ -1770,18 +1770,18 @@
 
 				<div class="row text-off-green">
 					<div class="columns small-6">
-						<a class="h6 block" href="https://google.com">Large 4BHK </a>
-						<a class="h6 block" href="https://google.com">Masterplan</a>
-						<a class="h6 block" href="https://google.com">Flexi-Plan</a>
-						<a class="h6 block" href="https://google.com">XLarge 4BHK</a>
-						<a class="h6 block" href="https://google.com">Amenities</a>
+						<a class="h6 block" href="#large-4bhk">Large 4BHK </a>
+						<a class="h6 block" href="#masterplan">Masterplan</a>
+						<a class="h6 block" href="#flexiplan">Flexi-Plan</a>
+						<a class="h6 block" href="#xlarge-4bhk">XLarge 4BHK</a>
+						<a class="h6 block" href="#amenities">Amenities</a>
 					</div>
 					<div class="columns small-6">
-						<a class="h6 block" href="https://google.com">Infrastructure</a>
-						<a class="h6 block" href="https://google.com">Updates</a>
-						<a class="h6 block" href="https://google.com">Contact us</a>
-						<a class="h6 block" href="https://google.com">Location</a>
-						<a class="h6 block" href="https://google.com">Pricing</a>
+						<!-- <a class="h6 block" href="#infrastructure">Infrastructure</a> -->
+						<a class="h6 block" href="#construction">Updates</a>
+						<a class="h6 block" href="#contact">Contact us</a>
+						<a class="h6 block" href="#location">Location</a>
+						<a class="h6 block" href="pricing">Pricing</a>
 					</div>
 				</div>
 			</div>
