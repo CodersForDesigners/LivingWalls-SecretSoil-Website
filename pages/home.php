@@ -118,7 +118,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -207,7 +207,7 @@
 								</div>
 								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 							</form>
 							<form class="otp-form loginner_form_otp hidden">
 								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -232,7 +232,7 @@
 								</div>
 								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 							</form>
 							<form class="otp-form loginner_form_otp hidden">
 								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -372,7 +372,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -595,7 +595,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -736,7 +736,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -797,7 +797,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -898,7 +898,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -987,7 +987,7 @@
 								</div>
 								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 							</form>
 							<form class="otp-form loginner_form_otp hidden">
 								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -1012,7 +1012,7 @@
 								</div>
 								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 							</form>
 							<form class="otp-form loginner_form_otp hidden">
 								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -1139,7 +1139,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
@@ -1701,7 +1701,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block" type="text" name="otp" placeholder="OTP">
@@ -1726,7 +1726,7 @@
 					</div>
 					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number" class="js_phone_number">
 					<button class="submit button button-large fill-green" type="submit">→</button>
-					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Please provide your phone number.</div>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
 				</form>
 				<form class="otp-form loginner_form_otp hidden">
 					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
