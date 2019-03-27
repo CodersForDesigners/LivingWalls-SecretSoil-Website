@@ -13,3 +13,7 @@
 @media( min-width: 1480px ) { .amenities-section.section-bg { padding-bottom: 1040px; } }
 @media( min-width: 1600px ) { .amenities-section.section-bg { padding-bottom: 1260px; } }
 @media( min-width: 1940px ) { .amenities-section.section-bg { padding-bottom: 66%; } }
+
+.amenities-section .secret .secret-icon {
+	transform: scale(.6);
+}

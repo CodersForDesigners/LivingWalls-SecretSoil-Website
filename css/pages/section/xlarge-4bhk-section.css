@@ -13,3 +13,13 @@
 @media( min-width: 1480px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 1120px; } }
 @media( min-width: 1600px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 1360px; } }
 @media( min-width: 1940px ) { .xlarge-4bhk-section.section-bg { padding-bottom: 68%; } }
+
+.xlarge-4bhk-section .pricing {
+	padding-bottom: var(--space-half);
+}
+
+@media( min-width: 1040px ) {
+	.xlarge-4bhk-section .pricing {
+		padding-bottom: 0;
+	}
+}

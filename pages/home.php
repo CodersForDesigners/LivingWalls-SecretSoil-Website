@@ -41,10 +41,10 @@
 				</div>
 				<div class="link-tray js_primary_nav_link_tray"><!-- To Toggle Reveal: Add show class for small & medium Breakpoints -->
 					<div class="close-link-tray js_close_nav_link_tray"></div>
-					<a class="link h5 text-uppercase" href="pricing">Real-time Pricing</a>
+					<a class="link h5 text-uppercase" href="#contact">Contact us</a>
 					<a class="link h5 text-uppercase" href="#location">Location</a>
 					<a class="link h5 text-uppercase" href="tel:+919663396979">Call 9663396979</a>
-					<a class="link h5 text-uppercase fill-green" href="#contact">Enquire Now</a>
+					<a class="link h5 text-uppercase fill-green" href="pricing">Real-time Pricing</a>
 				</div>
 			</div>
 		</div>
@@ -96,7 +96,7 @@
 				<div class="h3">Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Large 4BHK">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Large 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> Large 4BHK</div>
 				<div class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</div>
 				<!-- Phone Trap -->
@@ -135,7 +135,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 02</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
 						<div class="row">
@@ -147,7 +147,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 03</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Ground and 2 Floors</div>
 						<div class="row">
@@ -180,9 +180,9 @@
 			<div class="columns small-12">
 				<div class="pricing">
 					<div class="row">
-						<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
-							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
-							<div class="h6">Real-time pricing & Availability</div>
+						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
+							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
@@ -209,7 +209,7 @@
 							</form>
 							<!-- END: Phone Trap -->
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK with Private Garden">
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="Large 4BHK with Private Garden">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
@@ -279,7 +279,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 08</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">14 Floor Plan Configurations</div>
 						<div class="row">
@@ -293,13 +293,13 @@
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 09</div>
-						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Staff Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
 								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Servants Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
+								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Staff Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
 							</div>
 						</div>
 					</div>
@@ -346,7 +346,7 @@
 				<div class="h3">Minimised Concrete Footprint</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Masterplan">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Masterplan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 7 more secrets behind the</span> Masterplan</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -373,7 +373,7 @@
 
 			<div class="columns small-12 large-8">
 				<div class="row">
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 21</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">2 years of design before execution</div>
 						<div class="row">
@@ -411,7 +411,7 @@
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 24</div>
-						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">1.2 acre wooden central park</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">1.2 acre wooded central park</div>
 						<div class="row">
 							<div class="columns small-2">
 								<div class="secret-icon float-left"><img src="media/icons/icon-woodencentralpark.svg<?php echo $ver ?>"></div>
@@ -485,7 +485,7 @@
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4">
 				<div class="row">
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 25</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">More than 50 elderly trees</div>
 						<div class="row">
@@ -569,7 +569,7 @@
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 strong text-light">The charm of a BDA Layout House without the hassles</div>
 			</div>
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="BDA Layout">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="BDA Layout">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 10 more reasons to</span> buy a house vs build one</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -631,7 +631,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<!-- <div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 38</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Electrified boundary wall</div>
 						<div class="row">
@@ -642,8 +642,8 @@
 								<div class="secret-description h6 text-light opacity-50">An electrified fence along the compound wall is an added layer of protection to the community.</div>
 							</div>
 						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					</div> -->
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 39</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Quiet streets with few neighbours</div>
 						<div class="row">
@@ -710,7 +710,7 @@
 				<div class="h1 strong text-light">Flexi-plan</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Flexi-plan">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Flexi-plan">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 14 more</span>  Flexi-Plan <span class="text-light">secrets</span></div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -812,7 +812,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-addawalkindressing.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">You can opt to swap your Servants Quarters for a luxurious Walk-in closet.</div>
+								<div class="secret-description h6 text-light opacity-50">You can opt to swap your Staff Quarters for a luxurious Walk-in closet.</div>
 							</div>
 						</div>
 					</div>
@@ -872,7 +872,7 @@
 				<div class="h3">Spacious Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="XLarge 4BHK">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="XLarge 4BHK">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> XLarge 4BHK</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -923,7 +923,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 02</div>
 						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">A Standalone 4BHK House</div>
 						<div class="row">
@@ -956,11 +956,11 @@
 			<div class="columns small-12">
 				<div class="pricing">
 					<div class="row">
-						<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
-							<div class="h3 space-quarter-bottom">Find out Secret price breakdown</div>
-							<div class="h6">Real-time pricing & Availability</div>
+						<div class="columns small-10 small-offset-1 medium-6 medium-offset-3 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right">
+							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
+							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="XLarge 4BHK House">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.5Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
@@ -1057,13 +1057,13 @@
 					</div>
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 09</div>
-						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Servants Quarters</div>
+						<div class="secret-title h4 text-light text-auto-align-medium space-quarter-bottom">Dedicated Staff Quarters</div>
 						<div class="row">
 							<div class="columns small-2">
 								<div class="secret-icon float-left"><img src="media/icons/icon-servantsquarters.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Servants Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
+								<div class="secret-description h6 text-light opacity-50">Every house at Secret Soil has dedicated Staff Quarters. We know how invaluable and irreplaceable our housekeepers are to the family.</div>
 							</div>
 						</div>
 					</div>
@@ -1109,7 +1109,7 @@
 				<div class="h1 strong text-light space-quarter-bottom">Amenities</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Amenities">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Amenities">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -1177,7 +1177,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+					<!-- <div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2 inline-middle">
 								<div class="secret-icon float-left"><img src="media/icons/icon-steamsaunaspa.svg<?php echo $ver ?>"></div>
@@ -1186,7 +1186,7 @@
 								<div class="secret-description h5 text-light">Steam, Sauna & Spa</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2 inline-middle">
