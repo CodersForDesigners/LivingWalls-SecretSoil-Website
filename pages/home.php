@@ -16,7 +16,7 @@
 
 <!-- SEO Blurb Section -->
 <section class="seo-blurb-section visuallyhidden">
-<?php echo getContent("", "seo_blurb", $pageId); ?>
+	<?php echo getContent( '', 'seo_blurb', 'home' ); ?>
 </section>
 <!-- END: SEO-Blurb Section -->
 
