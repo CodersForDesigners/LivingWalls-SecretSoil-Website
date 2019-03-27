@@ -14,6 +14,13 @@
 <!-- Media Version <img src="media/logo.svg<?php //echo $ver ?>"> -->
 
 
+<!-- SEO Blurb Section -->
+<section class="seo-blurb-section visuallyhidden">
+<?php echo getContent("","seo_blurb"); ?>
+</section>
+<!-- END: SEO-Blurb Section -->
+
+
 <!-- Sample Section -->
 <section class="sample-section">
 	<div class="row">
