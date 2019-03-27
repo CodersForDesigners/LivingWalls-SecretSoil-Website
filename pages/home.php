@@ -1816,7 +1816,7 @@
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12">
-				<div class="h4 text-uppercase space-half-bottom"><span class="strong">RERA NUMBER :</span> PRM/KA/RERA/1251/446/PR/ 180728/001961</div>
+				<div class="h4 text-uppercase space-half-bottom text-off-green"><span class="strong">RERA NUMBER :</span> PRM/KA/RERA/1251/446/PR/ 180728/001961</div>
 				<div class="h6 strong text-uppercase space-quarter-bottom">Disclaimer</div>
 				<div class="small text-justify">
 					By using or accessing the Website you agree with the Disclaimer without any qualification or limitation. The Company reserves the right to terminate, revoke, modify, alter, add and delete any one or more of the terms and conditions of the website. The Company shall be under no obligation to notify the visitor of the amendment to the terms and conditions and the visitor shall be bound by such amended terms and conditions.<br><br>
