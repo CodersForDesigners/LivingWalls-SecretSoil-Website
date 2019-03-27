@@ -563,6 +563,7 @@ select { cursor: pointer; }
  */
 
 .section-bg {
+	position: relative;
 	color: #888;
 	background-repeat: no-repeat, repeat;
 	background-size: 400px, 1px;
@@ -580,6 +581,29 @@ select { cursor: pointer; }
 @media( min-width: 1600px ) { .section-bg { background-size: 1940px, 1px; } }
 @media( min-width: 1940px ) { .section-bg { background-size: 100%, 1px; } }
 
+
+.section-bg .section-bg-caption {
+	position: absolute;
+	z-index: 2;
+	padding: var(--space-quarter);
+	left: 50%;
+	transform: translateX(-50%);
+	letter-spacing: .05rem;
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.1), 0 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.section-bg.top .section-bg-caption {
+	top: var(--space-one);
+}
+.section-bg.bottom .section-bg-caption {
+	bottom: var(--space-one);
+}
+
+@media( min-width: 1040px ) {
+	.section-bg .section-bg-caption {
+		padding: calc(var(--space-quarter)/2);
+	}
+}
 
 
 

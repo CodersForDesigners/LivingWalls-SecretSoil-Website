@@ -307,6 +307,10 @@
 			</div>
 		</div>
 	</div>
+	<div class="section-bg-caption text-center fill-dark">
+		<div class="h5 strong text-off-green">Large 4BHK House</div>
+		<div class="label strong">2984<span class="opacity-50">SFT</span> & 2988<span class="opacity-50">SFT</span></div>
+	</div>
 </section>
 <!-- END: Large 4BHK Section -->
 
@@ -1071,6 +1075,10 @@
 			</div>
 		</div>
 	</div>
+	<div class="section-bg-caption text-center fill-dark">
+		<div class="h5 strong text-off-green">XLarge 4BHK House</div>
+		<div class="label strong">3336<span class="opacity-50">SFT</span> & 3451<span class="opacity-50">SFT</span></div>
+	</div>
 </section>
 <!-- END: XLarge 4BHK Section -->
 
@@ -1325,6 +1333,10 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="section-bg-caption text-center fill-dark">
+		<div class="h5 strong text-off-green">The Clubhouse</div>
+		<div class="label strong">10,000<span class="opacity-50">SFT</span></div>
 	</div>
 </section>
 <!-- END: Amenities Section -->
