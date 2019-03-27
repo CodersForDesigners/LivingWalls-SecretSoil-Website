@@ -22,12 +22,12 @@
 
 @media( min-width: 400px )  {
 	.intro-section .intro {
-		transform: translateY(50px);
+		transform: translateY(70px);
 	}
 }
 @media( min-width: 640px )  {
 	.intro-section .intro {
-		transform: translateY(60px);
+		transform: translateY(80px);
 	}
 }
 @media( min-width: 800px )  {
@@ -47,7 +47,7 @@
 }
 @media( min-width: 1480px ) {
 	.intro-section .intro {
-		transform: translateY(100px);
+		transform: translateY(120px);
 	}
 }
 @media( min-width: 1600px ) {
