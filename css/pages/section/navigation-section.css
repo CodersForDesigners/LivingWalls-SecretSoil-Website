@@ -159,6 +159,7 @@
 	z-index: 2;
 
 	background-color: rgba(0,0,0,0.85);
+	padding-bottom: env(safe-area-inset-bottom);
 }
 
 .navigation-section .menu-2 .link-tray {

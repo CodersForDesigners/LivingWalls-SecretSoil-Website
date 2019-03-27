@@ -1479,7 +1479,7 @@
 							</div>
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Deacthlon Hennur</div>
+								<div class="secret-title h5 space-quarter-bottom">Decathlon Hennur</div>
 							</div>
 						</div>
 					</div>
