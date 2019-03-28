@@ -1541,6 +1541,17 @@
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
 							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Specialist Hospital</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
 								<div class="h3 secret-icon float-left text-center">22<span class="h4"><br>min</span></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
@@ -1557,6 +1568,17 @@
 							<div class="columns small-9 small-offset-1">
 								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
 								<div class="secret-title h5 space-quarter-bottom">Karle Town Center SEZ</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">26<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">13km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Columbia Asia Hospital</div>
 							</div>
 						</div>
 					</div>
