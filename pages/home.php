@@ -1388,7 +1388,7 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
+<section class="construction-section fill-off-green space-half-top-bottom hidden" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
