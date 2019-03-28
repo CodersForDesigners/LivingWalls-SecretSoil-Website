@@ -488,7 +488,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 					}
 				} )
 			// Register a conversion
-			registerConversion( context );
+			// registerConversion( context );
 			// Close the login prompt
 			// closeLoginPrompt( loginPrompt );
 		} )
