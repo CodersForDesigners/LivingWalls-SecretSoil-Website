@@ -7,6 +7,9 @@ RewriteEngine On
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ^/?pricing(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/pricing$1 [P]
 
+# Tracking and Analytics
+RewriteRule ^/?trac/ pages/tracking.php [QSA,L,NC]
+
 RewriteRule ^/?$ pages/home.php [QSA,L,NC]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
