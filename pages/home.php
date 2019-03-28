@@ -103,7 +103,7 @@
 				<div class="h3">Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Large 4BHK">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Large 4BHK" data-context="large-4bhk-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> Large 4BHK</div>
 				<div class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</div>
 				<!-- Phone Trap -->
@@ -191,7 +191,7 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House" data-context="large-4bhk-house-details">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.1Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
@@ -216,7 +216,7 @@
 							</form>
 							<!-- END: Phone Trap -->
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="Large 4BHK with Private Garden">
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden">
 							<div class="h3 strong space-quarter-bottom">Large 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
@@ -357,7 +357,7 @@
 				<div class="h3">Minimised Concrete Footprint</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Masterplan">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Masterplan" data-context="masterplan-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 7 more secrets behind the</span> Masterplan</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -580,7 +580,7 @@
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 strong text-light">The charm of a BDA Layout House without the hassles</div>
 			</div>
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="BDA Layout">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="BDA Layout" data-context="bda-layout-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 10 more reasons to</span> buy a house vs build one</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -721,7 +721,7 @@
 				<div class="h1 strong text-light">Flexi-plan</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Flexi-plan">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Flexi-plan" data-context="flexi-plan-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 14 more</span>  Flexi-Plan <span class="text-light">secrets</span></div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -782,7 +782,7 @@
 	</div>
 	<div class="pricing-engine row fill-green">
 		<div class="container">
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right" data-loginner="Customise House">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-left-right" data-loginner="Customise House" data-context="flexi-plan-customise-now">
 				<div class="h3 space-quarter-bottom">Customise your house online</div>
 				<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Customise Now</a>
 				<!-- Phone Trap -->
@@ -883,7 +883,7 @@
 				<div class="h3">Spacious Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="XLarge 4BHK">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="XLarge 4BHK" data-context="xlarge-4bhk-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> XLarge 4BHK</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -971,7 +971,7 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="XLarge 4BHK House">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="XLarge 4BHK House" data-context="xlarge-4bhk-house-details">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.5Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
@@ -996,7 +996,7 @@
 							</form>
 							<!-- END: Phone Trap -->
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House with Private Garden">
+						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden">
 							<div class="h3 strong space-quarter-bottom">XLarge 4BHK + Private Garden</div>
 							<div class="h4 space-quarter-bottom">Basic Price 2.8Cr</div>
 							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
@@ -1124,7 +1124,7 @@
 				<div class="h1 strong text-light space-quarter-bottom">Amenities</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Amenities">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Amenities" data-context="amenities-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -1699,7 +1699,7 @@
 				<div class="h4 text-off-green">Or Call</div>
 				<a class="h3 call-phone" href="tel:+919663396979"><img src="media/glyph/32-phone.svg<?php echo $ver ?>">96633 96979</a>
 			</div>
-			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Enquiry">
+			<div class="contact columns small-12 medium-6 large-4 fill-dark text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Enquiry" data-context="contact-form">
 				<form class="js_enquiry_form js_user_required">
 					<label class="label block space-quarter-bottom">
 						<span class="visuallyhidden">Full Name</span>
@@ -1732,7 +1732,7 @@
 				</form>
 				<!-- END: Phone Trap -->
 			</div>
-			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Contact">
+			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Contact" data-context="contact-download-price">
 				<div class="h3 strong space-quarter-bottom">Pick your house online now.</div>
 				<div class="h5 strong space-half-bottom">Use our Real-time Pricing Engine. </div>
 				<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Prices</a>
