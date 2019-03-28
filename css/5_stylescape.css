@@ -653,6 +653,8 @@ select { cursor: pointer; }
 
 
 
+
+
 /*
  * Text Blur
  */
@@ -660,3 +662,56 @@ select { cursor: pointer; }
 .text-blur {
 	filter: blur(5px);
 }
+
+
+
+
+
+/*
+ * Scroll Controls
+ */
+ 
+.scroll-controls {
+	position: absolute;
+	z-index: 2;
+	top: var(--space-one);
+	left: 0;
+	width: 100%;
+	height: auto;
+	pointer-events: none;
+}
+
+.scroll-button {
+	cursor: pointer;
+	display: inline-block;
+	line-height: var(--space-one);
+	text-align: center;
+	width: var(--space-one);
+	background-color: var(--green);
+	border-radius: var(--space-one);
+	outline: none !important;
+	filter: brightness(1.15);
+	pointer-events: auto;
+}
+
+.scroll-button:hover,
+.scroll-button:focus { filter: brightness(1.25); }
+
+
+
+.scroll-button * { pointer-events: none; }
+
+.scroll-button img {
+	vertical-align: middle;
+	margin-top: calc(var(--space-one) * -0.05);
+}
+
+.scroll-controls .scroll-left {
+	transform: translateX(-50%);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 6px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.scroll-controls .scroll-right {
+	transform: translateX(50%) rotate(180deg);
+	box-shadow: 0 -1px 62px rgba(0, 0, 0, 0.2), 0 -1px 6px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(255, 255, 255, 0.2);
+}
+

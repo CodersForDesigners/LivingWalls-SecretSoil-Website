@@ -442,7 +442,7 @@
 	</div>
 
 	<!-- Comparison Table -->
-	<div class="row">
+	<div class="comparison-table row">
 		<div class="table">
 			<div class="table-data inline-top fill-dark">
 				<div class="table-row space-half-left-right table-head h3 text-blur">
@@ -489,12 +489,24 @@
 				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
 			</div>
 		</div>
+		<div class="scroll-controls hide-for-tablet">
+			<div class="row">
+				<div class="container">
+					<div class="columns small-6">
+						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+					</div>
+					<div class="columns small-6 text-right">
+						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- END: Comparison Table -->
 
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4">
+			<div class="columns small-12 large-8 large-offset-4 space-quarter-top">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right hide-for-mobile">
 						<div class="secret-number label strong text-uppercase text-auto-align-medium"><span class="opacity-50">Secret</span> 25</div>
@@ -1376,7 +1388,7 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom hidden" id="construction" data-section="Construction">
+<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
@@ -1408,26 +1420,40 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<!-- Gallery -->
-		<div class="gallery">
-			<div class="image">
-				<img src="https://via.placeholder.com/1920x1080">
+	<div class="construction-gallery">
+		<div class="row">
+			<!-- Gallery -->
+			<div class="gallery">
+				<div class="image">
+					<img src="https://via.placeholder.com/1920x1080">
+				</div>
+				<div class="image">
+					<img src="https://via.placeholder.com/1920x1920">
+				</div>
+				<div class="image">
+					<img src="https://via.placeholder.com/1920x1080">
+				</div>
+				<div class="image">
+					<img src="https://via.placeholder.com/1920x1920">
+				</div>
+				<div class="image">
+					<img src="https://via.placeholder.com/1920x1080">
+				</div>
 			</div>
-			<div class="image">
-				<img src="https://via.placeholder.com/1920x1920">
-			</div>
-			<div class="image">
-				<img src="https://via.placeholder.com/1920x1080">
-			</div>
-			<div class="image">
-				<img src="https://via.placeholder.com/1920x1920">
-			</div>
-			<div class="image">
-				<img src="https://via.placeholder.com/1920x1080">
+			<!-- End: Gallery -->
+		</div>
+		<div class="scroll-controls hide-for-tablet">
+			<div class="row">
+				<div class="container">
+					<div class="columns small-6">
+						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+					</div>
+					<div class="columns small-6 text-right">
+						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- End: Gallery -->
 	</div>
 </section>
 <!-- END: Construction Section -->

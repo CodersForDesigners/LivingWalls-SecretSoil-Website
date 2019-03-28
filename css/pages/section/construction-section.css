@@ -25,6 +25,10 @@
 
 /* -- Gallery -- */
 
+.construction-section .construction-gallery {
+	position: relative;
+}
+
 .construction-section .gallery {
 	white-space: nowrap;
 	overflow-x: scroll;
