@@ -1,18 +1,27 @@
 /*
- * Ad Section 
+ * Ad Section
  */
 
 .ad-section {}
 
-.ad-section .thumbnail-hero { font-size: 0; }
+.ad-section .thumbnail-hero {
+	position: relative;
+	font-size: 0;
+}
 .ad-section .character { font-size: 0; }
 .ad-section .thumbnail-strip { font-size: 0; }
 .ad-section .thumbnail-strip .frame { font-size: 0; }
+.ad-section .fade-in { opacity: 1 !important; }	/* for the video cover images */
 
 .ad-section .watch-ad-link {
 	line-height: 2;
 	display: inline-block;
 	cursor: pointer;
+	border-bottom: 1px solid transparent;
+	transition: border-color 0.2s ease-out;
+}
+.ad-section .watch-ad-link:hover {
+	border-bottom: 1px solid green;
 }
 
 .ad-section .watch-ad-link img {
@@ -24,12 +33,45 @@
 	pointer-events: none;
 }
 
+.ad-section .video-cover {
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+	background-image: url( "media/hero/ad-1.png?v=20181126" );
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+	z-index: 2;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.3s 0.5s ease-out;
+}
+.ad-section .video-cover.fade-in {
+	transition: opacity 0.4s ease-out;
+}
+.ad-section .iframe-video-yt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0.01;	/* if fully transparent, Chrome doesn't capture clicks */
+	transition: opacity 0.3s 0.1s ease-out;
+}
+.ad-section .iframe-video-yt.fade-in {
+	transition: opacity 0.3s ease-out;
+}
+
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
 	.ad-section .watch-ad-link img {
 		width: 32px;
 		margin-top: -5px;
 		margin-right: 8px;
+	}
+	.ad-section .character .block {
+		margin: var(--space-quarter) 0 0;
 	}
 }
 @media( min-width: 1480px ) {
