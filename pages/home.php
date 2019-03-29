@@ -325,7 +325,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad1-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/zV26jURU1X4?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-1.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad1-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad1-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-1.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [1] --> It's not a row house?</div>
@@ -562,7 +582,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad3-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/IfII8Om6OYc?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-3.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad3-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad3-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-3.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [3] --> 15 fully grown Jackfruit trees?</div>
@@ -702,7 +742,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad4-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/5b7ci76Tjgs?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-4.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad4-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad4-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-4.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [4] --> It’s like an independent house?</div>
@@ -862,7 +922,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad6-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/_eywpSVgHoU?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-6.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad6-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad6-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-6.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [6] --> It has a hidden utility terrace?</div>
@@ -1105,7 +1185,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad2-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZQxYyOwxwP8?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-2.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad2-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad2-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-2.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [2] --> You can walk around this house?</div>
@@ -1364,7 +1464,27 @@
 <!-- Ad Section -->
 <section class="ad-section">
 	<div class="row fill-dark space-half-top-bottom">
-		<div class="container fill-light js_modal_trigger" tabindex="-1" data-mod-id="ad5-video" style="background-color: #D9E0E3">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/PQeO5JmnD7g?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [5] --> So a gated community is safer?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-5.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad5-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad5-video" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-5.png<?php echo $ver ?>"></div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
 				<div class="h3 strong space-quarter-bottom"><!-- [5] --> So a gated community is safer?</div>

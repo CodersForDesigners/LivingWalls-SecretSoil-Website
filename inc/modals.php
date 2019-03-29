@@ -8,7 +8,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0" data-ga-video-src="Sample - Video">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -28,7 +28,7 @@
 				<div class="row">
 					<!-- video embed -->
 					<div class="columns small-12">
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=0&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0" data-ga-video-src="Sample - Video">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -49,7 +49,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/zV26jURU1X4?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/zV26jURU1X4?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -64,7 +64,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/ZQxYyOwxwP8?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/ZQxYyOwxwP8?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -79,7 +79,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/IfII8Om6OYc?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/IfII8Om6OYc?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -94,7 +94,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/5b7ci76Tjgs?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/5b7ci76Tjgs?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -109,7 +109,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/PQeO5JmnD7g?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/PQeO5JmnD7g?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -124,7 +124,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/_eywpSVgHoU?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/_eywpSVgHoU?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -139,7 +139,7 @@
 				<div class="row">
 					<div class="columns small-12">
 						<!-- video embed -->
-						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0">
+						<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?enablejsapi=1&html5=1&controls=1&disablekb=0&fs=1&loop=0&modestbranding=1&playsinline=1&rel=0&showinfo=0">
 							<div class="youtube_load"></div>
 							<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 						</div>
