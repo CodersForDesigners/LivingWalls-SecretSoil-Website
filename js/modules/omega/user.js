@@ -702,6 +702,30 @@ function loginUser ( user ) {
 
 /*
  *
+ * Handle error / exception response helper
+ *
+ */
+function getErrorResponse ( jqXHR, textStatus, e ) {
+	var statusCode = -1;
+	var message;
+	if ( jqXHR.responseJSON ) {
+		statusCode = jqXHR.responseJSON.statusCode;
+		message = jqXHR.responseJSON.message;
+	}
+	else if ( typeof e == "object" ) {
+		message = e.stack;
+	}
+	else {
+		message = jqXHR.responseText;
+	}
+	return {
+		code: statusCode,
+		message: message
+	};
+}
+
+/*
+ *
  * Register a conversion
  *
  */
@@ -739,7 +763,7 @@ function addNoteToUser ( title, content ) {
 
 	var user = getCookieData( "omega-user" );
 
-	if ( ! user )
+	if ( ! ( user && user.uid ) )
 		return Promise.reject( {
 			code: -1,
 			message: "No user found to associate the note with."
