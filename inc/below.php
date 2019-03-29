@@ -44,7 +44,11 @@
 	<script type="text/javascript">
 
 		$( function () {
-			__OMEGA.utils.addNoteToUser( "Omega Event Log", "Customer VIEWED the \"Secret Soil\" project webpage." )
+			__OMEGA.utils.addNoteToUser( "Omega Event Log",
+				"Customer VIEWED the \"Secret Soil\" project webpage."
+			).catch( function ( e ) {
+				console.log( e.message )
+			} )
 		} );
 
 	</script>
