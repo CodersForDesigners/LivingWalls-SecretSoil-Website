@@ -442,9 +442,9 @@
 	</div>
 
 	<!-- Comparison Table -->
-	<div class="comparison-table row">
-		<div class="table">
-			<div class="table-data inline-top fill-dark">
+	<div class="comparison-table row js_carousel_container">
+		<div class="table js_carousel_content">
+			<div class="table-data inline-top fill-dark js_carousel_item">
 				<div class="table-row space-half-left-right table-head h3 text-blur">
 					Assetz <br>
 					Soul & Soil
@@ -455,7 +455,7 @@
 				<div class="table-row space-half-left-right h5">3 & 4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Row Houses</div>
 			</div>
-			<div class="table-data inline-top fill-green">
+			<div class="table-data inline-top fill-green js_carousel_item">
 				<div class="table-row space-half-left-right table-head h3">
 					LW <br>
 					Secret Soil
@@ -466,7 +466,7 @@
 				<div class="table-row space-half-left-right h5">4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
 			</div>
-			<div class="table-data inline-top fill-off-dark">
+			<div class="table-data inline-top fill-off-dark js_carousel_item">
 				<div class="table-row space-half-left-right table-head h3 text-blur">
 					GoyalCo <br>
 					Alanoville
@@ -477,7 +477,7 @@
 				<div class="table-row space-half-left-right h5">4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Row Houses</div>
 			</div>
-			<div class="table-data inline-top fill-dark">
+			<div class="table-data inline-top fill-dark js_carousel_item">
 				<div class="table-row space-half-left-right table-head h3 text-blur">
 					MIMS <br>
 					Northbrooks
@@ -493,10 +493,10 @@
 			<div class="row">
 				<div class="container">
 					<div class="columns small-6">
-						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+						<div class="scroll-button scroll-left unselectable js_pager" data-dir="left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
 					</div>
 					<div class="columns small-6 text-right">
-						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+						<div class="scroll-button scroll-right unselectable js_pager" data-dir="right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
 					</div>
 				</div>
 			</div>
@@ -1420,23 +1420,23 @@
 		</div>
 	</div>
 
-	<div class="construction-gallery">
+	<div class="construction-gallery js_carousel_container">
 		<div class="row">
 			<!-- Gallery -->
-			<div class="gallery">
-				<div class="image">
+			<div class="gallery js_carousel_content">
+				<div class="image js_carousel_item">
 					<img src="https://via.placeholder.com/1920x1080">
 				</div>
-				<div class="image">
+				<div class="image js_carousel_item">
 					<img src="https://via.placeholder.com/1920x1920">
 				</div>
-				<div class="image">
+				<div class="image js_carousel_item">
 					<img src="https://via.placeholder.com/1920x1080">
 				</div>
-				<div class="image">
+				<div class="image js_carousel_item">
 					<img src="https://via.placeholder.com/1920x1920">
 				</div>
-				<div class="image">
+				<div class="image js_carousel_item">
 					<img src="https://via.placeholder.com/1920x1080">
 				</div>
 			</div>
@@ -1446,10 +1446,10 @@
 			<div class="row">
 				<div class="container">
 					<div class="columns small-6">
-						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+						<div class="scroll-button scroll-left unselectable js_pager" data-dir="left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
 					</div>
 					<div class="columns small-6 text-right">
-						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
+						<div class="scroll-button scroll-right unselectable js_pager" data-dir="right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>"></div>
 					</div>
 				</div>
 			</div>

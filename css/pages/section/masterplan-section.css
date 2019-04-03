@@ -1,5 +1,5 @@
 /*
- * Masterplan Section 
+ * Masterplan Section
  */
 
 
@@ -48,6 +48,9 @@
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
+	.masterplan-section .table {
+		overflow-x: hidden;
+	}
 	.masterplan-section .table .table-data {
 		width: calc( var(--space-one) * 4 );
 	}

@@ -143,6 +143,18 @@
 
 
 /*
+ * Selection
+ */
+/* Prevent element from being selectable */
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+/*
  * Hide visually and from screen readers:
  */
 

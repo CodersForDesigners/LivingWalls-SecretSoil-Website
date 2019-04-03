@@ -1,5 +1,5 @@
 /*
- * Contact Section 
+ * Contact Section
  */
 
 .construction-section {}
@@ -50,4 +50,10 @@
 	height: calc(var(--space-one)*4);
 
 	box-shadow: 0 0 1px 2px rgba(0, 50, 50, 0.03), 0 1px 1px 2px rgba(0, 50, 50, 0.03), 0 -1px 1px 2px rgba(0, 50, 50, 0.03), 0 0 1px 5px rgba(0, 50, 50, 0.05);
+}
+
+@media( min-width: 1040px ) {
+	.construction-section .gallery {
+		overflow-x: hidden;
+	}
 }

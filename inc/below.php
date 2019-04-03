@@ -36,6 +36,7 @@
 	<script type="text/javascript" src="js/modules/phone-forms.js"></script>
 	<!-- <script type="text/javascript" src="js/modules/disclaimer.js"></script> -->
 	<script type="text/javascript" src="js/modules/navigation.js"></script>
+	<script type="text/javascript" src="js/modules/carousel.js"></script>
 	<script type="text/javascript" src="js/forms.js"></script>
 
 	<!-- Other Modules -->
