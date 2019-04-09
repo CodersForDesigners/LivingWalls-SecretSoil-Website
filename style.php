@@ -8,6 +8,7 @@
 
 <!-- Modules -->
 <link rel="stylesheet" type="text/css" href="css/modules/header.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/modules/chat.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/video-embed.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/modal-box.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/modules/phone-forms.css<?php echo $ver ?>">

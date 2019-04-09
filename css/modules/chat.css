@@ -1,0 +1,27 @@
+
+/*
+ * `.livprop_overlay` shows up when the "styled" version of the widget
+ * 	gets loaded.
+ * `#ls_theLayer` shows up when the "un-styled" version of the widget
+ * 	gets loaded.
+ */
+.livprop_overlay, #ls_theLayer#ls_theLayer {
+	display: none !important;
+	z-index: 0;
+}
+@media ( min-width: 640px ) {
+	.livprop_overlay, #ls_theLayer#ls_theLayer {
+		display: block !important;
+		bottom: 50px !important;
+	}
+}
+@media ( min-width: 1040px ) {
+	.livprop_overlay, #ls_theLayer#ls_theLayer {
+		bottom: 41px !important;
+	}
+}
+@media ( min-width: 1480px ) {
+	.livprop_overlay, #ls_theLayer#ls_theLayer {
+		bottom: 60px !important;
+	}
+}
