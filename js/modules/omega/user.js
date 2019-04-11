@@ -193,6 +193,7 @@ function getUser ( identifyingAttribute, options ) {
 	} );
 
 }
+__OMEGA.utils.getUser = getUser;
 
 /*
  *
@@ -792,6 +793,7 @@ function loginUser ( user ) {
 	var cookie = user.uid;
 	__OMEGA.utils.setCookie( cookieName, cookie, 90 * 24 * 60 * 60 );
 }
+__OMEGA.utils.loginUser = loginUser;
 
 /*
  *
