@@ -28,15 +28,15 @@
 
 	<!-- JS Modules -->
 	<!-- <script type="text/javascript" src="js/modules/device-charge.js"></script> -->
-	<script type="text/javascript" src="js/modules/video_embed.js"></script>
-	<script type="text/javascript" src="js/modules/modal_box.js"></script>
-	<script type="text/javascript" src="js/modules/omega/utils.js"></script>
-	<script type="text/javascript" src="js/modules/omega/user.js"></script>
-	<script type="text/javascript" src="js/modules/phone-forms.js"></script>
+	<script type="text/javascript" src="js/modules/video_embed.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/modules/modal_box.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/modules/omega/utils.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/modules/omega/user.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/modules/phone-forms.js<?= $ver ?>"></script>
 	<!-- <script type="text/javascript" src="js/modules/disclaimer.js"></script> -->
-	<script type="text/javascript" src="js/modules/navigation.js"></script>
-	<script type="text/javascript" src="js/modules/carousel.js"></script>
-	<script type="text/javascript" src="js/forms.js"></script>
+	<script type="text/javascript" src="js/modules/navigation.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/modules/carousel.js<?= $ver ?>"></script>
+	<script type="text/javascript" src="js/forms.js<?= $ver ?>"></script>
 
 	<!-- Other Modules -->
 	<?php // require __DIR__ . '/inc/can-user-hover.php' ?>
