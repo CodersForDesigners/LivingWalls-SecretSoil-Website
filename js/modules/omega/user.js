@@ -366,7 +366,7 @@ $( document ).on( "submit", ".loginner_form_phone", function ( event ) {
 					var project = __OMEGA.settings.Project;
 					// Register the user
 					return (
-						createUser( phoneNumber, context, project )
+						createUser( phoneNumber, project, context )
 							// Then, log in the user
 							.then( function ( user ) {
 								// Log the user in
@@ -566,7 +566,7 @@ $( document ).on( "submit", ".loginner_form_otp", function ( event ) {
 			if ( Loginner.prompts[ loginPrompt ].onOTPVerified )
 				Loginner.prompts[ loginPrompt ].onOTPVerified.call( domForm, context, phoneNumber, project );
 
-			createUser( phoneNumber, context, project )
+			createUser( phoneNumber, project, context )
 				// Then, log in the user
 				.then( function ( user ) {
 					// Log the user in
@@ -667,15 +667,15 @@ function verifyOTP ( otp ) {
  * Create a user
  *
  */
-function createUser ( phoneNumber, context, project ) {
+function createUser ( phoneNumber, project, specificContext, context ) {
 
 	// Build the payload
 	var userImplicitNamePrefix = __OMEGA.settings.userImplicitNamePrefix;
 	var assignmentRuleId = __OMEGA.settings.assignmentRuleId;
 	var requestPayload = {
 		phoneNumber: phoneNumber,
-		specificContext: context,
-		context: "Website",
+		specificContext: specificContext,
+		context: context || "Website",
 		project: project,
 		assignmentRuleId: assignmentRuleId
 	};
