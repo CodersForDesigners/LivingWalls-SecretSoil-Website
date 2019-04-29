@@ -109,6 +109,7 @@ var manageHistoryAndNavigationOnScroll = function () {
 	var currentSectionName;
 	var sectionScrollTop;
 	var $currentNavItem;
+	var lastRecordedSection;
 
 	// Get all the sections in the reverse order
 	var $sections = Array.prototype.slice.call( $( "[ data-section ]" ) )
@@ -166,11 +167,9 @@ var manageHistoryAndNavigationOnScroll = function () {
 			timeSpentOnASection += intervalToCheckForEngagement
 			if ( timeSpentOnASection >= thresholdTimeForEngagement ) {
 				currentSectionName = $sections[ _i ].data( "section" );
-				if ( ! ( history.state && history.state.section == currentSectionName ) ) {
-					history.pushState( {
-						section: currentSectionName,
-						scrollPosition: sectionScrollTop
-					}, "", "#" + currentSectionId );
+				if ( currentSectionName != lastRecordedSection ) {
+				    window.dataLayer.push( { event: "section-view", currentSectionId: currentSectionId, currentSectionName: currentSectionName } );
+				    lastRecordedSection = currentSectionName;
 				}
 			}
 		}
