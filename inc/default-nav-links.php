@@ -7,6 +7,7 @@
 
 return [
 	[ 'label' => 'Overview', 'title' => 'Overview', 'slug' => '/', 'new_tab' => false ],
+	[ 'label' => 'Brochure', 'title' => 'Request a Brochure', 'slug' => '/brochure', 'new_tab' => false ],
 	[ 'label' => 'Sample', 'title' => 'Sample', 'slug' => '/sample/', 'new_tab' => false ],
 	[ 'label' => 'One', 'title' => 'The First', 'slug' => '/one/', 'new_tab' => false ],
 	[ 'label' => 'Two', 'title' => 'The Second', 'slug' => '/two/', 'new_tab' => false ],
