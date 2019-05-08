@@ -7,27 +7,30 @@ $defaultLinks = require __DIR__ . '/default-nav-links.php';
 $links = getContent( $defaultLinks, 'pages' );
 
 /*
+ * Figure out the base URL
+ */
+$urlFragments = preg_split( '/\//', $_SERVER[ 'REQUEST_URI' ] );
+	// Pull out the first non-empty fragment
+$calculatedBaseSlug = '';
+$inferredBaseSlug = $_GET[ '_slug' ] ?? '';
+foreach ( $urlFragments as $fragment ) {
+	if ( ! empty( $fragment ) ) {
+		$calculatedBaseSlug = $fragment;
+		break;
+	}
+}
+if ( $inferredBaseSlug == $calculatedBaseSlug )
+	$baseURL = '';
+else
+	$baseURL = '/' . $calculatedBaseSlug . '/';
+
+/*
  * Get the title and URL of the website and current page
  */
 // $siteUrl = getSiteUrl();
 $siteTitle = getContent( 'Brownie As Fudge', 'site_title' );
 $pageUrl = $siteUrl . $_SERVER[ 'REQUEST_URI' ];
-$pageTitle = getCurrentPageTitle( $links, $siteTitle );
-$pageTitle = "Overview" . " | " . $siteTitle;
-
-
-/*
- * Figure out the base URL
-*/
-$urlFragments = preg_split( '/\//', $_SERVER[ 'REQUEST_URI' ] );
-$baseURL = '';
-foreach ( $urlFragments as $fragment ) {
-	if ( ! empty( $fragment ) ) {
-		$baseURL = '/' . $fragment . '/';
-		break;
-	}
-}
-
+$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 
 ?>
 
