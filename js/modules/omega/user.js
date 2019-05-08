@@ -895,6 +895,41 @@ function addNoteToUser ( title, content ) {
 }
 __OMEGA.utils.addNoteToUser = addNoteToUser;
 
+
+
+/*
+ *
+ * Make an activity for the salesperson servicing the customer
+ *
+ */
+function createActivityForCustomer ( subject, description, customerId ) {
+
+	var requestPayload = {
+		subject: subject,
+		description: description
+	};
+	var apiEndpoint = __OMEGA.settings.centralApiEndpoint;
+	var url = apiEndpoint + "/customers/" + customerId + "/activities";
+	// var url = "http://omega.capi/customers/" + customerId + "/activities";
+
+	return new Promise( function ( resolve, reject ) {
+		var ajaxRequest = $.ajax( {
+			url: url,
+			method: "POST",
+			data: requestPayload
+		} );
+		ajaxRequest.done( function ( response ) {
+			resolve( response );
+		} );
+		ajaxRequest.fail( function ( jqXHR, textStatus, e ) {
+			var errorResponse = getErrorResponse( jqXHR, textStatus, e );
+			reject( errorResponse );
+		} );
+	} );
+
+}
+__OMEGA.utils.createActivityForCustomer = createActivityForCustomer;
+
 /* -/-/-/-/- CODE ENDS HERE -/-/-/-/- */
 
 
