@@ -107,7 +107,9 @@ function isOnHTTPS () {
  */
 function getCurrentPageTitle ( $siteLinks, $baseURL, $siteTitle ) {
 
-	$currentPageSlug = $_SERVER[ 'REQUEST_URI' ];
+	$currentPageSlug = strstr( $_SERVER[ 'REQUEST_URI' ], '?', true );
+	if ( ! $currentPageSlug )
+		$currentPageSlug = $_SERVER[ 'REQUEST_URI' ];
 	if ( strlen( $currentPageSlug ) <= 1 )
 		$currentPageSlug = '/';
 
