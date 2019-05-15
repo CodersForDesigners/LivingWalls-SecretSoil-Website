@@ -1984,6 +1984,7 @@
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12">
+				<div class="space-quarter-bottom"><img width="120" src="media/credai-logo-white.svg<?php echo $ver ?>"></div>
 				<div class="h4 text-uppercase space-half-bottom text-off-green"><span class="strong">RERA NUMBER :</span> PRM/KA/RERA/1251/446/PR/ 180728/001961</div>
 				<div class="h6 strong text-uppercase space-quarter-bottom">Disclaimer</div>
 				<div class="small text-justify">
