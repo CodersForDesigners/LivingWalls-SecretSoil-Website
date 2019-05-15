@@ -11,6 +11,10 @@ require_once __DIR__ . '/../inc/utils.php';
 // Include WordPress for Content Management
 initWordPress();
 
+// Just so that when some social media service (WhatsApp) try to ping URL,
+//  	it should not get a 404. This because is setting the response header.
+http_response_code( 200 );
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
