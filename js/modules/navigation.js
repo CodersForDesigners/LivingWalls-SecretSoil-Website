@@ -75,7 +75,8 @@ function layoutNavigation () {
 
 	// If scrolling ↓.....
 	if ( currentScrollTop > previousScrollTop ) {
-		$primaryNav.addClass( "hide" );
+		if ( currentScrollTop > $( window ).height() / 2 )
+			$primaryNav.addClass( "hide" );
 		$primaryNavLinkTray.removeClass( "show" );
 	}
 	else {	// if scrolling ↑.....
