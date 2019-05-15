@@ -1,0 +1,83 @@
+
+.rera-tag {
+	position: relative;
+}
+.rera-tag:after {
+	content: "generic image";
+	position: absolute;
+	/*color: inherit;*/
+	color: var(--light);
+	/*background-color: var(--dark);*/
+	/*box-shadow: 0 0 15px 0 var(--black);*/
+	/*padding: 1px 5px;*/
+	/*font-size: 0.9rem;*/
+	/*font-size: inherit;*/
+	text-transform: uppercase;
+	transform-origin: top left;
+	white-space: nowrap;
+	font-weight: 500;
+	/*background-color: rgba( 0, 0, 0, 0.4 );*/
+}
+.rera-tag.generic:after {
+	content: "generic image";
+}
+.rera-tag.artistic:after {
+	content: "artistic impression";
+}
+
+/*
+ * Tag positions and alignments
+ */
+.rera-tag.top-left:after {
+	top: 0;
+	left: 0;
+	transform: rotateZ( -90deg ) translateX( -100% );
+	margin: 0.5rem 0 0 0.5rem;
+}
+.rera-tag.bottom-left:after {
+	bottom: 0;
+	left: 0;
+	transform: rotateZ( -90deg );
+	margin: 0 0 0 0.5rem;
+}
+.rera-tag.bottom-right:after {
+	bottom: 0;
+	left: 100%;
+	transform: rotateZ( -90deg ) translateY( -100% );
+	margin: 0 0 0.5rem -0.5rem;
+}
+.rera-tag.top-right:after {
+	top: 0;
+	left: 100%;
+	transform: rotateZ( -90deg ) translateX( -100% ) translateY( -100% );
+	margin: 0.5rem 0 0 -0.5rem;
+}
+.rera-tag.center-left:after {
+	top: 50%;
+	left: 0;
+	transform: translateY( -50% ) rotateZ( -90deg ) translateX( -50% );
+	margin: 0 0 0 0.5rem;
+}
+.rera-tag.center-right:after {
+	top: 50%;
+	left: 100%;
+	transform: translateY( -50% ) rotateZ( -90deg ) translateY( -100% ) translateX( -50% );
+	margin: 0 0 0 -0.5rem;
+}
+
+@media ( min-width: 640px ) {
+
+	.rera-tag:after {
+		font-size: 1rem;
+	}
+
+}
+
+@media ( max-width: 640px ) {
+	.rera-tag.top-left-mobile:after {
+		top: 0;
+		left: 0;
+		transform: rotateZ( -90deg ) translateX( -100% );
+		margin: 0.5rem 0 0 0.5rem;
+	}
+}
