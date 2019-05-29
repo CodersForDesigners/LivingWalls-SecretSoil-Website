@@ -31,7 +31,7 @@ else
  * Get the title and URL of the website and current page
  */
 // $siteUrl = getSiteUrl();
-$siteTitle = getContent( 'Brownie As Fudge', 'site_title' );
+$siteTitle = getContent( 'LivingWalls Secret Soil', 'site_title' );
 $pageUrl = $siteUrl . $urlPath;
 $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 
@@ -117,7 +117,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<!-- Launch Screen Image -->
 	<!-- <link rel="apple-touch-startup-image" href="/path/to/launch.png"> -->
 	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'Brown.ie', 'apple -> ios_app_title' ); ?>">
+	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'LivingWalls Secret Soil', 'apple -> ios_app_title' ); ?>">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
@@ -138,7 +138,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 	<meta property="og:url" content="<?php echo $pageUrl ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?php echo $pageTitle ?>">
-	<meta property="og:image" content="<?php echo getContent( '', 'og -> image' ) ?>">
+	<meta property="og:image" content="<?php echo getContent( 'https://livingwalls.in/secret-soil/cms/wp-content/uploads/2019/03/facebook.jpg', 'og -> image' ) ?>">
 	<meta property="og:description" content="<?php echo getContent( '', 'og -> description' ) ?>">
 	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
 
