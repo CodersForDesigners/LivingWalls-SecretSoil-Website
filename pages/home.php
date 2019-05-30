@@ -1022,7 +1022,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-doubleheightlivingroom.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+								<div class="secret-description h6 text-light opacity-50">The XLarge Houses have an enviable Double Height Living Room that takes the luxury quotient to another level.</div>
 							</div>
 						</div>
 					</div>
