@@ -63,7 +63,7 @@
 			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
 			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
 			<a class="link label text-uppercase" href="#amenities">Amenities</a>
-			<!-- <a class="link label text-uppercase" href="#construction">Updates</a> -->
+			<a class="link label text-uppercase" href="#construction">Updates</a>
 			<a class="link label text-uppercase" href="#contact">Contact Us</a>
 		</div>
 	</div>
@@ -1508,7 +1508,7 @@
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom hidden" id="construction" data-section="Construction">
+<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
@@ -1516,25 +1516,29 @@
 			</div>
 
 			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
-				<div class="h3 space-quarter-bottom">October 2015</div>
-				<div class="button button-large js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">Previous Months</div>
+				<div class="h3 space-quarter-bottom">May 2019</div>
+				<!-- <div class="button button-large js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php //echo $ver ?>">Previous Months</div> -->
 			</div>
 
 			<!-- Status -->
 			<div class="status columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right">
-				<div class="title text-auto-align-large h4 strong">Structure</div>
-				<div class="point text-auto-align-large h6">Block A - 17th Floor in progress.</div>
-				<div class="point text-auto-align-large h6">Block B & C - Completed.</div>
+				<div class="title text-auto-align-large h4 strong">Excavation</div>
+				<div class="point text-auto-align-large h6">v54, v55 - Completed</div>
+				<div class="point text-auto-align-large h6">v24, v25 - Work in Progress</div>
 
-				<div class="title text-auto-align-large h4 strong">Masonry</div>
-				<div class="point text-auto-align-large h6">Block A - 13th Floor in progress.</div>
-				<div class="point text-auto-align-large h6">Block B - 15th floor Completed.</div>
-				<div class="point text-auto-align-large h6">Block C - 16th floor Completed</div>
-				<div class="point text-auto-align-large h6">STP Work in progress</div>
-				<div class="point text-auto-align-large h6">Basement ramps structure in progress</div>
-				<div class="point text-auto-align-large h6">GFRC work in the ducts in progress</div>
-				<div class="point text-auto-align-large h6">Fire suppression sprinkler system is being installed</div>
-				<div class="point text-auto-align-large h6">Plumbing - Down take line in shaft in progress</div>
+				<div class="title text-auto-align-large h4 strong">Structure</div>
+				<div class="point text-auto-align-large h6">v38 to v54 - Completed</div>
+				<div class="point text-auto-align-large h6">v29 to v37 - Work in Progress</div>
+
+				<div class="title text-auto-align-large h4 strong">Masonry Work</div>
+				<div class="point text-auto-align-large h6">v47 - Completed</div>
+				<div class="point text-auto-align-large h6">v48, v46 to v37, v49 to v53 - Work in Progress</div>
+
+				<div class="title text-auto-align-large h4 strong">Plastering</div>
+				<div class="point text-auto-align-large h6">v1, v2, v3 - Inner and Outer Plastering Work Completed</div>
+
+				<div class="title text-auto-align-large h4 strong">Flooring</div>
+				<div class="point text-auto-align-large h6">v1, v3 - Marble work in progress</div>
 			</div>
 			<!-- End: Status -->
 		</div>
@@ -1545,19 +1549,88 @@
 			<!-- Gallery -->
 			<div class="gallery js_carousel_content">
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0001.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1920">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0016.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0016.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0019.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0019.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1920">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0039.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0039.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0041.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0041.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0064.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0064.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3529.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3529.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3536.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3536.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3548.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3548.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3550.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3550.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 			</div>
 			<!-- End: Gallery -->
