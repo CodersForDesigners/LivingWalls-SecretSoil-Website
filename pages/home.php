@@ -1512,16 +1512,34 @@
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
-				<div class="h2 strong space-half-top-bottom">Construction Status</div>
+				<div class="h2 strong space-half-top-bottom">Construction Update</div>
 			</div>
+		</div>
+	</div>
 
-			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
-				<div class="h3 space-quarter-bottom">May 2019</div>
-				<!-- <div class="button button-large js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php //echo $ver ?>">Previous Months</div> -->
+	<div class="timelapse row fill-dark space-half-top-bottom">
+		<div class="container">
+			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right invisible hide-for-tablet">
+			<!-- <div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right"> -->
+				<div class="h3 space-quarter-bottom hide-for-tablet">Construction Update Archive</div>
+				<div class="button button-large fill-green js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</div>
 			</div>
+			<div class="timelapse-container columns small-12 large-8 large-offset-4">
+				<div class="timelapse-box">
+					<picture>
+						<source srcset="media/construction/timelapse/1200/ss-timelapse-1.gif<?php echo $ver ?>" media="(min-width: 640px)">
+						<img class="block" src="media/construction/timelapse/300/ss-timelapse-1.gif<?php echo $ver ?>">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="container">
 			<!-- Status -->
-			<div class="status columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right">
+			<div class="status columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
+				<div class="title text-auto-align-large h3 strong space-half-bottom">May 2019 Update</div>
 				<div class="title text-auto-align-large h4 strong">Excavation</div>
 				<div class="point text-auto-align-large h6">v54, v55 - Completed</div>
 				<div class="point text-auto-align-large h6">v24, v25 - Work in Progress</div>
@@ -1548,6 +1566,24 @@
 		<div class="row">
 			<!-- Gallery -->
 			<div class="gallery js_carousel_content">
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
 				<div class="image js_carousel_item">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
@@ -1612,24 +1648,6 @@
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image js_carousel_item">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image js_carousel_item">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image js_carousel_item">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
 					</picture>
 				</div>
 			</div>
