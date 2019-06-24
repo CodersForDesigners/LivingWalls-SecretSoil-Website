@@ -72,36 +72,19 @@
 
 
 <!-- Construction Banner -->
-<section class="construction-banner">
-	<img class="block" src="https://via.placeholder.com/1200x300">
+<section class="construction-banner" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');">
 </section>
 <!-- END: Construction Banner -->
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
+<section class="construction-section fill-dark space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
-				<div class="h2 strong space-half-top-bottom">Construction Update</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="row fill-dark">
-		<div class="container">
-			<div class="columns small-10 small-offset-1 large-4 large-offset-0 text-auto-align-large space-half-top-bottom space-quarter-right">
-				<div class="button button-large block fill-green" tabindex="-1">Next Update</div><br>
-				<div class="button button-large block fill-green" tabindex="-1">Previous Update</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="status row">
-		<div class="container">
 			<!-- Status -->
-			<div class="columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
-				<div class="title text-auto-align-large h3 strong space-half-top-bottom">May 2019 Update</div>
+			<div class="status columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right">
+				<div class="title text-auto-align-large h3 text-light space-half-top">Construction Update</div>
+				<div class="text-auto-align-large h2 strong text-light space-one-bottom">September 2019</div>
 				<div class="title text-auto-align-large h4 strong">Excavation</div>
 				<div class="point text-auto-align-large h6">v54, v55 - Completed</div>
 				<div class="point text-auto-align-large h6">v24, v25 - Work in Progress</div>
@@ -119,103 +102,112 @@
 
 				<div class="title text-auto-align-large h4 strong">Flooring</div>
 				<div class="point text-auto-align-large h6">v1, v3 - Marble work in progress</div>
-			</div>
-			<!-- End: Status -->
-		</div>
-	</div>
 
-	<!-- Masonry Gallery -->
-	<div class="masonry-gallery row space-half-top-bottom">
-		<div class="container">
-			<div class="columns small-10 small-offset-1 large-8 large-offset-4" style="columns: 2; column-gap: 4px">
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
-					</picture>
+				<!-- Masonry Gallery -->
+				<div class="masonry-gallery space-half-top-bottom" style="columns: 2; column-gap: 4px">
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image" style="column-span: all;">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0001.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0016.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0016.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0019.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0019.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0039.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0039.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0041.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0041.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A0064.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A0064.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image" style="column-span: all;">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3529.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3529.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3536.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3536.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3548.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3548.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3550.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3550.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
+					<div class="image">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
+						</picture>
+					</div>
 				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image" style="column-span: all;">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0001.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0016.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0016.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0019.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0019.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0039.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0039.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0041.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0041.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A0064.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A0064.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image" style="column-span: all;">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3529.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3529.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3536.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3536.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3548.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3548.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3550.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3550.jpg<?php echo $ver ?>">
-					</picture>
-				</div>
-				<div class="image">
-					<picture>
-						<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-						<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
-					</picture>
+				<!-- End: Masonry Gallery -->
+			</div>
+			<!-- END: Status -->
+
+			<!-- Construction Nav -->
+			<div class="columns small-10 small-offset-1 large-4 large-offset-0">
+				<div class="row">
+					<div class="columns small-12 medium-5 large-10 space-quarter-bottom">
+						<div class="button fill-green block" tabindex="-1">February Update</div>
+					</div>
+					<div class="columns small-12 medium-5 medium-offset-2 large-10 large-offset-0 space-quarter-bottom">
+						<div class="button fill-green block" tabindex="-1">September Update</div>
+					</div>
 				</div>
 			</div>
+			<!-- END: Construction Nav -->
 		</div>
 	</div>
-	<!-- End: Masonry Gallery -->
 </section>
 <!-- END: Construction Section -->
 
