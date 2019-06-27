@@ -1,0 +1,17 @@
+/*
+ * Contact Page
+ */
+
+.construction-page {}
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.construction-page .reverese-large {
+		direction: rtl;
+	}
+
+	.construction-page .reverese-large * {
+		direction: ltr;
+	}
+}
+@media( min-width: 1480px ) {}

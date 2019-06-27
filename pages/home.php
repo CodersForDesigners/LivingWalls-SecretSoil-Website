@@ -1519,17 +1519,16 @@
 
 	<div class="timelapse row fill-dark space-half-top-bottom">
 		<div class="container">
-			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right invisible hide-for-tablet">
-			<!-- <div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right"> -->
-				<div class="h3 space-quarter-bottom hide-for-tablet">Construction Update Archive</div>
+			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
+				<div class="h3 space-quarter-bottom">Construction Update Archive</div>
 				<div class="button button-large fill-green js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</div>
 			</div>
 			<div class="timelapse-container columns small-12 large-8 large-offset-4">
 				<div class="timelapse-box">
-					<picture>
+					<!-- <picture>
 						<source srcset="media/construction/timelapse/1200/ss-timelapse-1.gif<?php echo $ver ?>" media="(min-width: 640px)">
 						<img class="block" src="media/construction/timelapse/300/ss-timelapse-1.gif<?php echo $ver ?>">
-					</picture>
+					</picture> -->
 				</div>
 			</div>
 		</div>

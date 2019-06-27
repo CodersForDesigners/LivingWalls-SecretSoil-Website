@@ -35,3 +35,5 @@
 <link rel="stylesheet" type="text/css" href="css/pages/section/location-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/masterplan-section.css<?php echo $ver ?>">
 
+<link rel="stylesheet" type="text/css" href="css/pages/construction-page.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/construction-single.css<?php echo $ver ?>">

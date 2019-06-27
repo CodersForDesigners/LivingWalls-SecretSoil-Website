@@ -2,17 +2,6 @@
  * Contact Section
  */
 
-.construction-banner {
-	position: relative;
-	font-size: 0;
-	line-height: 0;
-	padding-top: 50%;
-	min-height: 250px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 .construction-section {}
 
 
@@ -73,10 +62,6 @@
 
 /* -- Status -- */
 
-.construction-section .status {
-	margin-top: -225px;
-}
-
 .construction-section .status .title,
 .construction-section .status .point {
 	margin-bottom: 5px;
@@ -88,15 +73,8 @@
 @media( min-width: 1040px ) {
 	.construction-section .status .title { margin-top: 0; }
 	.construction-section .status .point + .title { margin-top: var(--space-half); }
-
-	.construction-section .row .container { direction: rtl; }
-	.construction-section .row .container * { direction: ltr; }
 }
-@media( min-width: 1480px ) {
-	.construction-section .status {
-		margin-top: -325px;
-	}
-}
+@media( min-width: 1480px ) {}
 
 
 
