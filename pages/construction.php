@@ -80,27 +80,36 @@
 			<div class="reverese-large">
 				<!-- Update List -->
 				<div class="update-list columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<div class="update fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
-						<div class="h3 strong space-quarter-left-right space-quarter-top-bottom" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 2;">February 2019</div>
+					<a href="" class="update block fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
+						<div class="content space-quarter-left-right space-quarter-top-bottom" style="position: absolute; height: auto; left: 4px; right: 4px; bottom:4px; z-index: 2;">
+							<div class="title h3" style="margin-bottom: 15px; padding-left: 5px;">March 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
 						<div class="thumb" style="position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; z-index: 1; background-image: url('media/section-bg/canopy.png<?php $ver ?>');">
 						</div>
-					</div>
-					<div class="update fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
-						<div class="h3 strong space-quarter-left-right space-quarter-top-bottom" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 2;">February 2019</div>
+					</a>
+					<a href="" class="update block fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
+						<div class="content space-quarter-left-right space-quarter-top-bottom" style="position: absolute; height: auto; left: 4px; right: 4px; bottom:4px; z-index: 2;">
+							<div class="title h3" style="margin-bottom: 15px; padding-left: 5px;">February 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
 						<div class="thumb" style="position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; z-index: 1; background-image: url('media/section-bg/canopy.png<?php $ver ?>');">
 						</div>
-					</div>
-					<div class="update fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
-						<div class="h3 strong space-quarter-left-right space-quarter-top-bottom" style="position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 2;">February 2019</div>
+					</a>
+					<a href="" class="update block fill-green" style="margin-bottom: var(--space-quarter); padding-top: 50%; position: relative;">
+						<div class="content space-quarter-left-right space-quarter-top-bottom" style="position: absolute; height: auto; left: 4px; right: 4px; bottom:4px; z-index: 2;">
+							<div class="title h3" style="margin-bottom: 15px; padding-left: 5px;">January 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
 						<div class="thumb" style="position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; z-index: 1; background-image: url('media/section-bg/canopy.png<?php $ver ?>');">
 						</div>
-					</div>
+					</a>
 				</div>
 				<!-- End: Update List -->
 
 				<!-- Return -->
 				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<div class="button button-large fill-green">Return to Overview</div>
+					<div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div>
 				</div>
 				<!-- END: Return -->
 			</div>
