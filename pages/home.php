@@ -1525,10 +1525,10 @@
 			</div>
 			<div class="timelapse-container columns small-12 large-8 large-offset-4">
 				<div class="timelapse-box">
-					<!-- <picture>
+					<picture>
 						<source srcset="media/construction/timelapse/1200/ss-timelapse-1.gif<?php echo $ver ?>" media="(min-width: 640px)">
 						<img class="block" src="media/construction/timelapse/300/ss-timelapse-1.gif<?php echo $ver ?>">
-					</picture> -->
+					</picture>
 				</div>
 			</div>
 		</div>
