@@ -209,6 +209,27 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 
 		}( window.__OMEGA ) );
 
+
+		/*
+		 * Cupid Settings
+		 */
+		// Establish global state
+		window.__CUPID = window.__CUPID || { };
+
+		( function ( __CUPID ) {
+
+			var settings = __CUPID.settings || { };
+
+				// API endpoint
+			settings.apiEndpoint = "https://livingwalls.in/cupid-api";
+			if ( ! __envProduction ) {
+				settings.apiEndpoint = "http://cupid.api.192.168.0.19.xip.io";
+			}
+
+			__CUPID.settings = settings;
+
+		}( window.__CUPID ) );
+
 	</script>
 
 
