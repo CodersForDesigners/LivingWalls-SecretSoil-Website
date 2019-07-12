@@ -194,7 +194,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House" data-context="large-4bhk-house-details">
 							<div class="h3 strong text-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK East Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.1Cr</div>
-							<img class="block" src="media/keyplan/Large-East-Facing.svg<?php echo $ver ?>">
+							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
@@ -219,10 +219,10 @@
 								<!-- END: Phone Trap -->
 							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden" style="border-left: dashed 2px var(--green);">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--green);">
 							<div class="h3 strong text-off-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK West Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.3Cr</div>
-							<img class="block" src="media/keyplan/Large-West-Facing.svg<?php echo $ver ?>">
+							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
@@ -579,8 +579,12 @@
 
 
 <!-- Masterplan 3D Section -->
-<section class="fill-off-green small rera-tag artistic bottom-left">
-	<img class="block" src="media/section-bg/masterplan-3d.png<?php echo $ver ?>">
+<section class="fill-off-green small rera-tag artistic bottom-left" style="font-size: 0;">
+	<img class="block hide-for-mobile" src="media/masterplan/masterplan-overlay.svg<?php echo $ver ?>" style="position: absolute;">
+	<picture>
+		<source srcset="media/masterplan/masterplan-base-large.png<?php echo $ver ?>" media="(min-width: 640px)">
+		<img src="media/masterplan/masterplan-base-small.png<?php echo $ver ?>">
+	</picture>
 </section>
 <!-- END: Masterplan 3D Section -->
 
@@ -1072,7 +1076,7 @@
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House" data-context="xlarge-4bhk-house-details">
 							<div class="h3 strong text-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK East Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
-							<img class="block" src="media/keyplan/XLarge-East-Facing.svg<?php echo $ver ?>">
+							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
@@ -1097,10 +1101,10 @@
 								<!-- END: Phone Trap -->
 							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden" style="border-left: dashed 2px var(--dark);">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--dark);">
 							<div class="h3 strong text-off-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK West Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.8Cr</div>
-							<img class="block" src="media/keyplan/XLarge-West-Facing.svg<?php echo $ver ?>">
+							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
