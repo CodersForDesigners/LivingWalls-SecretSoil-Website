@@ -579,12 +579,17 @@
 
 
 <!-- Masterplan 3D Section -->
-<section class="fill-off-green small rera-tag artistic bottom-left" style="font-size: 0;">
-	<img class="block hide-for-mobile" src="media/masterplan/masterplan-overlay.svg<?php echo $ver ?>" style="position: absolute;">
-	<picture>
+<section class="masterplan-3d-section fill-off-green small rera-tag artistic bottom-left" style="font-size: 0;">
+	<input type="radio" name="masterplan" class="visuallyhidden" id="toggleOverlay">
+	<input type="radio" name="masterplan" class="visuallyhidden" id="toggleBase">
+	<label class="toggle-overlay p strong text-light text-uppercase block hide-for-mobile" for="toggleOverlay" tabindex="-1">View Masterplan</label>
+	<label class="toggle-base p strong text-light text-uppercase block hide-for-mobile" for="toggleBase" tabindex="-1">View Aerial</label>
+	<img class="overlay block hide-for-mobile" src="media/masterplan/masterplan-overlay.svg<?php echo $ver ?>" style="position: absolute;">
+	<picture class="block">
 		<source srcset="media/masterplan/masterplan-base-large.png<?php echo $ver ?>" media="(min-width: 640px)">
-		<img src="media/masterplan/masterplan-base-small.png<?php echo $ver ?>">
+		<img class="block" src="media/masterplan/masterplan-base-small.png<?php echo $ver ?>">
 	</picture>
+	<div class="progress hide-for-mobile"></div>
 </section>
 <!-- END: Masterplan 3D Section -->
 
