@@ -99,7 +99,7 @@
 	z-index: 4;
 	top: var(--space-one);
 	cursor: pointer;
-	background-color: var(--off-dark);
+	background-color: var(--dark);
 	box-shadow: 0px 0px 0px 2px var(--black);
 	background-repeat: no-repeat;
 	text-align: center;
@@ -136,10 +136,10 @@
 }
 
 .masterplan-3d-section #toggleOverlay:checked ~ .toggle-overlay {
-	background-color: var(--dark);
+	background-color: var(--green);
 }
 .masterplan-3d-section #toggleBase:checked ~ .toggle-base {
-	background-color: var(--dark);
+	background-color: var(--green);
 }
 
 @keyframes fadeToggle {
