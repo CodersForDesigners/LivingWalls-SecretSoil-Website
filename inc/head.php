@@ -186,7 +186,7 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 				settings.apiEndpoint = "http://omega.api.192.168.0.19.xip.io";
 			}
 			settings.apiEndpoint = "https://livingwalls.in/omega";
-			settings.centralApiEndpoint = "https://api.omega.livingwalls.in";
+			settings.centralApiEndpoint = "https://livingwalls.in/omega-api";
 				// Base URL
 			settings.baseURL = "";
 			if ( __envProduction ) {
@@ -208,6 +208,27 @@ $pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 			__OMEGA.settings = settings;
 
 		}( window.__OMEGA ) );
+
+
+		/*
+		 * Cupid Settings
+		 */
+		// Establish global state
+		window.__CUPID = window.__CUPID || { };
+
+		( function ( __CUPID ) {
+
+			var settings = __CUPID.settings || { };
+
+				// API endpoint
+			settings.apiEndpoint = "https://livingwalls.in/cupid-api";
+			if ( ! __envProduction ) {
+				settings.apiEndpoint = "http://cupid.api.192.168.0.19.xip.io";
+			}
+
+			__CUPID.settings = settings;
+
+		}( window.__CUPID ) );
 
 	</script>
 
