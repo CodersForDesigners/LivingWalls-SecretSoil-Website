@@ -1744,7 +1744,7 @@
 
 
 <!-- Location Section -->
-<section class="location-section space-one-top space-double-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
+<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
 	<div class="row">
 		<input type="checkbox" name="locations" class="hidden" id="toggleTray">
 		<div class="container tray">
@@ -1995,7 +1995,7 @@
 		</div>
 
 		<!-- Tray Toggle Button -->
-		<label for="toggleTray" class="toggle-tray button button-large fill-green"></label>
+		<label for="toggleTray" class="toggle-tray button button-large fill-green hide-for-mobile"></label>
 	</div>
 </section>
 <!-- END: Location Section -->

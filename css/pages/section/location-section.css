@@ -41,7 +41,11 @@
 .location-section .secret .secret-icon { line-height: 0.45; }
 
 @media( min-width: 400px )  {}
-@media( min-width: 640px )  {}
+@media( min-width: 640px )  {
+	.location-section {
+		padding-bottom: var(--space-double);
+	}
+}
 @media( min-width: 800px )  {}
 @media( min-width: 1040px ) {
 	.location-section .tray {
