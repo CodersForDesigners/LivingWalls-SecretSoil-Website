@@ -328,8 +328,8 @@
 <!-- END: Large 4BHK Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -371,7 +371,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Masterplan Section -->
@@ -580,8 +580,8 @@
 
 <!-- Masterplan 3D Section -->
 <section class="masterplan-3d-section fill-off-green small rera-tag artistic bottom-left" style="font-size: 0;">
-	<input type="radio" name="masterplan" class="visuallyhidden" id="toggleOverlay">
-	<input type="radio" name="masterplan" class="visuallyhidden" id="toggleBase">
+	<input type="radio" name="masterplan" class="hidden" id="toggleOverlay">
+	<input type="radio" name="masterplan" class="hidden" id="toggleBase">
 	<label class="toggle-overlay p strong text-light text-uppercase block hide-for-mobile" for="toggleOverlay" tabindex="-1">View Masterplan</label>
 	<label class="toggle-base p strong text-light text-uppercase block hide-for-mobile" for="toggleBase" tabindex="-1">View Aerial</label>
 	<img class="overlay block hide-for-mobile" src="media/masterplan/masterplan-overlay.svg<?php echo $ver ?>" style="position: absolute;">
@@ -601,8 +601,8 @@
 <!-- END: Masterplan 3D Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -644,7 +644,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- BDA Layout Section -->
@@ -761,8 +761,8 @@
 <!-- END: BDA Layout Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -804,7 +804,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Flexiplan Section -->
@@ -941,8 +941,8 @@
 <!-- END: flexiplan Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -984,7 +984,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- XLarge 4BHK Section -->
@@ -1210,8 +1210,8 @@
 <!-- END: XLarge 4BHK Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -1253,7 +1253,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Amenities Section -->
@@ -1489,8 +1489,8 @@
 <!-- END: Amenities Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -1532,7 +1532,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Construction Section -->
@@ -1697,10 +1697,57 @@
 <!-- END: Construction Section -->
 
 
+<!-- Film Section -->
+<section class="film-section">
+	<div class="row fill-dark space-half-top-bottom">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/u17UzMzAJ3o?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> Architect Designed Community?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-7.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad7-video" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-7.png<?php echo $ver ?>"></div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> Architect Designed Community?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
+			</div>
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-7.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
+				<div class="row">
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-6.png<?php echo $ver ?>"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: Film Section -->
+
+
 <!-- Location Section -->
-<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
+<section class="location-section space-one-top space-double-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
 	<div class="row">
-		<div class="container">
+		<input type="checkbox" name="locations" class="hidden" id="toggleTray">
+		<div class="container tray">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h1 strong space-quarter-bottom">Location</div>
 				<!-- <div class="label strong text-uppercase">2984<span class="opacity-50">sft</span> & 2988<span class="opacity-50">sft</span></div> -->
@@ -1712,7 +1759,7 @@
 				<a class="button button-large fill-green" href="https://goo.gl/maps/1R91KXC6Ag62" target="_blank"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</a>
 			</div>
 
-			<div class="columns small-12 large-8">
+			<div class="columns small-12 large-8 hide-for-mobile">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
@@ -1871,11 +1918,11 @@
 				</div>
 			</div>
 
-			<div class="columns small-12 large-8 large-4 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+			<div class="columns small-12 large-8 large-4 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile">
 				<div class="h2">Almost everything you might need within a <span class="text-green">30min commute</span>.</div>
 			</div>
 
-			<div class="columns small-12 large-8 large-offset-4">
+			<div class="columns small-12 large-8 large-offset-4 hide-for-mobile">
 				<div class="row">
 					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
 						<div class="row">
@@ -1946,6 +1993,9 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- Tray Toggle Button -->
+		<label for="toggleTray" class="toggle-tray button button-large fill-green"></label>
 	</div>
 </section>
 <!-- END: Location Section -->

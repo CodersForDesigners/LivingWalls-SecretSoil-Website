@@ -1,21 +1,21 @@
 /*
- * Ad Section 
+ * Film Section 
  */
 
-.ad-section {}
+.film-section {}
 
-.ad-section .thumbnail-hero { font-size: 0; }
-.ad-section .character { font-size: 0; }
-.ad-section .thumbnail-strip { font-size: 0; }
-.ad-section .thumbnail-strip .frame { font-size: 0; }
+.film-section .thumbnail-hero { font-size: 0; }
+.film-section .character { font-size: 0; }
+.film-section .thumbnail-strip { font-size: 0; }
+.film-section .thumbnail-strip .frame { font-size: 0; }
 
-.ad-section .watch-ad-link {
+.film-section .watch-ad-link {
 	line-height: 2;
 	display: inline-block;
 	cursor: pointer;
 }
 
-.ad-section .watch-ad-link img {
+.film-section .watch-ad-link img {
 	display: inline-block;
 	vertical-align: middle;
 	width: 24px;
@@ -26,14 +26,14 @@
 
 @media( min-width: 640px )  {}
 @media( min-width: 1040px ) {
-	.ad-section .watch-ad-link img {
+	.film-section .watch-ad-link img {
 		width: 32px;
 		margin-top: -5px;
 		margin-right: 8px;
 	}
 }
 @media( min-width: 1480px ) {
-	.ad-section .watch-ad-link img {
+	.film-section .watch-ad-link img {
 		width: 48px;
 		margin-top: -6px;
 		margin-right: 10px;
