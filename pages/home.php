@@ -851,13 +851,14 @@
 		<img class="block" src="media/masterplan/masterplan-base-small.png<?php echo $ver ?>">
 	</picture>
 	<div class="progress hide-for-mobile"></div>
-	<div class="row block show-for-mobile" style="position: absolute; top: 0; left: 0; z-index: 2">
+	<!-- ATTENTION!!! UNHIDE THIS @ADI -->
+	<!-- <div class="row block show-for-mobile" style="position: absolute; top: 0; left: 0; z-index: 2">
 		<div class="container space-one-top-bottom text-center">
 			<div class="button button-large fill-green">
 				Download PDF Masterplan
 			</div>
 		</div>
-	</div>
+	</div> -->
 </section>
 <!-- END: Masterplan 3D Section -->
 
