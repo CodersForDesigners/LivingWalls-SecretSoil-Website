@@ -11,7 +11,7 @@ require_once __DIR__ . '/lazaro.php';
 /*
  * A version number for versioning assets to invalidate the browser cache
  */
-$ver = '?v=20190409';
+$ver = '?v=20190725';
 
 // Just so that when some social media service (WhatsApp) try to ping URL,
 //  	it should not get a 404. This because is setting the response header.
