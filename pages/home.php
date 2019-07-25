@@ -63,7 +63,7 @@
 			<a class="link label text-uppercase" href="#flexiplan">Flexi-Plan</a>
 			<a class="link label text-uppercase" href="#xlarge-4bhk">XLarge 4BHK</a>
 			<a class="link label text-uppercase" href="#amenities">Amenities</a>
-			<!-- <a class="link label text-uppercase" href="#construction">Updates</a> -->
+			<a class="link label text-uppercase" href="#construction">Updates</a>
 			<a class="link label text-uppercase" href="#contact">Contact Us</a>
 		</div>
 	</div>
@@ -191,55 +191,61 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="Large 4BHK House" data-context="large-4bhk-house-details">
-							<div class="h3 strong space-quarter-bottom">Large 4BHK House</div>
-							<div class="h4 space-quarter-bottom">Basic Price 2.1Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
-							<!-- Phone Trap -->
-							<form class="phone-form loginner_form_phone hidden">
-								<div class="container-phone-country-code">
-									<select class="input-large fill-green js_phone_country_code">
-										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
-									</select>
-									<div class="container-country-code-label button button-large fill-off-light">
-										<span class="js_phone_country_code_label">+91</span>
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House" data-context="large-4bhk-house-details">
+							<div class="h3 strong text-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK East Facing</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.1Cr</div>
+							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
+							<div class="space-half-bottom space-half-left-right">
+								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
+								<!-- Phone Trap -->
+								<form class="phone-form loginner_form_phone hidden">
+									<div class="container-phone-country-code">
+										<select class="input-large fill-green js_phone_country_code">
+											<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+										</select>
+										<div class="container-country-code-label button button-large fill-off-light">
+											<span class="js_phone_country_code_label">+91</span>
+										</div>
 									</div>
-								</div>
-								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
-								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
-							</form>
-							<form class="otp-form loginner_form_otp hidden">
-								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
-								<button class="submit button button-large" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
-							</form>
-							<!-- END: Phone Trap -->
+									<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+									<button class="submit button button-large fill-green" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+								</form>
+								<form class="otp-form loginner_form_otp hidden">
+									<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+									<button class="submit button button-large fill-green" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+								</form>
+								<!-- END: Phone Trap -->
+							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden">
-							<div class="h3 strong space-quarter-bottom">Large 4BHK + Private Garden</div>
-							<div class="h4 space-quarter-bottom">Basic Price 2.3Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
-							<!-- Phone Trap -->
-							<form class="phone-form loginner_form_phone hidden">
-								<div class="container-phone-country-code">
-									<select class="input-large fill-green js_phone_country_code">
-										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
-									</select>
-									<div class="container-country-code-label button button-large fill-off-light">
-										<span class="js_phone_country_code_label">+91</span>
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--green);">
+							<div class="h3 strong text-off-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK West Facing</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.3Cr</div>
+							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
+							<div class="space-half-bottom space-half-left-right">
+								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
+								<!-- Phone Trap -->
+								<form class="phone-form loginner_form_phone hidden">
+									<div class="container-phone-country-code">
+										<select class="input-large fill-green js_phone_country_code">
+											<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+										</select>
+										<div class="container-country-code-label button button-large fill-off-light">
+											<span class="js_phone_country_code_label">+91</span>
+										</div>
 									</div>
-								</div>
-								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
-								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
-							</form>
-							<form class="otp-form loginner_form_otp hidden">
-								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
-								<button class="submit button button-large" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
-							</form>
-							<!-- END: Phone Trap -->
+									<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+									<button class="submit button button-large fill-off-green" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+								</form>
+								<form class="otp-form loginner_form_otp hidden">
+									<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+									<button class="submit button button-large fill-off-green" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+								</form>
+								<!-- END: Phone Trap -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -322,8 +328,8 @@
 <!-- END: Large 4BHK Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -365,7 +371,268 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
+
+
+
+
+
+<!-- Location Section -->
+<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
+	<div class="row">
+		<input type="checkbox" name="locations" class="hidden" id="toggleTray">
+		<div class="container tray">
+			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h1 strong space-quarter-bottom">Location</div>
+				<!-- <div class="label strong text-uppercase">2984<span class="opacity-50">sft</span> & 2988<span class="opacity-50">sft</span></div> -->
+				<div class="h2"><span class="text-green">Secret Soil</span> is located in North Bangalore, just off Hennur Main Road</div>
+			</div>
+
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
+				<div class="h3 space-quarter-bottom"><span class="text-green">Get directions</span> on Google Maps</div>
+				<a class="button button-large fill-green" href="https://goo.gl/maps/1R91KXC6Ag62" target="_blank"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</a>
+			</div>
+
+			<div class="columns small-12 large-8 hide-for-mobile">
+				<div class="row">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Byg Brewski</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">XLR8 Indoor Sports Arena</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Decathlon Hennur</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Lulu Supermarket</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">KLAY Preschool</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">6<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Legacy Montessori School</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">12<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">5km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Bangalore International School</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">9km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Manayata Tech Park</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Specialist Hospital</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">22<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Elements Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">24<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Karle Town Center SEZ</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">26<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">13km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Columbia Asia Hospital</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">29<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">KIADB Aerospace SEZ</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">30<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">21km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">International Airport</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="columns small-12 large-8 large-4 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile">
+				<div class="h2">Almost everything you might need within a <span class="text-green">30min commute</span>.</div>
+			</div>
+
+			<div class="columns small-12 large-8 large-offset-4 hide-for-mobile">
+				<div class="row">
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Orion East Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">15km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Kirloskar Tech Park, Hebbal</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">Garuda Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">1MG Mall</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">42<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">17km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">RMZ Infinity, Old Madras Road</div>
+							</div>
+						</div>
+					</div>
+					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
+						<div class="row">
+							<div class="columns small-2">
+								<div class="h3 secret-icon float-left text-center">45<span class="h4"><br>min</span></div>
+							</div>
+							<div class="columns small-9 small-offset-1">
+								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
+								<div class="secret-title h5 space-quarter-bottom">RMZ Millennia, Ulsoor</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Tray Toggle Button -->
+		<label for="toggleTray" class="toggle-tray button button-large fill-green hide-for-mobile"></label>
+	</div>
+</section>
+<!-- END: Location Section -->
 
 
 <!-- Masterplan Section -->
@@ -573,14 +840,30 @@
 
 
 <!-- Masterplan 3D Section -->
-<section class="fill-off-green small rera-tag artistic bottom-left">
-	<img class="block" src="media/section-bg/masterplan-3d.png<?php echo $ver ?>">
+<section class="masterplan-3d-section fill-off-green small rera-tag artistic bottom-left" style="font-size: 0;">
+	<input type="radio" name="masterplan" class="hidden" id="toggleOverlay">
+	<input type="radio" name="masterplan" class="hidden" id="toggleBase">
+	<label class="toggle-overlay p strong text-light text-uppercase block hide-for-mobile" for="toggleOverlay" tabindex="-1">View Masterplan</label>
+	<label class="toggle-base p strong text-light text-uppercase block hide-for-mobile" for="toggleBase" tabindex="-1">View Aerial</label>
+	<img class="overlay block hide-for-mobile" src="media/masterplan/masterplan-overlay.svg<?php echo $ver ?>" style="position: absolute;">
+	<picture class="block">
+		<source srcset="media/masterplan/masterplan-base-large.png<?php echo $ver ?>" media="(min-width: 640px)">
+		<img class="block" src="media/masterplan/masterplan-base-small.png<?php echo $ver ?>">
+	</picture>
+	<div class="progress hide-for-mobile"></div>
+	<div class="row block show-for-mobile" style="position: absolute; top: 0; left: 0; z-index: 2">
+		<div class="container space-one-top-bottom text-center">
+			<div class="button button-large fill-green">
+				Download PDF Masterplan
+			</div>
+		</div>
+	</div>
 </section>
 <!-- END: Masterplan 3D Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -622,7 +905,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- BDA Layout Section -->
@@ -739,8 +1022,8 @@
 <!-- END: BDA Layout Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -782,7 +1065,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Flexiplan Section -->
@@ -919,8 +1202,8 @@
 <!-- END: flexiplan Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -962,7 +1245,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- XLarge 4BHK Section -->
@@ -1054,7 +1337,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row fill-green">
+	<div class="row fill-dark">
 		<div class="container">
 			<div class="columns small-12">
 				<div class="pricing">
@@ -1063,55 +1346,61 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large space-half-top-bottom space-half-left-right hide-for-mobile" data-loginner="XLarge 4BHK House" data-context="xlarge-4bhk-house-details">
-							<div class="h3 strong space-quarter-bottom">XLarge 4BHK House</div>
-							<div class="h4 space-quarter-bottom">Basic Price 2.5Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
-							<!-- Phone Trap -->
-							<form class="phone-form loginner_form_phone hidden">
-								<div class="container-phone-country-code">
-									<select class="input-large fill-green js_phone_country_code">
-										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
-									</select>
-									<div class="container-country-code-label button button-large fill-off-light">
-										<span class="js_phone_country_code_label">+91</span>
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House" data-context="xlarge-4bhk-house-details">
+							<div class="h3 strong text-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK East Facing</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
+							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
+							<div class="space-half-bottom space-half-left-right">
+								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
+								<!-- Phone Trap -->
+								<form class="phone-form loginner_form_phone hidden">
+									<div class="container-phone-country-code">
+										<select class="input-large fill-dark js_phone_country_code">
+											<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+										</select>
+										<div class="container-country-code-label button button-large fill-off-light">
+											<span class="js_phone_country_code_label">+91</span>
+										</div>
 									</div>
-								</div>
-								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
-								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
-							</form>
-							<form class="otp-form loginner_form_otp hidden">
-								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
-								<button class="submit button button-large" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
-							</form>
-							<!-- END: Phone Trap -->
+									<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+									<button class="submit button button-large fill-dark" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+								</form>
+								<form class="otp-form loginner_form_otp hidden">
+									<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+									<button class="submit button button-large fill-dark" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+								</form>
+								<!-- END: Phone Trap -->
+							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-off-green text-auto-align-large space-half-top-bottom space-half-left-right" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden">
-							<div class="h3 strong space-quarter-bottom">XLarge 4BHK + Private Garden</div>
-							<div class="h4 space-quarter-bottom">Basic Price 2.8Cr</div>
-							<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
-							<!-- Phone Trap -->
-							<form class="phone-form loginner_form_phone hidden">
-								<div class="container-phone-country-code">
-									<select class="input-large fill-green js_phone_country_code">
-										<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
-									</select>
-									<div class="container-country-code-label button button-large fill-off-light">
-										<span class="js_phone_country_code_label">+91</span>
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--dark);">
+							<div class="h3 strong text-off-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK West Facing</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.8Cr</div>
+							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
+							<div class="space-half-bottom space-half-left-right">
+								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
+								<!-- Phone Trap -->
+								<form class="phone-form loginner_form_phone hidden">
+									<div class="container-phone-country-code">
+										<select class="input-large fill-off-dark js_phone_country_code">
+											<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+										</select>
+										<div class="container-country-code-label button button-large fill-off-light">
+											<span class="js_phone_country_code_label">+91</span>
+										</div>
 									</div>
-								</div>
-								<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
-								<button class="submit button button-large fill-green" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
-							</form>
-							<form class="otp-form loginner_form_otp hidden">
-								<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
-								<button class="submit button button-large" type="submit">→</button>
-								<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
-							</form>
-							<!-- END: Phone Trap -->
+									<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+									<button class="submit button button-large fill-off-dark" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+								</form>
+								<form class="otp-form loginner_form_otp hidden">
+									<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+									<button class="submit button button-large fill-off-dark" type="submit">→</button>
+									<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+								</form>
+								<!-- END: Phone Trap -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -1182,8 +1471,8 @@
 <!-- END: XLarge 4BHK Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -1225,7 +1514,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Amenities Section -->
@@ -1461,8 +1750,8 @@
 <!-- END: Amenities Section -->
 
 
-<!-- Ad Section -->
-<section class="ad-section">
+<!-- Film Section -->
+<section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
 			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
@@ -1504,37 +1793,59 @@
 		</div>
 	</div>
 </section>
-<!-- END: Ad Section -->
+<!-- END: Film Section -->
 
 
 <!-- Construction Section -->
-<section class="construction-section fill-off-green space-half-top-bottom hidden" id="construction" data-section="Construction">
+<section class="construction-section fill-off-green space-half-top-bottom" id="construction" data-section="Construction">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large space-quarter-left-right">
-				<div class="h2 strong space-half-top-bottom">Construction Status</div>
+				<div class="h2 strong space-half-top-bottom">Construction Update</div>
 			</div>
+		</div>
+	</div>
 
+	<div class="timelapse row fill-dark space-half-top-bottom">
+		<div class="container">
+			<!-- ATTENTION!!! Construction Archive Hidden  -->
 			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
-				<div class="h3 space-quarter-bottom">October 2015</div>
-				<div class="button button-large js_modal_trigger" tabindex="-1" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">Previous Months</div>
+				<div class="h3 space-quarter-bottom">Construction Update Archive</div>
+				<div class="button button-large fill-green js_modal_trigger" tabindex="-1" data-mod-id="updates-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</div>
 			</div>
+			<div class="timelapse-container columns small-12 large-8 large-offset-4">
+				<div class="timelapse-box">
+					<picture>
+						<source srcset="media/construction/timelapse/1200/ss-timelapse-1.gif<?php echo $ver ?>" media="(min-width: 640px)">
+						<img class="block" src="media/construction/timelapse/300/ss-timelapse-1.gif<?php echo $ver ?>">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="container">
 			<!-- Status -->
-			<div class="status columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right">
-				<div class="title text-auto-align-large h4 strong">Structure</div>
-				<div class="point text-auto-align-large h6">Block A - 17th Floor in progress.</div>
-				<div class="point text-auto-align-large h6">Block B & C - Completed.</div>
+			<div class="status columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
+				<div class="title text-auto-align-large h3 strong space-half-bottom">May 2019 Update</div>
+				<div class="title text-auto-align-large h4 strong">Excavation</div>
+				<div class="point text-auto-align-large h6">v54, v55 - Completed</div>
+				<div class="point text-auto-align-large h6">v24, v25 - Work in Progress</div>
 
-				<div class="title text-auto-align-large h4 strong">Masonry</div>
-				<div class="point text-auto-align-large h6">Block A - 13th Floor in progress.</div>
-				<div class="point text-auto-align-large h6">Block B - 15th floor Completed.</div>
-				<div class="point text-auto-align-large h6">Block C - 16th floor Completed</div>
-				<div class="point text-auto-align-large h6">STP Work in progress</div>
-				<div class="point text-auto-align-large h6">Basement ramps structure in progress</div>
-				<div class="point text-auto-align-large h6">GFRC work in the ducts in progress</div>
-				<div class="point text-auto-align-large h6">Fire suppression sprinkler system is being installed</div>
-				<div class="point text-auto-align-large h6">Plumbing - Down take line in shaft in progress</div>
+				<div class="title text-auto-align-large h4 strong">Structure</div>
+				<div class="point text-auto-align-large h6">v38 to v54 - Completed</div>
+				<div class="point text-auto-align-large h6">v29 to v37 - Work in Progress</div>
+
+				<div class="title text-auto-align-large h4 strong">Masonry Work</div>
+				<div class="point text-auto-align-large h6">v47 - Completed</div>
+				<div class="point text-auto-align-large h6">v48, v46 to v37, v49 to v53 - Work in Progress</div>
+
+				<div class="title text-auto-align-large h4 strong">Plastering</div>
+				<div class="point text-auto-align-large h6">v1, v2, v3 - Inner and Outer Plastering Work Completed</div>
+
+				<div class="title text-auto-align-large h4 strong">Flooring</div>
+				<div class="point text-auto-align-large h6">v1, v3 - Marble work in progress</div>
 			</div>
 			<!-- End: Status -->
 		</div>
@@ -1545,19 +1856,88 @@
 			<!-- Gallery -->
 			<div class="gallery js_carousel_content">
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1920">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1920">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0001.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 				<div class="image js_carousel_item">
-					<img src="https://via.placeholder.com/1920x1080">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0016.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0016.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0019.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0019.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0039.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0039.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0041.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0041.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A0064.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A0064.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3529.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3529.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3536.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3536.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3548.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3548.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3550.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3550.jpg<?php echo $ver ?>">
+					</picture>
+				</div>
+				<div class="image js_carousel_item">
+					<picture>
+						<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+						<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
+					</picture>
 				</div>
 			</div>
 			<!-- End: Gallery -->
@@ -1579,258 +1959,50 @@
 <!-- END: Construction Section -->
 
 
-<!-- Location Section -->
-<section class="location-section space-one-top-bottom" style="color: var(--light); background-color: var(--dark); background-image: url('media/section-bg/location-map-bg.png<?php echo $ver ?>'); background-position: center center; background-size: cover;" id="location" data-section="Location">
-	<div class="row">
-		<div class="container">
-			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
-				<div class="h1 strong space-quarter-bottom">Location</div>
-				<!-- <div class="label strong text-uppercase">2984<span class="opacity-50">sft</span> & 2988<span class="opacity-50">sft</span></div> -->
-				<div class="h2"><span class="text-green">Secret Soil</span> is located in North Bangalore, just off Hennur Main Road</div>
+<!-- Film Section -->
+<section class="film-section">
+	<div class="row fill-dark space-half-top-bottom">
+		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/u17UzMzAJ3o?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right">
-				<div class="h3 space-quarter-bottom"><span class="text-green">Get directions</span> on Google Maps</div>
-				<a class="button button-large fill-green" href="https://goo.gl/maps/1R91KXC6Ag62" target="_blank"><img src="media/glyph/32-location.svg<?php echo $ver ?>">google maps</a>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> Architect Designed Community?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
-
-			<div class="columns small-12 large-8">
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-7.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Byg Brewski</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">4<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">2km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">XLR8 Indoor Sports Arena</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Decathlon Hennur</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Lulu Supermarket</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">5<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">KLAY Preschool</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">6<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">3km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Legacy Montessori School</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">12<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">5km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Bangalore International School</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">9km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Manayata Tech Park</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">21<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Specialist Hospital</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">22<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">10km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Elements Mall</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">24<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Karle Town Center SEZ</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">26<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">13km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Columbia Asia Hospital</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">29<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">KIADB Aerospace SEZ</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">30<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">21km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">International Airport</div>
-							</div>
-						</div>
-					</div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-6.png<?php echo $ver ?>"></div>
 				</div>
 			</div>
-
-			<div class="columns small-12 large-8 large-4 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
-				<div class="h2">Almost everything you might need within a <span class="text-green">30min commute</span>.</div>
+		</div>
+		<div class="container fill-light hide-for-tablet js_modal_trigger" tabindex="-1" data-mod-id="ad7-video" style="background-color: #D9E0E3">
+			<div class="thumbnail-hero columns small-12 large-4"><img class="block" src="media/hero/ad-7.png<?php echo $ver ?>"></div>
+			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
+				<div class="h3 strong space-quarter-bottom"><!-- [4] --> Architect Designed Community?</div>
+				<div class="watch-ad-link h5 text-green"><img src="media/glyph/48-youtube.svg<?php echo $ver ?>">Watch the ad film</div>
 			</div>
-
-			<div class="columns small-12 large-8 large-offset-4">
+			<div class="character columns small-12 medium-6 large-4"><img class="block" src="media/characters/ad-7.png<?php echo $ver ?>"></div>
+			<div class="thumbnail-strip columns small-12 hide-for-mobile">
 				<div class="row">
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">12km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Orion East Mall</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">31<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">15km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Kirloskar Tech Park, Hebbal</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">Garuda Mall</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">40<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">16km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">1MG Mall</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">42<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">17km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">RMZ Infinity, Old Madras Road</div>
-							</div>
-						</div>
-					</div>
-					<div class="secret columns small-12 medium-6 space-half-bottom space-quarter-left-right">
-						<div class="row">
-							<div class="columns small-2">
-								<div class="h3 secret-icon float-left text-center">45<span class="h4"><br>min</span></div>
-							</div>
-							<div class="columns small-9 small-offset-1">
-								<div class="secret-number label strong text-uppercase text-green">18km<span class="opacity-50"> Commute</span></div>
-								<div class="secret-title h5 space-quarter-bottom">RMZ Millennia, Ulsoor</div>
-							</div>
-						</div>
-					</div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-1.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-2.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-3.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-4.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-5.png<?php echo $ver ?>"></div>
+					<div class="frame columns small-2"><img class="block" src="media/frames/ad7-6.png<?php echo $ver ?>"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- END: Location Section -->
+<!-- END: Film Section -->
 
 
 <!-- Contact Section -->

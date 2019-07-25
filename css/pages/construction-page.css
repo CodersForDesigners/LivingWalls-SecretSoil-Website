@@ -1,0 +1,54 @@
+/*
+ * Contact Page
+ */
+
+.construction-page {}
+
+.construction-page .update-list .update {
+	position: relative;
+	padding-top: 100%;
+	margin-bottom: var(--space-quarter);
+}
+.construction-page .update-list .update .content {
+	position: absolute;
+	height: auto;
+	left: 4px;
+	right: 4px;
+	bottom:4px;
+	z-index: 2;
+}
+.construction-page .update-list .update .content .title {
+	padding-left: 5px;
+	margin-bottom: 15px;
+}
+
+.construction-page .update-list .update .thumb {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+	z-index: 1;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media( min-width: 640px )  {
+	.construction-page .update-list .update {
+		padding-top: 75%;
+	}
+}
+	
+@media( min-width: 1040px ) {
+	.construction-page .reverese-large {
+		direction: rtl;
+	}
+
+	.construction-page .reverese-large * {
+		direction: ltr;
+	}
+	.construction-page .update-list .update {
+		padding-top: 50%;
+	}
+}
+@media( min-width: 1480px ) {}

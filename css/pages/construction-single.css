@@ -1,0 +1,44 @@
+/*
+ * Contact Single
+ */
+
+.construction-single-banner {
+	position: relative;
+	font-size: 0;
+	line-height: 0;
+	padding-top: 50%;
+	min-height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.construction-single {}
+
+
+/* -- Status -- */
+
+.construction-single .status .title,
+.construction-single .status .point {
+	margin-bottom: 5px;
+}
+
+.construction-single .status .title { margin-top: var(--space-half); }
+
+@media( min-width: 640px )  {}
+@media( min-width: 1040px ) {
+	.construction-single .status .title { margin-top: 0; }
+	.construction-single .status .point + .title { margin-top: var(--space-half); }
+}
+@media( min-width: 1480px ) {}
+
+
+
+
+/* -- Gallery -- */
+
+.construction-single .column-gallery {
+	columns: 2;
+	column-gap: 4px
+}
+

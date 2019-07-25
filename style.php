@@ -23,7 +23,7 @@
 <link rel="stylesheet" type="text/css" href="css/pages/section/navigation-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/xlarge-4bhk-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/about-section.css<?php echo $ver ?>">
-<link rel="stylesheet" type="text/css" href="css/pages/section/ad-section.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/section/film-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/amenities-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/bda-layout-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/construction-section.css<?php echo $ver ?>">
@@ -35,3 +35,5 @@
 <link rel="stylesheet" type="text/css" href="css/pages/section/location-section.css<?php echo $ver ?>">
 <link rel="stylesheet" type="text/css" href="css/pages/section/masterplan-section.css<?php echo $ver ?>">
 
+<link rel="stylesheet" type="text/css" href="css/pages/construction-page.css<?php echo $ver ?>">
+<link rel="stylesheet" type="text/css" href="css/pages/construction-single.css<?php echo $ver ?>">
