@@ -165,6 +165,23 @@
 		</div><!-- END : Secrets Coming Soon -->
 
 
+		<!-- Modal Content : Updates Coming Soon -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="updates-coming-soon">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-10 small-offset-1 medium-6 large-4 space-half-bottom">
+						<div class="h2 strong text-light">Show me the Updates!</div>
+					</div>
+					<div class="columns small-10 small-offset-1 medium-8 large-5">
+						<div class="h4 text-light" style="line-height: 1.5;">
+							Our team is working really hard to bring all these Construction Updates to light soon &nbsp; <span class="inline-middle">&#128522;</span> <br><br>Come back soon and remember to keep an eye on this space for regular monthly construction updates. Enjoy the rest of the website.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : Updates Coming Soon -->
+
+
 		<!-- Modal Close Button -->
 		<div class="modal-close js_modal_close">&times;</div>
 	</div>
