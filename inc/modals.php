@@ -153,11 +153,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-10 small-offset-1 medium-6 large-4 space-half-bottom">
-						<div class="h2 strong text-light">Show me the secrets!</div>
+						<div class="h2 strong text-light">Work in progress.</div>
 					</div>
 					<div class="columns small-10 small-offset-1 medium-8 large-5">
 						<div class="h4 text-light" style="line-height: 1.5;">
-							Our team is working really hard to bring all these secrets to light soon &nbsp; <span class="inline-middle">&#128522;</span> <br><br>We have your number and we will inform you as soon as we put it online. Enjoy the rest of the website.
+							Our team is working really hard to bring all these secrets to light soon.
+							<span class="inline-middle">&#128522;</span> <br><br>
+							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp; 
+							<a class="h5 text-uppercase text-green" href="http://livingwalls.in/secret-soil/pricing" target="_blank">Click Here.</a>
 						</div>
 					</div>
 				</div>
@@ -170,11 +173,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-10 small-offset-1 medium-6 large-4 space-half-bottom">
-						<div class="h2 strong text-light">Show me the Updates!</div>
+						<div class="h2 strong text-light">Work in progress.</div>
 					</div>
 					<div class="columns small-10 small-offset-1 medium-8 large-5">
 						<div class="h4 text-light" style="line-height: 1.5;">
-							Our team is working really hard to bring all these Construction Updates to light soon &nbsp; <span class="inline-middle">&#128522;</span> <br><br>Come back soon and remember to keep an eye on this space for regular monthly construction updates. Enjoy the rest of the website.
+							Our team is working really hard to bring all these updates to light soon.
+							<span class="inline-middle">&#128522;</span> <br><br>
+							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp; 
+							<a class="h5 text-uppercase text-green" href="http://livingwalls.in/secret-soil/pricing" target="_blank">Click Here.</a>
 						</div>
 					</div>
 				</div>
