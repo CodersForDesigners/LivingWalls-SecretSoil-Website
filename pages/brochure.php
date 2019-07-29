@@ -74,7 +74,7 @@
 			</div>
 			<div class="columns small-12 large-4">
 				<div class="row">
-					<div class="secret columns small-12 space-half-bottom space-quarter-left-right">
+					<div class="secret columns small-12 space-half-bottom space-quarter-left-right" data-loginner="Brochure">
 						<form class="js_brochure_form js_user_required">
 							<label class="label block space-quarter-bottom">
 								<span class="visuallyhidden">Your Name</span>
