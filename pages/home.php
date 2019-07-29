@@ -196,7 +196,7 @@
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.3Cr</div>
 							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
+								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/25" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -224,7 +224,7 @@
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.2Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/43" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/20" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1352,7 +1352,7 @@
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.8Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
+								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/56" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1380,7 +1380,7 @@
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.6Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/48" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
