@@ -64,7 +64,7 @@
 <section class="review-section space-double-top-bottom section-bg bottom" style="color: var(--light);">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-2 text-auto-align-large space-half-bottom space-quarter-left-right" data-loginner="Large 4BHK" data-context="large-4bhk-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-2 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="title h2 strong space-quarter-bottom">
 					We want your feedback.
 				</div>
