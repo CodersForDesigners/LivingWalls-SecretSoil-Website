@@ -288,14 +288,13 @@ utils.addPotentialCustomer = function addPotentialCustomer ( phoneNumber, projec
  * 	project -> the client's project
  *
  */
-utils.verifyPotentialCustomer = function verifyPotentialCustomer ( phoneNumber, project ) {
+utils.verifyPotentialCustomer = function verifyPotentialCustomer ( phoneNumber ) {
 
 	var apiEndpoint = __CUPID.settings.apiEndpoint;
 	var url = apiEndpoint + "/people/verify";
 	var data = {
 		client: "LivingWalls",
-		interest: project,
-		phoneNumber: phoneNumber
+		phoneNumbers: [ phoneNumber ]
 	};
 
 	var ajaxRequest = $.ajax( {
