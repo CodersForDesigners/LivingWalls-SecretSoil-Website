@@ -13,6 +13,9 @@ done
 # the media folder
 rm -rf media
 ln -s ../media/${PROJECT_DIR} media
+# the download folder
+rm -rf download
+ln -s ../downloads/${PROJECT_DIR} download
 # the cms folder
 rm -rf cms
 ln -s ../${PROJECT_DIR}-cms cms
