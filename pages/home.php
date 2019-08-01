@@ -640,7 +640,7 @@
 			<div class="columns small-12 large-4 text-auto-align-large" data-loginner="Brochure" data-context="brochure-download">
 				<!-- Call for Action -->
 				<div class="h3 space-quarter-bottom">If you're in a hurry, download a <span class="text-green">PDF Brochure</span> instead</div>
-				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-pdf.svg<?php echo $ver ?>">Download Now</a>
+				<a class="button button-large fill-green js_user_required" href="download/brochure-secret-soil.pdf" target="_blank"><img src="media/glyph/32-pdf.svg<?php echo $ver ?>">Download Now</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
