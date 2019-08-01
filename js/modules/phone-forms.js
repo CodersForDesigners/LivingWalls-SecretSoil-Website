@@ -165,6 +165,31 @@ Loginner.registerLoginPrompt( "Large 4BHK with Private Garden", {
 	}
 } );
 
+// Brochure section
+var $brochureFormSite = $( "[ data-loginner = 'Brochure' ]" );
+Loginner.registerLoginPrompt( "Brochure", {
+	onTrigger: onTrigger,
+	onPhoneValidationError: onPhoneValidationError,
+	onPhoneSend: onPhoneSend,
+	onShowOTP: onShowOTP,
+	onOTPSend: onOTPSend,
+	onPhoneError: onPhoneError,
+	onOTPError: onOTPError,
+	onOTPVerified: onOTPVerified,
+	onLogin: function ( user, context ) {
+		if ( this ) {
+			// Disable and Hide the form
+			$( this )
+				.find( "input, select, button" )
+				.prop( "disabled", true )
+			$( this ).addClass( "hidden" );
+			// Bring back the button
+			$brochureFormSite.find( ".js_user_required" )
+				.removeClass( "hidden" );
+		}
+	}
+} );
+
 // Masterplan section
 var $masterplanFormSite = $( "[ data-loginner = 'Masterplan' ]" );
 Loginner.registerLoginPrompt( "Masterplan", {

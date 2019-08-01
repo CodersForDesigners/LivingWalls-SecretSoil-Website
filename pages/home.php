@@ -637,10 +637,30 @@
  style="color: #FFFFFF; background-color: #5D5051;">
 	<div class="row">
 		<div class="container">
-			<div class="columns small-12 large-4 text-auto-align-large">
+			<div class="columns small-12 large-4 text-auto-align-large" data-loginner="Brochure" data-context="brochure-download">
 				<!-- Call for Action -->
 				<div class="h3 space-quarter-bottom">If you're in a hurry, download a <span class="text-green">PDF Brochure</span> instead</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-pdf.svg<?php echo $ver ?>">Download Now</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 				<div class="h5 space-quarter-bottom space-quarter-top">Or, if you'd like a copy of the physical <br>brochure couriered to your location <br><a class="text-green" href="https://livingwalls.in/ssbro/" target="_blank">Click Here.</a></div>
 			</div>
 		</div>
