@@ -191,7 +191,7 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House" data-context="large-4bhk-house-details">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House East Facing" data-context="large-4bhk-house-east-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK East Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.3Cr</div>
 							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
@@ -219,7 +219,7 @@
 								<!-- END: Phone Trap -->
 							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="Large 4BHK with Private Garden" data-context="large-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--green);">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House West Facing" data-context="large-4bhk-house-west-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-off-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK West Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.2Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
@@ -372,9 +372,6 @@
 	</div>
 </section>
 <!-- END: Film Section -->
-
-
-
 
 
 <!-- Location Section -->
@@ -633,6 +630,23 @@
 	</div>
 </section>
 <!-- END: Location Section -->
+
+
+<!-- Brochure Section -->
+<section class="brochure-section fill-dark space-one-top-bottom section-bg bottom"
+ style="color: #FFFFFF; background-color: #5D5051;">
+	<div class="row">
+		<div class="container">
+			<div class="columns small-12 large-4 text-auto-align-large">
+				<!-- Call for Action -->
+				<div class="h3 space-quarter-bottom">If you're in a hurry, download a <span class="text-green">PDF Brochure</span> instead</div>
+				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-pdf.svg<?php echo $ver ?>">Download Now</a>
+				<div class="h5 space-quarter-bottom space-quarter-top">Or, if you'd like a copy of the physical <br>brochure couriered to your location <br><a class="text-green" href="https://livingwalls.in/ssbro/" target="_blank">Click Here.</a></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: Brochure Section -->
 
 
 <!-- Masterplan Section -->
@@ -1347,7 +1361,7 @@
 							<div class="h3 space-quarter-bottom">The detailed price is not a secret</div>
 							<div class="h6">Real-time Pricing & Availability</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House" data-context="xlarge-4bhk-house-details">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House East Facing" data-context="xlarge-4bhk-house-east-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK East Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.8Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
@@ -1375,7 +1389,7 @@
 								<!-- END: Phone Trap -->
 							</div>
 						</div>
-						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large hide-for-mobile" data-loginner="XLarge 4BHK House with Private Garden" data-context="xlarge-4bhk-private-garden" style="box-shadow: inset 2px 0px 0px 0px var(--dark);">
+						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House West Facing" data-context="xlarge-4bhk-house-west-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-off-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK West Facing</div>
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.6Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">

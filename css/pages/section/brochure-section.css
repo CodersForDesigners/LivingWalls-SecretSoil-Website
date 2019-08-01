@@ -1,0 +1,29 @@
+/*
+ * Brochure Section 
+ */
+
+
+
+.brochure-section.section-bg {
+	/*padding-bottom: 120px;*/
+	/*background-size: 100%, 1px;*/
+	padding-bottom: 260px;
+	background-size: 680px, 1px;
+	background-image: url('/media/section-bg/brochure.png');
+}
+
+
+/*@media( min-width: 400px )  { .brochure-section.section-bg { padding-bottom: 220px; } }*/
+@media( min-width: 640px )  { .brochure-section.section-bg { padding-bottom: 420px; background-size: 1080px, 1px; } }
+/*@media( min-width: 800px )  { .brochure-section.section-bg { padding-bottom: 280px; } }*/
+@media( min-width: 1040px ) {
+	.brochure-section.section-bg {
+		padding-bottom: 250px;
+		background-size: 1860px, 1px;
+		background-image: url('/media/section-bg/brochure-large.png');
+	}
+}
+/*@media( min-width: 1200px ) { .brochure-section.section-bg { padding-bottom: 380px; } }*/
+@media( min-width: 1480px ) { .brochure-section.section-bg { padding-bottom: 360px; background-size: 2640px, 1px; } }
+/*@media( min-width: 1600px ) { .brochure-section.section-bg { padding-bottom: 500px; } }*/
+/*@media( min-width: 1940px ) { .brochure-section.section-bg { padding-bottom: 26%; background-size: 100%, 1px; } }*/
