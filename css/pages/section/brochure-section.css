@@ -9,7 +9,7 @@
 	/*background-size: 100%, 1px;*/
 	padding-bottom: 260px;
 	background-size: 680px, 1px;
-	background-image: url('/media/section-bg/brochure.png?v=20190731');
+	background-image: url('../../../media/section-bg/brochure.png?v=20190731');
 }
 
 
@@ -20,7 +20,7 @@
 	.brochure-section.section-bg {
 		padding-bottom: 250px;
 		background-size: 1860px, 1px;
-		background-image: url('/media/section-bg/brochure-large.png?v=20190731');
+		background-image: url('../../../media/section-bg/brochure-large.png?v=20190731');
 	}
 }
 /*@media( min-width: 1200px ) { .brochure-section.section-bg { padding-bottom: 380px; } }*/
