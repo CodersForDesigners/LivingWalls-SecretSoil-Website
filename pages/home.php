@@ -781,8 +781,8 @@
 					LW <br>
 					Secret Soil
 				</div>
-				<div class="table-row space-half-left-right h5">6.4 Acres</div>
-				<div class="table-row space-half-left-right h5">77 Houses</div>
+				<div class="table-row space-half-left-right h5">6.55 Acres</div>
+				<div class="table-row space-half-left-right h5">78 Houses</div>
 				<div class="table-row space-half-left-right h5">11.8 per acre</div>
 				<div class="table-row space-half-left-right h5">4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
