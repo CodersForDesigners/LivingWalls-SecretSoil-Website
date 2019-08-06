@@ -783,7 +783,7 @@
 				</div>
 				<div class="table-row space-half-left-right h5">6.55 Acres</div>
 				<div class="table-row space-half-left-right h5">78 Houses</div>
-				<div class="table-row space-half-left-right h5">11.8 per acre</div>
+				<div class="table-row space-half-left-right h5">11.9 per acre</div>
 				<div class="table-row space-half-left-right h5">4 BHK</div>
 				<div class="table-row space-half-left-right table-foot h5 strong">Standalone Houses</div>
 			</div>
@@ -849,7 +849,7 @@
 								<div class="secret-icon float-left"><img src="media/icons/icon-elderlyjackfruit.svg<?php echo $ver ?>"></div>
 							</div>
 							<div class="columns small-9 small-offset-1">
-								<div class="secret-description h6 text-light opacity-50">Like noble sentinels; 15 Jackfruits trees stand tall across Secret Soil. These huge giants have extremely large canopies and are laden with fruit.</div>
+								<div class="secret-description h6 text-light opacity-50">Like noble sentinels; 15 Jackfruit trees stand tall across Secret Soil. These huge giants have extremely large canopies and are laden with fruit.</div>
 							</div>
 						</div>
 					</div>
