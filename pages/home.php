@@ -661,6 +661,12 @@
 					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
 				</form>
 				<!-- END: Phone Trap -->
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="container">
+			<div class="columns small-12 large-4 text-auto-align-large">
 				<div class="h5 space-quarter-bottom space-quarter-top">Or, if you'd like a copy of the physical <br>brochure couriered to your location <br><a class="text-green" href="https://livingwalls.in/ssbro/" target="_blank">Click Here.</a></div>
 			</div>
 		</div>
