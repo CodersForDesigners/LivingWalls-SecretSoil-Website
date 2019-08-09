@@ -1,40 +1,15 @@
 <?php
 /*
  *
- *	Construction Update Pages Template
+ * This is a sample page you can copy and use as boilerplate for any new page.
  *
  */
 
-require_once __DIR__ . '/../inc/above.php';
-
-// $constructionUpdatePost = get_posts( [
-// 	'post_type' => $post_type,
-// 	'post_status' => 'publish',
-// 	'name' => $slug
-// ] );
-
-// if ( empty( $constructionUpdatePost ) )
-	// header( 'Location: ' );
-// $constructionUpdatePost = $constructionUpdatePost[ 0 ];
-
-// Get all the post ids and slugs
-$updates__postIds = get_posts( [
-	'post_type' => 'construction_updates',
-	'post_status' => 'publish',
-	'numberposts' => -1,
-	// 'order' => 'ASC'
-	'orderby' => 'date'
-] );
-
-
-// Pull out all the fields
-$monthAndYear = $the_post->post_title;
-$description = getContent( '', 'description', $the_post->ID );
-$gallery = getContent( '', 'gallery', $the_post->ID );
-$featuredImage = $gallery[ 0 ];
-$gallery = array_slice( $gallery, 1 );
+// Page-specific preparatory code goes here.
 
 ?>
+
+<?php require_once __DIR__ . '/../inc/above.php'; ?>
 
 <!-- Media Version <img src="media/logo.svg<?php //echo $ver ?>"> -->
 
@@ -44,6 +19,19 @@ $gallery = array_slice( $gallery, 1 );
 	<?php echo getContent( '', 'seo_blurb', 'construction' ); ?>
 </section>
 <!-- END: SEO-Blurb Section -->
+
+
+<!-- Sample Section -->
+<section class="sample-section">
+	<div class="row">
+		<div class="container">
+			<div class="columns small-12">
+				<!-- Things -->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: Sample Section -->
 
 
 <!-- Navigation Section : Menu 1 -->
@@ -83,58 +71,50 @@ $gallery = array_slice( $gallery, 1 );
 <!-- END: Navigation Section -->
 
 
-<!-- Construction Banner -->
-<section class="construction-single-banner" style="background-image: url( '<?= $featuredImage[ 'url' ] ?>' );">
-</section>
-<!-- END: Construction Banner -->
-
-
-<!-- Construction Single -->
-<section class="construction-single fill-dark space-half-top-bottom">
+<!-- Construction Page -->
+<section class="construction-page fill-dark space-half-top-bottom">
 	<div class="row">
 		<div class="container">
-			<!-- Status -->
-			<div class="status columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right">
-				<div class="title text-auto-align-large h4 text-light space-half-top">Construction Update</div>
-				<div class="text-auto-align-large h3 strong text-light space-half-bottom"><?= $monthAndYear ?></div>
-				<?php foreach ( $description as $section ) : ?>
-					<div class="title text-auto-align-large h4 strong"><?= $section[ 'heading' ] ?></div>
-					<div class="point text-auto-align-large h6"><?= $section[ 'points' ] ?></div>
-				<?php endforeach; ?>
-			</div>
-			<!-- END: Status -->
+			<div class="title columns small-10 small-offset-1 large-8 large-offset-4 text-auto-align-large h1 strong text-light space-one-top space-quarter-left-right">Construction Updates</div>
 
-
-			<!-- Column Gallery -->
-			<div class="column-gallery columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
-				<?php foreach ( $gallery as $picture ) : ?>
-					<div class="image" <?php if ( $picture[ 'caption' ] == 'wide' ) : ?>style="column-span: all;"<?php endif; ?>>
-						<picture>
-							<source srcset="<?= $picture[ 'url' ] ?>" media="(min-width: 640px)">
-							<img src="<?= $picture[ 'sizes' ][ 'medium_large' ] ?>">
-						</picture>
-					</div>
-				<?php endforeach; ?>
-			</div>
-			<!-- End: Column Gallery -->
-
-
-			<!-- Construction Nav -->
-			<!-- <div class="columns small-10 small-offset-1 large-4 large-offset-0">
-				<div class="row">
-					<div class="columns small-12 medium-5 large-10 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">February Update</div>
-					</div>
-					<div class="columns small-12 medium-5 medium-offset-2 large-10 large-offset-0 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">September Update</div>
-					</div>
+			<div class="reverese-large">
+				<!-- Update List -->
+				<div class="update-list columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
+					<a href="#" class="update block fill-green">
+						<div class="content space-quarter-left-right space-quarter-top-bottom">
+							<div class="title h3">March 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
+						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
+					</a>
+					<a href="#" class="update block fill-green">
+						<div class="content space-quarter-left-right space-quarter-top-bottom">
+							<div class="title h3">February 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
+						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
+					</a>
+					<a href="#" class="update block fill-green">
+						<div class="content space-quarter-left-right space-quarter-top-bottom">
+							<div class="title h3">January 2019</div>
+							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+						</div>
+						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
+					</a>
 				</div>
-			</div> -->
-			<!-- END: Construction Nav -->
+				<!-- End: Update List -->
+
+				<!-- Return -->
+				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
+					<div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div>
+				</div>
+				<!-- END: Return -->
+			</div>
+
 		</div>
 	</div>
 </section>
-<!-- END: Construction Single -->
+<!-- END: Construction Page -->
 
 
 <!-- About Section -->
@@ -229,7 +209,17 @@ $gallery = array_slice( $gallery, 1 );
 <!-- END: RERA Disclaimer Section -->
 
 
-
+<!-- Sample Section -->
+<section class="sample-section">
+	<div class="row">
+		<div class="container">
+			<div class="columns small-12">
+				<!-- Things -->
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: Sample Section -->
 
 
 <?php require_once __DIR__ . '/../inc/below.php'; ?>
