@@ -124,10 +124,10 @@ function pageIsStatic () {
  * Get the current post that the url is refering to
  *
  */
-function getCurrentPost () {
+function getCurrentPost ( $type, $slug ) {
 	$post = get_posts( [
-		'post_type' => $_GET[ '_post_type' ],
-		'name' => $_GET[ '_slug' ],
+		'post_type' => $type,
+		'name' => $slug,
 		'post_status' => 'publish',
 		'numberposts' => 1,
 		'posts_per_page' => 1

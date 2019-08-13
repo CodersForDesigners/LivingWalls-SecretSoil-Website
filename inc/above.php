@@ -57,7 +57,7 @@ $pageUrl = $siteUrl . $urlPath;
 if ( pageIsStatic() )
 	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 else {
-	$the_post = getCurrentPost();
+	$the_post = getCurrentPost( $_GET[ '_post_type' ], $_GET[ '_slug' ] );
 	if ( empty( $the_post ) ) {
 		http_response_code( 404 );
 		exit;

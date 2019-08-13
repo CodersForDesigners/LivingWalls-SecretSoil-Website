@@ -107,7 +107,7 @@ foreach ( $constructionPosts as $construction ) {
 
 				<!-- Return -->
 				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div>
+					<a class="button button-large fill-black" href="<?= $thisUrl . '..' ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
 				</div>
 				<!-- END: Return -->
 			</div>
