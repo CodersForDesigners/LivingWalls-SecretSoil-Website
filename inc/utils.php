@@ -14,9 +14,23 @@ function initWordPress () {
 	$configFile__AlternateLocation = __DIR__ . '/../wp-config.php';
 	if ( file_exists( $configFile ) || file_exists( $configFile__AlternateLocation ) ) {
 		$includeStatus = include_once __DIR__ . '/../cms/index.php';
-		if ( $includeStatus )
+		if ( $includeStatus ) {
+			global $cmsIsEnabled;
+			$cmsIsEnabled = true;
 			setupVars();
+		}
 	}
+}
+
+
+/*
+ *
+ * Is the CMS enabled?
+ *
+ */
+function cmsIsEnabled () {
+	global $cmsIsEnabled;
+	return $cmsIsEnabled;
 }
 
 
@@ -27,6 +41,7 @@ function initWordPress () {
  */
 $pageId = null;
 $siteUrl = ( isOnHTTPS() ? 'https://' : 'http://' ) . $_SERVER[ 'HTTP_HOST' ];
+$cmsIsEnabled = false;
 function setupVars () {
 	global $pageId;
 	global $siteUrl;
