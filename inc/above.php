@@ -17,6 +17,55 @@ $ver = '?v=20190725';
 //  	it should not get a 404. This because is setting the response header.
 http_response_code( 200 );
 
+
+$urlPath = strstr( $_SERVER[ 'REQUEST_URI' ], '?', true );
+if ( ! $urlPath )
+	$urlPath = $_SERVER[ 'REQUEST_URI' ];
+$urlFragments = preg_split( '/\//', $urlPath );
+
+/*
+ * Get all the links on the site
+ */
+$defaultLinks = require __DIR__ . '/default-nav-links.php';
+$links = getContent( $defaultLinks, 'pages' );
+
+/*
+ * Figure out the base URL
+ */
+// Pull out the first non-empty fragment
+$baseURL = $baseURL ?? null;
+if ( $baseURL === null ) {
+	$calculatedBaseSlug = '';
+	$inferredBaseSlug = $_GET[ '_slug' ] ?? '';
+	foreach ( $urlFragments as $fragment ) {
+		if ( ! empty( $fragment ) ) {
+			$calculatedBaseSlug = $fragment;
+			break;
+		}
+	}
+	if ( $inferredBaseSlug == $calculatedBaseSlug )
+		$baseURL = '';
+	else
+		$baseURL = '/' . $calculatedBaseSlug . '/';
+}
+
+/*
+ * Get the title and URL of the website and current page
+ */
+$siteTitle = getContent( 'Design Cartel', 'site_title' );
+$pageUrl = $siteUrl . $urlPath;
+if ( pageIsStatic() )
+	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
+else {
+	$the_post = getCurrentPost( $_GET[ '_post_type' ], $_GET[ '_slug' ] );
+	if ( empty( $the_post ) ) {
+		http_response_code( 404 );
+		exit;
+	}
+	$pageTitle = $the_post->post_title . ' | ' . $siteTitle;
+}
+http_response_code( 200 );
+
 ?>
 
 <!DOCTYPE html>

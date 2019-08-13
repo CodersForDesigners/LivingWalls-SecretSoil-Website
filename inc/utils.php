@@ -47,7 +47,7 @@ function getContent ( $fallback, $field, $context = null ) {
 
 	if ( empty( $context ) )
 		$context = 'options';
-	else {
+	else if ( is_string( $context ) ) {
 		$page = get_page_by_path( $context );
 		if ( empty( $page ) or empty( $page->ID ) )
 			$context = 'options';
@@ -102,6 +102,46 @@ function isOnHTTPS () {
 
 /*
  *
+ * Figure out if the page being requested has a corresponding template or not
+ *
+ */
+function pageIsStatic () {
+	$_post_type = $_GET[ '_post_type' ] ?? null;
+	$_slug = $_GET[ '_slug' ] ?? null;
+	if ( empty( $_post_type ) )
+		return true;
+	else if ( empty( $_slug ) )
+		return true;
+	else
+		return false;
+	// return empty( $_post_type ) and empty( $_slug );
+}
+
+
+
+/*
+ *
+ * Get the current post that the url is refering to
+ *
+ */
+function getCurrentPost ( $type, $slug ) {
+	$post = get_posts( [
+		'post_type' => $type,
+		'name' => $slug,
+		'post_status' => 'publish',
+		'numberposts' => 1,
+		'posts_per_page' => 1
+	] );
+	if ( ! empty( $post ) )
+		return $post[ 0 ];
+	else
+		return null;
+}
+
+
+
+/*
+ *
  * Get the title of the current page
  *
  */
@@ -113,6 +153,8 @@ function getCurrentPageTitle ( $siteLinks, $baseURL, $siteTitle ) {
 	if ( strlen( $currentPageSlug ) <= 1 )
 		$currentPageSlug = '/';
 
+		// in case, it is a relative path with dots
+	$baseURL = preg_replace( '/\.+/', '', $baseURL );
 	$partialPageTitle = 'Untitled';
 	foreach ( $siteLinks as $link ) {
 		$fullSlug = preg_replace( '/\/+/', '/', $baseURL . $link[ 'slug' ] );
