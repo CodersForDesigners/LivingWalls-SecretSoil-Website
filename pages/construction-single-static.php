@@ -197,16 +197,16 @@
 
 
 			<!-- Construction Nav -->
-			<!-- <div class="columns small-10 small-offset-1 large-4 large-offset-0">
+			<div class="columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
 				<div class="row">
-					<div class="columns small-12 medium-5 large-10 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">February Update</div>
+					<div class="columns small-6 medium-5 space-quarter-bottom">
+						<a href="" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; February 2019</a>
 					</div>
-					<div class="columns small-12 medium-5 medium-offset-2 large-10 large-offset-0 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">September Update</div>
+					<div class="columns small-6 medium-5 medium-offset-2 space-quarter-bottom text-right">
+						<a href="" class="label strong text-uppercase text-green inline-middle" tabindex="-1">September 2019 &#9654;</a>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- END: Construction Nav -->
 		</div>
 	</div>
