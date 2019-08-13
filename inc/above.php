@@ -52,7 +52,7 @@ if ( $baseURL === null ) {
 /*
  * Get the title and URL of the website and current page
  */
-$siteTitle = getContent( 'Design Cartel', 'site_title' );
+$siteTitle = getContent( 'Secretly Kickass 4BHK House | Secret Soil | LivingWalls', 'site_title' );
 $pageUrl = $siteUrl . $urlPath;
 if ( pageIsStatic() )
 	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
