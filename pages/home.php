@@ -9,8 +9,7 @@
 require_once __DIR__ . '/../inc/above.php';
 
 $constructionUpdate = [ ];
-// if ( cmsIsEnabled() ) {
-if ( false ) {
+if ( cmsIsEnabled() ) {
 	$constructionUpdate = get_posts( [
 		'post_type' => 'construction_updates',
 		'post_status' => 'publish',
