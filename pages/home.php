@@ -8,16 +8,26 @@
 // Page-specific preparatory code goes here.
 require_once __DIR__ . '/../inc/above.php';
 
-$constructionUpdate = get_posts( [
-	'post_type' => 'construction_updates',
-	'post_status' => 'publish',
-	'numberposts' => 1,
-	'orderby' => 'date'
-] );
-if ( ! empty( $constructionUpdate ) ) {
-	$constructionUpdate = $constructionUpdate[ 0 ];
-	$constructionDescription = getContent( '', 'description', $constructionUpdate->ID );
-	$constructionGallery = getContent( '', 'gallery', $constructionUpdate->ID );
+$constructionUpdate = [ ];
+// if ( cmsIsEnabled() ) {
+if ( false ) {
+	$constructionUpdate = get_posts( [
+		'post_type' => 'construction_updates',
+		'post_status' => 'publish',
+		'numberposts' => 1,
+		'orderby' => 'date'
+	] );
+	if ( ! empty( $constructionUpdate ) ) {
+		$constructionUpdate = $constructionUpdate[ 0 ];
+		$constructionMonthAndYear = $constructionUpdate->post_title;
+		$constructionDescription = getContent( '', 'description', $constructionUpdate->ID );
+		$constructionGallery = getContent( '', 'gallery', $constructionUpdate->ID );
+	}
+}
+else {
+	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
+	$constructionUpdate = $constructionUpdates[ 0 ];
+	extract( $constructionUpdate );
 }
 
 ?>
@@ -1881,7 +1891,7 @@ if ( ! empty( $constructionUpdate ) ) {
 		<div class="container">
 			<!-- Status -->
 			<div class="status columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
-				<div class="title text-auto-align-large h3 strong space-half-bottom"><?= $constructionUpdate->post_title ?></div>
+				<div class="title text-auto-align-large h3 strong space-half-bottom"><?= $constructionMonthAndYear ?></div>
 				<?php foreach ( $constructionDescription as $section ) : ?>
 					<div class="title text-auto-align-large h4 strong"><?= $section[ 'heading' ] ?></div>
 					<div class="point text-auto-align-large h6"><?= $section[ 'points' ] ?></div>
