@@ -27,11 +27,10 @@ $constructionPosts = get_posts( [
 // Pull out all the fields
 $constructionUpdates = [ ];
 foreach ( $constructionPosts as $construction ) {
-	$gallery = getContent( '', 'gallery', $construction->ID );
 	$constructionUpdates[ ] = [
 		'url' => $construction->post_name,
 		'monthAndYear' => $construction->post_title,
-		'featuredImage' => $gallery[ 0 ]
+		'featuredImage' => getContent( '', 'featured_image', $construction->ID )
 	];
 }
 

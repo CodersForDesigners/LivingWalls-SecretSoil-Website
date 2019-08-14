@@ -31,8 +31,7 @@ $updates__postIds = get_posts( [
 $monthAndYear = $the_post->post_title;
 $description = getContent( '', 'description', $the_post->ID );
 $gallery = getContent( '', 'gallery', $the_post->ID );
-$featuredImage = $gallery[ 0 ];
-$gallery = array_slice( $gallery, 1 );
+$featuredImage = getContent( '', 'featured_image', $the_post->ID );
 
 ?>
 
