@@ -21,6 +21,7 @@ if ( cmsIsEnabled() ) {
 		$constructionMonthAndYear = $constructionUpdate->post_title;
 		$constructionDescription = getContent( '', 'description', $constructionUpdate->ID );
 		$constructionGallery = getContent( '', 'gallery', $constructionUpdate->ID );
+		$featuredImage = getContent( '', 'featured_image', $constructionUpdate->ID );
 	}
 }
 else {
@@ -28,6 +29,7 @@ else {
 	$constructionUpdate = $constructionUpdates[ 0 ];
 	extract( $constructionUpdate );
 }
+array_unshift( $constructionGallery, $featuredImage );
 
 ?>
 

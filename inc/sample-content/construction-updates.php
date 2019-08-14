@@ -3,6 +3,10 @@
 return [
 	[
 		'constructionMonthAndYear' => 'June 2019',
+		'featuredImage' => [
+			'url' => 'media/construction/2019_may/1480/5K8A0001.jpg',
+			'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A0001.jpg' ]
+		],
 		'constructionDescription' => [
 			[
 				'heading' => 'Excavation',
@@ -26,10 +30,6 @@ return [
 			]
 		],
 		'constructionGallery' => [
-			[
-				'url' => 'media/construction/2019_may/1480/5K8A0001.jpg',
-				'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A0001.jpg' ]
-			],
 			[
 				'url' => 'media/construction/2019_may/1480/5K8A0016.jpg',
 				'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A0016.jpg' ]
@@ -86,6 +86,10 @@ return [
 	],
 	[
 		'constructionMonthAndYear' => 'May 2019',
+		'featuredImage' => [
+			'url' => 'media/construction/2019_may/1480/5K8A3529.jpg',
+			'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A3529.jpg' ]
+		],
 		'constructionDescription' => [
 			[
 				'heading' => 'Excavation',
@@ -109,10 +113,6 @@ return [
 			]
 		],
 		'constructionGallery' => [
-			[
-				'url' => 'media/construction/2019_may/1480/5K8A3529.jpg',
-				'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A3529.jpg' ]
-			],
 			[
 				'url' => 'media/construction/2019_may/1480/5K8A0019.jpg',
 				'sizes' => [ 'medium_large' => 'media/construction/2019_may/640/5K8A0019.jpg' ]
