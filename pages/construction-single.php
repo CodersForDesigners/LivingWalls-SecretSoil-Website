@@ -7,29 +7,53 @@
 
 require_once __DIR__ . '/../inc/above.php';
 
-// Get the previous and next updates
-// Note: Some WordPress function assume that certain global variable are set
-	// Set the global WP post variable
-global $post;
-$post = $the_post;
-$previousUpdate = get_previous_post();
-$nextUpdate = get_next_post();
+if ( cmsIsEnabled() ) {
 
-// Get all the post ids and slugs
-$updates__postIds = get_posts( [
-	'post_type' => 'construction_updates',
-	'post_status' => 'publish',
-	'numberposts' => -1,
-	// 'order' => 'ASC'
-	'orderby' => 'date'
-] );
+	// Get the previous and next updates
+	// Note: Some WordPress function assume that certain global variable are set
+		// Set the global WP post variable
+	global $post;
+	$post = $the_post;
+	$previousUpdatePost = get_previous_post();
+	$nextUpdatePost = get_next_post();
+	if ( ! empty( $previousUpdatePost ) ) {
+		$previousUpdate[ 'monthAndYear' ] = $previousUpdatePost->post_title;
+		$previousUpdate[ 'url' ] = get_permalink( $previousUpdatePost->ID );
+	}
+	if ( ! empty( $nextUpdatePost ) ) {
+		$nextUpdate[ 'monthAndYear' ] = $nextUpdatePost->post_title;
+		$nextUpdate[ 'url' ] = get_permalink( $nextUpdatePost->ID );
+	}
 
+	// Get all the post ids and slugs
+	$updates__postIds = get_posts( [
+		'post_type' => 'construction_updates',
+		'post_status' => 'publish',
+		'numberposts' => -1,
+		// 'order' => 'ASC'
+		'orderby' => 'date'
+	] );
 
-// Pull out all the fields
-$monthAndYear = $the_post->post_title;
-$description = getContent( '', 'description', $the_post->ID );
-$gallery = getContent( '', 'gallery', $the_post->ID );
-$featuredImage = getContent( '', 'featured_image', $the_post->ID );
+	// Pull out all the fields
+	$monthAndYear = $the_post->post_title;
+	$description = getContent( '', 'description', $the_post->ID );
+	$gallery = getContent( '', 'gallery', $the_post->ID );
+	$featuredImage = getContent( '', 'featured_image', $the_post->ID );
+
+}
+else {
+	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
+	foreach ( $constructionUpdates as $_index => $update ) {
+		if ( ( '/construction/' . $slug ) == $update[ 'url' ] ) {
+			$constructionUpdate = $update;
+			$previousUpdate = $constructionUpdates[ $_index - 1 ] ?? null;
+			$nextUpdate = $constructionUpdates[ $_index + 1 ] ?? null;
+			break;
+		}
+	}
+	extract( $constructionUpdate );
+}
+
 
 ?>
 
@@ -89,12 +113,12 @@ $featuredImage = getContent( '', 'featured_image', $the_post->ID );
 				<div class="row">
 					<div class="columns small-6 medium-5 space-quarter-bottom">
 						<?php if ( ! empty( $previousUpdate ) ) : ?>
-							<a href="<?= get_permalink( $previousUpdate->ID ) ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate->post_title ?></a>
+							<a href="<?= $previousUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate[ 'monthAndYear' ] ?></a>
 						<?php endif; ?>
 					</div>
 					<div class="columns small-6 medium-5 medium-offset-2 space-quarter-bottom text-right">
 						<?php if ( ! empty( $nextUpdate ) ) : ?>
-							<a href="<?= get_permalink( $nextUpdate->ID ) ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate->post_title ?> &#9654;</a>
+							<a href="<?= $nextUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate[ 'monthAndYear' ] ?> &#9654;</a>
 						<?php endif; ?>
 					</div>
 				</div>
