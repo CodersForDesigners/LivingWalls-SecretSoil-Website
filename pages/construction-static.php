@@ -47,25 +47,25 @@
 
 			<div class="reverese-large">
 				<!-- Update List -->
-				<div class="update-list columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
+				<div class="update-list text-right columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
 					<a href="#" class="update block fill-green">
 						<div class="content space-quarter-left-right space-quarter-top-bottom">
 							<div class="title h3">March 2019</div>
-							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+							<div class="action label strong text-uppercase">View Update &nbsp; &#9654;</div>
 						</div>
 						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
 					</a>
 					<a href="#" class="update block fill-green">
 						<div class="content space-quarter-left-right space-quarter-top-bottom">
 							<div class="title h3">February 2019</div>
-							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+							<div class="action label strong text-uppercase">View Update &nbsp; &#9654;</div>
 						</div>
 						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
 					</a>
 					<a href="#" class="update block fill-green">
 						<div class="content space-quarter-left-right space-quarter-top-bottom">
 							<div class="title h3">January 2019</div>
-							<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?php $ver ?>"></div>
+							<div class="action label strong text-uppercase">View Update &nbsp; &#9654;</div>
 						</div>
 						<div class="thumb" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');"></div>
 					</a>
@@ -73,8 +73,9 @@
 				<!-- End: Update List -->
 
 				<!-- Return -->
-				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div>
+				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom text-auto-align-large">
+					<!-- <div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div> -->
+					<a href="" class="button fill-black strong" tabindex="-1">&#9664; &nbsp; Return to Overview</a>
 				</div>
 				<!-- END: Return -->
 			</div>

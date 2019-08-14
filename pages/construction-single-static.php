@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="return columns small-10 small-offset-1 large-4 large-offset-0">
 				<div class="text-auto-align-large">
-					<a href="" class="button fill-green strong" tabindex="-1">&#9664; Return to All Updates</a>
+					<a href="" class="button fill-green strong" tabindex="-1">&#9664; &nbsp; Return to All Updates</a>
 				</div>
 			</div>
 		</div>
