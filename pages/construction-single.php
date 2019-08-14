@@ -75,7 +75,7 @@ $featuredImage = getContent( '', 'featured_image', $the_post->ID );
 			<!-- Column Gallery -->
 			<div class="column-gallery columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
 				<?php foreach ( $gallery as $picture ) : ?>
-					<div class="image" <?php if ( $picture[ 'caption' ] == 'wide' ) : ?>style="column-span: all;"<?php endif; ?>>
+					<div class="image">
 						<picture>
 							<source srcset="<?= $picture[ 'url' ] ?>" media="(min-width: 640px)">
 							<img src="<?= $picture[ 'sizes' ][ 'medium_large' ] ?>">
