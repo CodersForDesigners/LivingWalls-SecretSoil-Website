@@ -11,9 +11,6 @@ require_once __DIR__ . '/../inc/above.php';
 
 
 
-// Get the url sans query and hash parameters
-$thisUrl = preg_replace( '/\/+$/', '', $_SERVER[ 'REQUEST_URI' ] ) . '/';
-
 // Get all the post ids and slugs
 $constructionPosts = get_posts( [
 	'post_type' => 'construction_updates',
@@ -28,7 +25,7 @@ $constructionPosts = get_posts( [
 $constructionUpdates = [ ];
 foreach ( $constructionPosts as $construction ) {
 	$constructionUpdates[ ] = [
-		'url' => $construction->post_name,
+		'url' => get_permalink( $construction->ID ),
 		'monthAndYear' => $construction->post_title,
 		'featuredImage' => getContent( '', 'featured_image', $construction->ID )
 	];
@@ -61,7 +58,7 @@ foreach ( $constructionPosts as $construction ) {
 				<!-- Update List -->
 				<div class="update-list columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
 					<?php foreach ( $constructionUpdates as $update ) : ?>
-						<a href="<?= $thisUrl . $update[ 'url' ] ?>" class="update block fill-green">
+						<a href="<?= $update[ 'url' ] ?>" class="update block fill-green">
 							<div class="content space-quarter-left-right space-quarter-top-bottom">
 								<div class="title h3"><?= $update[ 'monthAndYear' ] ?></div>
 								<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?= $ver ?>"></div>
@@ -74,7 +71,7 @@ foreach ( $constructionPosts as $construction ) {
 
 				<!-- Return -->
 				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<a class="button button-large fill-black" href="<?= $thisUrl . '..' ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
+					<a class="button button-large fill-black" href="<?= home_url() ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
 				</div>
 				<!-- END: Return -->
 			</div>

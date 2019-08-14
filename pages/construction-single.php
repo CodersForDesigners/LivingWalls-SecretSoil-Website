@@ -15,9 +15,6 @@ $post = $the_post;
 $previousUpdate = get_previous_post();
 $nextUpdate = get_next_post();
 
-// Get the url sans query and hash parameters
-$thisUrl = preg_replace( '/\/+$/', '', $_SERVER[ 'REQUEST_URI' ] ) . '/';
-
 // Get all the post ids and slugs
 $updates__postIds = get_posts( [
 	'post_type' => 'construction_updates',
@@ -92,12 +89,12 @@ $featuredImage = getContent( '', 'featured_image', $the_post->ID );
 				<div class="row">
 					<div class="columns small-6 medium-5 space-quarter-bottom">
 						<?php if ( ! empty( $previousUpdate ) ) : ?>
-							<a href="<?= $thisUrl . '../' . $previousUpdate->post_name ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate->post_title ?></a>
+							<a href="<?= get_permalink( $previousUpdate->ID ) ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate->post_title ?></a>
 						<?php endif; ?>
 					</div>
 					<div class="columns small-6 medium-5 medium-offset-2 space-quarter-bottom text-right">
 						<?php if ( ! empty( $nextUpdate ) ) : ?>
-							<a href="<?= $thisUrl . '../' . $nextUpdate->post_name ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate->post_title ?> &#9654;</a>
+							<a href="<?= get_permalink( $nextUpdate->ID ) ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate->post_title ?> &#9654;</a>
 						<?php endif; ?>
 					</div>
 				</div>
