@@ -28,6 +28,9 @@ else {
 	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
 	$constructionUpdate = $constructionUpdates[ 0 ];
 	extract( $constructionUpdate );
+	$constructionMonthAndYear = $monthAndYear;
+	$constructionDescription = $description;
+	$constructionGallery = $gallery;
 }
 array_unshift( $constructionGallery, $featuredImage );
 

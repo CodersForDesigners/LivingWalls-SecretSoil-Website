@@ -12,24 +12,30 @@ require_once __DIR__ . '/../inc/above.php';
 
 
 // Get all the post ids and slugs
-$constructionPosts = get_posts( [
-	'post_type' => 'construction_updates',
-	'post_status' => 'publish',
-	'numberposts' => -1,
-	// 'order' => 'ASC'
-	'orderby' => 'date'
-] );
+if ( cmsIsEnabled() ) {
 
+	$constructionPosts = get_posts( [
+		'post_type' => 'construction_updates',
+		'post_status' => 'publish',
+		'numberposts' => -1,
+		// 'order' => 'ASC'
+		'orderby' => 'date'
+	] );
 
-// Pull out all the fields
-$constructionUpdates = [ ];
-foreach ( $constructionPosts as $construction ) {
-	$constructionUpdates[ ] = [
-		'url' => get_permalink( $construction->ID ),
-		'monthAndYear' => $construction->post_title,
-		'featuredImage' => getContent( '', 'featured_image', $construction->ID )
-	];
+	// Pull out all the fields
+	$constructionUpdates = [ ];
+	foreach ( $constructionPosts as $construction ) {
+		$constructionUpdates[ ] = [
+			'url' => get_permalink( $construction->ID ),
+			'monthAndYear' => $construction->post_title,
+			'featuredImage' => getContent( '', 'featured_image', $construction->ID )
+		];
+	}
+
 }
+else
+	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
+
 
 ?>
 
