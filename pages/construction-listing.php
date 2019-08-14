@@ -32,9 +32,15 @@ if ( cmsIsEnabled() ) {
 		];
 	}
 
+	$homeUrl = home_url();
+
 }
-else
+else {
 	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
+	// Get the url sans query and hash parameters
+	$thisUrl = preg_replace( '/\/+$/', '', $_SERVER[ 'REQUEST_URI' ] ) . '/';
+	$homeUrl = $thisUrl . '..';
+}
 
 
 ?>
@@ -77,7 +83,7 @@ else
 
 				<!-- Return -->
 				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<a class="button button-large fill-black" href="<?= home_url() ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
+					<a class="button button-large fill-black" href="<?= $homeUrl ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
 				</div>
 				<!-- END: Return -->
 			</div>

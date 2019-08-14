@@ -26,7 +26,7 @@ if ( cmsIsEnabled() ) {
 }
 else {
 	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
-	$constructionUpdate = $constructionUpdates[ 0 ];
+	$constructionUpdate = $constructionUpdates[ count( $constructionUpdates ) - 1 ];
 	extract( $constructionUpdate );
 	$constructionMonthAndYear = $monthAndYear;
 	$constructionDescription = $description;

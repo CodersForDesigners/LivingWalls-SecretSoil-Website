@@ -56,7 +56,7 @@ $siteTitle = getContent( 'Secretly Kickass 4BHK House | Secret Soil | LivingWall
 $pageUrl = $siteUrl . $urlPath;
 if ( pageIsStatic() )
 	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
-else {
+else if ( cmsIsEnabled() ) {
 	$the_post = getCurrentPost( $_GET[ '_slug' ], $_GET[ '_post_type' ] );
 	if ( empty( $the_post ) ) {
 		http_response_code( 404 );
