@@ -7,15 +7,16 @@
 
 require_once __DIR__ . '/../inc/above.php';
 
-// $constructionUpdatePost = get_posts( [
-// 	'post_type' => $post_type,
-// 	'post_status' => 'publish',
-// 	'name' => $slug
-// ] );
+// Get the previous and next updates
+// Note: Some WordPress function assume that certain global variable are set
+	// Set the global WP post variable
+global $post;
+$post = $the_post;
+$previousUpdate = get_previous_post();
+$nextUpdate = get_next_post();
 
-// if ( empty( $constructionUpdatePost ) )
-	// header( 'Location: ' );
-// $constructionUpdatePost = $constructionUpdatePost[ 0 ];
+// Get the url sans query and hash parameters
+$thisUrl = preg_replace( '/\/+$/', '', $_SERVER[ 'REQUEST_URI' ] ) . '/';
 
 // Get all the post ids and slugs
 $updates__postIds = get_posts( [
@@ -87,17 +88,22 @@ $featuredImage = getContent( '', 'featured_image', $the_post->ID );
 
 
 			<!-- Construction Nav -->
-			<!-- <div class="columns small-10 small-offset-1 large-4 large-offset-0">
+			<div class="columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
 				<div class="row">
-					<div class="columns small-12 medium-5 large-10 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">February Update</div>
+					<div class="columns small-6 medium-5 space-quarter-bottom">
+						<?php if ( ! empty( $previousUpdate ) ) : ?>
+							<a href="<?= $thisUrl . '../' . $previousUpdate->post_name ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate->post_title ?></a>
+						<?php endif; ?>
 					</div>
-					<div class="columns small-12 medium-5 medium-offset-2 large-10 large-offset-0 space-quarter-bottom">
-						<div class="button fill-green block" tabindex="-1">September Update</div>
+					<div class="columns small-6 medium-5 medium-offset-2 space-quarter-bottom text-right">
+						<?php if ( ! empty( $nextUpdate ) ) : ?>
+							<a href="<?= $thisUrl . '../' . $nextUpdate->post_name ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate->post_title ?> &#9654;</a>
+						<?php endif; ?>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- END: Construction Nav -->
+
 		</div>
 	</div>
 </section>
