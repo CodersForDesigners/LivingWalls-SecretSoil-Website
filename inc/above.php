@@ -64,6 +64,9 @@ else if ( cmsIsEnabled() ) {
 	}
 	$pageTitle = $the_post->post_title . ' | ' . $siteTitle;
 }
+else
+	$pageTitle = $siteTitle;
+
 http_response_code( 200 );
 
 ?>

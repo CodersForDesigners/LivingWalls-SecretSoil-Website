@@ -7,7 +7,7 @@
 
 require_once __DIR__ . '/../inc/above.php';
 
-if ( false ) {
+if ( cmsIsEnabled() ) {
 
 	// Get the previous and next updates
 	// Note: Some WordPress function assume that certain global variable are set
