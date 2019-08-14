@@ -3,7 +3,8 @@
 if ( empty( $baseURL ) )
 	$navigationBaseURL = '/';
 else
-	$navigationBaseURL = $navigationBaseURL
+	$navigationBaseURL = $navigationBaseURL;
+
 ?>
 
 <section class="navigation-section">

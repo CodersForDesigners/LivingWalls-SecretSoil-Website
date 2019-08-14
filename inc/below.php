@@ -52,18 +52,18 @@
 
 							<div class="row text-off-green">
 								<div class="columns small-6">
-									<a class="h6 block" href="#large-4bhk">Large 4BHK </a>
-									<a class="h6 block" href="#masterplan">Masterplan</a>
-									<a class="h6 block" href="#flexiplan">Flexi-Plan</a>
-									<a class="h6 block" href="#xlarge-4bhk">XLarge 4BHK</a>
-									<a class="h6 block" href="#amenities">Amenities</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#large-4bhk">Large 4BHK </a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#masterplan">Masterplan</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#flexiplan">Flexi-Plan</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#xlarge-4bhk">XLarge 4BHK</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#amenities">Amenities</a>
 								</div>
 								<div class="columns small-6">
-									<!-- <a class="h6 block" href="#infrastructure">Infrastructure</a> -->
-									<a class="h6 block" href="#construction">Updates</a>
-									<a class="h6 block" href="#contact">Contact us</a>
-									<a class="h6 block" href="#location">Location</a>
-									<a class="h6 block" href="pricing">Pricing</a>
+									<!-- <a class="h6 block" href="<?= $navigationBaseURL ?>#infrastructure">Infrastructure</a> -->
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#construction">Updates</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#contact">Contact us</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>#location">Location</a>
+									<a class="h6 block" href="<?= $navigationBaseURL ?>/pricing">Pricing</a>
 								</div>
 							</div>
 						</div>
