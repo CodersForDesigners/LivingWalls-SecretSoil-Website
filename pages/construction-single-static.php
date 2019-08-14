@@ -41,6 +41,15 @@
 
 <!-- Construction Banner -->
 <section class="construction-single-banner" style="background-image: url('media/section-bg/canopy.png<?php $ver ?>');">
+	<div class="row">
+		<div class="container">
+			<div class="return columns small-10 small-offset-1 large-4 large-offset-0">
+				<div class="text-auto-align-large">
+					<a href="" class="button fill-green strong" tabindex="-1">&#9664; Return to All Updates</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- END: Construction Banner -->
 
