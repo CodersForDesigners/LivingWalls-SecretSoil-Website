@@ -30,7 +30,8 @@ function initWordPress () {
  */
 function cmsIsEnabled () {
 	global $cmsIsEnabled;
-	return $cmsIsEnabled;
+	// return $cmsIsEnabled;
+	return false;
 }
 
 

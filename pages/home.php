@@ -18,21 +18,18 @@ if ( cmsIsEnabled() ) {
 	] );
 	if ( ! empty( $constructionUpdate ) ) {
 		$constructionUpdate = $constructionUpdate[ 0 ];
-		$constructionMonthAndYear = $constructionUpdate->post_title;
-		$constructionDescription = getContent( '', 'description', $constructionUpdate->ID );
-		$constructionGallery = getContent( '', 'gallery', $constructionUpdate->ID );
-		$featuredImage = getContent( '', 'featured_image', $constructionUpdate->ID );
+		$constructionUpdate__title = $constructionUpdate->post_title;
+		$constructionUpdate__description = getContent( '', 'description', $constructionUpdate->ID );
+		$constructionUpdate__gallery = getContent( '', 'gallery', $constructionUpdate->ID );
+		$constructionUpdate__featuredImage = getContent( '', 'featured_image', $constructionUpdate->ID );
 	}
 }
 else {
 	$constructionUpdates = require_once __DIR__ . '/../inc/sample-content/construction-updates.php';
 	$constructionUpdate = $constructionUpdates[ count( $constructionUpdates ) - 1 ];
-	extract( $constructionUpdate );
-	$constructionMonthAndYear = $monthAndYear;
-	$constructionDescription = $description;
-	$constructionGallery = $gallery;
+	extract( $constructionUpdate, EXTR_PREFIX_ALL, 'constructionUpdate_' );
 }
-array_unshift( $constructionGallery, $featuredImage );
+array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage );
 
 ?>
 
@@ -1863,8 +1860,8 @@ array_unshift( $constructionGallery, $featuredImage );
 		<div class="container">
 			<!-- Status -->
 			<div class="status columns small-10 small-offset-1 large-8 large-offset-4 space-quarter-left-right">
-				<div class="title text-auto-align-large h3 strong space-half-bottom"><?= $constructionMonthAndYear ?></div>
-				<?php foreach ( $constructionDescription as $section ) : ?>
+				<div class="title text-auto-align-large h3 strong space-half-bottom"><?= $constructionUpdate__title ?></div>
+				<?php foreach ( $constructionUpdate__description as $section ) : ?>
 					<div class="title text-auto-align-large h4 strong"><?= $section[ 'heading' ] ?></div>
 					<div class="point text-auto-align-large h6"><?= $section[ 'points' ] ?></div>
 				<?php endforeach; ?>
@@ -1877,7 +1874,7 @@ array_unshift( $constructionGallery, $featuredImage );
 		<div class="row">
 			<!-- Gallery -->
 			<div class="gallery js_carousel_content">
-				<?php foreach ( $constructionGallery as $picture ) : ?>
+				<?php foreach ( $constructionUpdate__gallery as $picture ) : ?>
 					<div class="image js_carousel_item">
 						<picture>
 							<source srcset="<?= $picture[ 'url' ] ?>" media="(min-width: 640px)">

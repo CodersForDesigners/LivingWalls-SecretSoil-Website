@@ -17,25 +17,16 @@ if ( cmsIsEnabled() ) {
 	$previousUpdatePost = get_previous_post();
 	$nextUpdatePost = get_next_post();
 	if ( ! empty( $previousUpdatePost ) ) {
-		$previousUpdate[ 'monthAndYear' ] = $previousUpdatePost->post_title;
+		$previousUpdate[ 'title' ] = $previousUpdatePost->post_title;
 		$previousUpdate[ 'url' ] = get_permalink( $previousUpdatePost->ID );
 	}
 	if ( ! empty( $nextUpdatePost ) ) {
-		$nextUpdate[ 'monthAndYear' ] = $nextUpdatePost->post_title;
+		$nextUpdate[ 'title' ] = $nextUpdatePost->post_title;
 		$nextUpdate[ 'url' ] = get_permalink( $nextUpdatePost->ID );
 	}
 
-	// Get all the post ids and slugs
-	$updates__postIds = get_posts( [
-		'post_type' => 'construction_updates',
-		'post_status' => 'publish',
-		'numberposts' => -1,
-		// 'order' => 'ASC'
-		'orderby' => 'date'
-	] );
-
 	// Pull out all the fields
-	$monthAndYear = $the_post->post_title;
+	$title = $the_post->post_title;
 	$description = getContent( '', 'description', $the_post->ID );
 	$gallery = getContent( '', 'gallery', $the_post->ID );
 	$featuredImage = getContent( '', 'featured_image', $the_post->ID );
@@ -85,7 +76,7 @@ else {
 			<!-- Status -->
 			<div class="status columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right">
 				<div class="title text-auto-align-large h4 text-light space-half-top">Construction Update</div>
-				<div class="text-auto-align-large h3 strong text-light space-half-bottom"><?= $monthAndYear ?></div>
+				<div class="text-auto-align-large h3 strong text-light space-half-bottom"><?= $title ?></div>
 				<?php foreach ( $description as $section ) : ?>
 					<div class="title text-auto-align-large h4 strong"><?= $section[ 'heading' ] ?></div>
 					<div class="point text-auto-align-large h6"><?= $section[ 'points' ] ?></div>
@@ -113,12 +104,12 @@ else {
 				<div class="row">
 					<div class="columns small-6 medium-5 space-quarter-bottom">
 						<?php if ( ! empty( $previousUpdate ) ) : ?>
-							<a href="<?= $previousUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate[ 'monthAndYear' ] ?></a>
+							<a href="<?= $previousUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1">&#9664; <?= $previousUpdate[ 'title' ] ?></a>
 						<?php endif; ?>
 					</div>
 					<div class="columns small-6 medium-5 medium-offset-2 space-quarter-bottom text-right">
 						<?php if ( ! empty( $nextUpdate ) ) : ?>
-							<a href="<?= $nextUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate[ 'monthAndYear' ] ?> &#9654;</a>
+							<a href="<?= $nextUpdate[ 'url' ] ?>" class="label strong text-uppercase text-green inline-middle" tabindex="-1"><?= $nextUpdate[ 'title' ] ?> &#9654;</a>
 						<?php endif; ?>
 					</div>
 				</div>
