@@ -74,7 +74,6 @@
 
 				<!-- Return -->
 				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom text-auto-align-large">
-					<!-- <div class="button button-large fill-black"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</div> -->
 					<a href="" class="button fill-black strong" tabindex="-1">&#9664; &nbsp; Return to Overview</a>
 				</div>
 				<!-- END: Return -->

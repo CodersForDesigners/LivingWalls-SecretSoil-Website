@@ -16,6 +16,8 @@
 	right: 4px;
 	bottom:4px;
 	z-index: 2;
+	text-shadow: 0px 0px 6px black;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
 }
 .construction-page .update-list .update .content .title {
 	padding-left: 5px;
