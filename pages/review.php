@@ -28,8 +28,8 @@
 <?php require_once __DIR__ . '/../inc/navigation.php' ?>
 <!-- END: Navigation Section -->
 
-<!-- Review Section -->
-<section class="review-section space-double-top-bottom section-bg bottom" style="color: var(--light);">
+<!-- Review Form Section -->
+<section class="review-form-section space-double-top-bottom section-bg bottom" style="color: var(--light);">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-2 text-auto-align-large space-half-bottom space-quarter-left-right">
@@ -74,7 +74,7 @@
 		</div>
 	</div>
 </section>
-<!-- END: Review Section -->
+<!-- END: Review Form Section -->
 
 <script type="text/javascript" src="js/modules/omega/utils.js<?= $ver ?>"></script>
 <script type="text/javascript" src="js/modules/omega/user.js<?= $ver ?>"></script>
