@@ -85,89 +85,103 @@
 
 			<!-- Column Gallery -->
 			<div class="column-gallery columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3565.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3565.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image" style="column-span: all;">
+				<div class="image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3574.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3574.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0001.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0001.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0016.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0016.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0019.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0019.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0039.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0039.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0041.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0041.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A0064.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A0064.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image" style="column-span: all;">
+				<div class="image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3529.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3529.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3536.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3536.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3548.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3548.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3550.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3550.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
-				<div class="image">
+				<div class="image js_modal_trigger" tabindex="-1" data-mod-id="gallery-image">
 					<picture>
 						<source srcset="media/construction/2019_may/1480/5K8A3552.jpg<?php echo $ver ?>" media="(min-width: 640px)">
 						<img src="media/construction/2019_may/640/5K8A3552.jpg<?php echo $ver ?>">
 					</picture>
+					<span class="caption label">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span>
 				</div>
 			</div>
 			<!-- End: Column Gallery -->

@@ -43,7 +43,80 @@
 /* -- Gallery -- */
 
 .construction-single .column-gallery {
-	columns: 2;
-	column-gap: 4px
+	/*columns: 2;*/
+	/*column-gap: 4px*/
+}
+
+.construction-single .column-gallery .image {
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.construction-single .column-gallery .image:after {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 2;
+	right: 0%;
+	bottom: 0%;
+	background-image: url('../../../media/glyph/24-zoom-in.svg');
+	background-color: rgba(0,0,0,0.65);
+	background-size: 24px 24px;
+	background-position: 75% 75%;
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	border-top-left-radius: 100%;
+	box-shadow: 0px 0px 100px 50px rgba(0,0,0,0.5);
+	opacity: 0;
+	transition: opacity .1s .3s ease-in-out;
+}
+
+.construction-single .column-gallery .image:hover:after {
+	transition: opacity .3s ease-in-out;
+	opacity: 1;
+}
+
+.construction-single .column-gallery .image * {
+	pointer-events: none;
+}
+
+.construction-single .column-gallery .image .caption {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	background-color: rgba(0,0,0,0.65);
+	opacity: 0;
+	transition: opacity .1s .3s ease-in-out;
+}
+
+.construction-single .column-gallery .image:hover .caption {
+	transition: opacity .3s ease-in-out;
+	opacity: 1;
+}
+
+
+@media( min-width: 640px )  {
+	.construction-single .column-gallery {
+		columns: 2;
+		column-gap: 4px
+	}
+}
+
+@media( min-width: 1040px ) {}
+@media( min-width: 1480px ) {
+	.construction-single .column-gallery .image .caption {
+		padding: 8px;
+	}
 }
 

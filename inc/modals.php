@@ -188,6 +188,30 @@
 		</div><!-- END : Updates Coming Soon -->
 
 
+		<!-- Modal Content : Gallery Image -->
+		<div class="modal-box-content js_modal_box_content" data-mod-id="gallery-image">
+			<div class="container">
+				<div class="row gallery-frame">
+					<div class="columns small-12 text-center">
+						<picture>
+							<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
+							<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+						</picture>
+						<span class="caption p text-light block" style="position: absolute; top: 100%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+					</div>
+				</div>
+				<div class="row gallery-controls scroll-controls" style="top: 50%; transform: translateY(-50%);">
+					<div class="columns small-6">
+						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg?v=20190725"></div>
+					</div>
+					<div class="columns small-6 text-right">
+						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg?v=20190725"></div>
+					</div>
+				</div>
+			</div>
+		</div><!-- END : Gallery Image -->
+
+
 		<!-- Modal Close Button -->
 		<div class="modal-close js_modal_close">&times;</div>
 	</div>
