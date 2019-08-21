@@ -1840,11 +1840,10 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 
 	<div class="timelapse row fill-dark space-half-top-bottom">
 		<div class="container">
-			<!-- ATTENTION!!! Construction Archive Hidden  -->
-			<a class="columns small-12 large-4 text-auto-align-large space-quarter-left-right" href="construction">
+			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
 				<div class="h3 space-quarter-bottom">Construction Update Archive</div>
 				<div class="button button-large fill-green js_modal_trigger" tabindex="-1" data-mod-id="updates-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</div>
-			</a>
+			</div>
 			<div class="timelapse-container columns small-12 large-8 large-offset-4">
 				<div class="timelapse-box">
 					<picture>
