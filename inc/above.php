@@ -21,7 +21,6 @@ http_response_code( 200 );
 $urlPath = strstr( $_SERVER[ 'REQUEST_URI' ], '?', true );
 if ( ! $urlPath )
 	$urlPath = $_SERVER[ 'REQUEST_URI' ];
-$urlFragments = preg_split( '/\//', $urlPath );
 
 /*
  * Get all the links on the site
@@ -31,23 +30,13 @@ $links = getContent( $defaultLinks, 'pages' );
 
 /*
  * Figure out the base URL
+ * 	We diff the document root and the directory of this file to determine it
  */
-// Pull out the first non-empty fragment
-$baseURL = $baseURL ?? null;
-if ( $baseURL === null ) {
-	$calculatedBaseSlug = '';
-	$inferredBaseSlug = $_GET[ '_slug' ] ?? '';
-	foreach ( $urlFragments as $fragment ) {
-		if ( ! empty( $fragment ) ) {
-			$calculatedBaseSlug = $fragment;
-			break;
-		}
-	}
-	if ( $inferredBaseSlug == $calculatedBaseSlug )
-		$baseURL = '';
-	else
-		$baseURL = '/' . $calculatedBaseSlug . '/';
-}
+$pathFragments = array_values( array_filter( explode( '/', substr( __DIR__, strlen( $_SERVER[ 'DOCUMENT_ROOT' ] ) ) ) ) );
+if ( count( $pathFragments ) > 1 )
+	$baseURL = '/' . $pathFragments[ 0 ] . '/';
+else
+	$baseURL = '/';
 
 /*
  * Get the title and URL of the website and current page
