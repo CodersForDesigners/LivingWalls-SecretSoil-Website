@@ -90,7 +90,7 @@ var onOTPVerified = function ( context, phoneNumber ) {
 // Brochure section
 var $brochureFormSite = $( "[ data-loginner = 'Brochure' ]" );
 Loginner.registerLoginPrompt( "Brochure", {
-	context: "Walk-in at Site",
+	// context: "Walk-in at Site",
 	onTrigger: onTrigger,
 	onPhoneValidationError: onPhoneValidationError,
 	onPhoneSend: onPhoneSend,
