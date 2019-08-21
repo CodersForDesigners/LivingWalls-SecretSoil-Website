@@ -285,7 +285,6 @@ utils.addPotentialCustomer = function addPotentialCustomer ( phoneNumber, projec
  *
  * @params
  * 	phoneNumber -> the phone number of the potential customer
- * 	project -> the client's project
  *
  */
 utils.verifyPotentialCustomer = function verifyPotentialCustomer ( phoneNumber ) {
