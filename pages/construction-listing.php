@@ -27,7 +27,7 @@ if ( cmsIsEnabled() ) {
 	foreach ( $constructionPosts as $construction ) {
 		$constructionUpdates[ ] = [
 			'url' => get_permalink( $construction->ID ),
-			'monthAndYear' => $construction->post_title,
+			'title' => $construction->post_title,
 			'featuredImage' => getContent( '', 'featured_image', $construction->ID )
 		];
 	}
@@ -72,7 +72,7 @@ else {
 					<?php foreach ( $constructionUpdates as $update ) : ?>
 						<a href="<?= $update[ 'url' ] ?>" class="update block fill-green">
 							<div class="content space-quarter-left-right space-quarter-top-bottom">
-								<div class="title h3"><?= $update[ 'monthAndYear' ] ?></div>
+								<div class="title h3"><?= $update[ 'title' ] ?></div>
 								<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?= $ver ?>"></div>
 							</div>
 							<div class="thumb" style="background-image: url( '<?= $update[ 'featuredImage' ][ 'url' ] ?>' );"></div>
