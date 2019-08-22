@@ -15,8 +15,8 @@ RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
 RewriteRule ^/?quote(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/quote$1 [P]
 
 # The Construction Update pages
-# RewriteRule ^/?construction/?$ / [R=301,QSA,L,NC]
-RewriteRule ^/?construction(/(.*))?$ pages/construction.php?_post_type=construction_updates&_slug=$2 [QSA,L,NC]
+RewriteRule ^/?construction$ pages/construction.php?_post_type=construction_updates [QSA,L,NC]
+RewriteRule ^/?construction/(.+)$ pages/construction.php?_post_type=construction_updates&_slug=$1 [QSA,L,NC]
 
 # Brochure page
 RewriteRule ^/?brochure pages/brochure.php [QSA,L,NC]

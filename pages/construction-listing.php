@@ -1,7 +1,7 @@
 <?php
 /*
  *
- *	Construction Update Listing
+ *	Construction Updates Listing
  *
  */
 
@@ -32,7 +32,7 @@ if ( cmsIsEnabled() ) {
 		];
 	}
 
-	$homeUrl = home_url();
+	$homeUrl = home_url() . '/';
 
 }
 else {
@@ -68,12 +68,12 @@ else {
 
 			<div class="reverese-large">
 				<!-- Update List -->
-				<div class="update-list columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
+				<div class="update-list text-right columns small-10 small-offset-1 large-8 large-offset-0 space-quarter-left-right space-half-top-bottom">
 					<?php foreach ( $constructionUpdates as $update ) : ?>
 						<a href="<?= $update[ 'url' ] ?>" class="update block fill-green">
 							<div class="content space-quarter-left-right space-quarter-top-bottom">
 								<div class="title h3"><?= $update[ 'title' ] ?></div>
-								<div class="action button fill-green">View Update <img src="media/glyph/32-rightarrow.svg<?= $ver ?>"></div>
+								<div class="action label strong text-uppercase">View Update &nbsp; &#9654;</div>
 							</div>
 							<div class="thumb" style="background-image: url( '<?= $update[ 'featuredImage' ][ 'url' ] ?>' );"></div>
 						</a>
@@ -82,8 +82,8 @@ else {
 				<!-- End: Update List -->
 
 				<!-- Return -->
-				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom">
-					<a class="button button-large fill-black" href="<?= $homeUrl ?>"><img src="media/glyph/32-leftarrow.svg<?php $ver ?>">Back to Overview</a>
+				<div class="return columns small-10 small-offset-1 large-4 large-offset-0 space-quarter-left-right space-half-top-bottom text-auto-align-large">
+					<a class="button fill-black strong" href="<?= $homeUrl ?>" tabindex="-1">&#9664; &nbsp; Back to Overview</a>
 				</div>
 				<!-- END: Return -->
 			</div>

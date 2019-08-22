@@ -159,7 +159,7 @@
 						<div class="h4 text-light" style="line-height: 1.5;">
 							Our team is working really hard to bring all these secrets to light soon.
 							<span class="inline-middle">&#128522;</span> <br><br>
-							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp; 
+							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp;
 							<a class="h5 text-uppercase text-green" href="http://livingwalls.in/secret-soil/pricing" target="_blank">Click Here.</a>
 						</div>
 					</div>
@@ -179,7 +179,7 @@
 						<div class="h4 text-light" style="line-height: 1.5;">
 							Our team is working really hard to bring all these updates to light soon.
 							<span class="inline-middle">&#128522;</span> <br><br>
-							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp; 
+							You can use our Flexi-Plan and Real-Time Availabilty today &nbsp; — &nbsp;
 							<a class="h5 text-uppercase text-green" href="http://livingwalls.in/secret-soil/pricing" target="_blank">Click Here.</a>
 						</div>
 					</div>
@@ -192,19 +192,19 @@
 		<div class="modal-box-content js_modal_box_content" data-mod-id="gallery-image">
 			<div class="container">
 				<div class="row gallery-frame">
-					<div class="columns small-12 text-center">
+					<div class="columns small-12 text-center js_image_showcase">
 						<picture>
-							<source srcset="media/construction/2019_may/1480/5K8A3562.jpg<?php echo $ver ?>" media="(min-width: 640px)">
-							<img src="media/construction/2019_may/640/5K8A3562.jpg<?php echo $ver ?>">
+							<source srcset="" media="(min-width: 640px)">
+							<img src="">
 						</picture>
-						<span class="caption p text-light block" style="position: absolute; top: 100%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+						<span class="caption p text-light block js_image_caption" style="position: absolute; top: 100%;"></span>
 					</div>
 				</div>
 				<div class="row gallery-controls scroll-controls" style="top: 50%; transform: translateY(-50%);">
-					<div class="columns small-6">
+					<div class="columns small-6 js_arrow" data-dir="left">
 						<div class="scroll-button scroll-left" tabindex="-1"><img src="media/glyph/32-leftarrow.svg?v=20190725"></div>
 					</div>
-					<div class="columns small-6 text-right">
+					<div class="columns small-6 text-right js_arrow" data-dir="right">
 						<div class="scroll-button scroll-right" tabindex="-1"><img src="media/glyph/32-leftarrow.svg?v=20190725"></div>
 					</div>
 				</div>
