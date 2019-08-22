@@ -34,6 +34,7 @@
 	.brochure-form-section .h5,
 	.brochure-form-section .h6 {
 		line-height: 1.25;
+		letter-spacing: 0.025rem;
 	}
 </style>
 
@@ -41,13 +42,14 @@
 <section class="brochure-form-section space-double-top-bottom section-bg bottom" style="color: var(--light);">
 	<div class="container space-one-top-bottom fill-dark">
 		<!-- [Screen A] -->
-		<div class="row">
+		<div class="row hidden">
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-1 text-auto-align-large">
 				<div class="h2 strong">Welcome to Secret Soil</div>
 				<div class="h5 space-quarter-top">A <span class="text-off-green">LivingWalls</span> Project</div>
 			</div>
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-5 large-offset-1 text-auto-align-large">
-				<div class="h4 space-quarter-top space-half-bottom">Please provide your phone number and we will connect you to a Sales Executive.</div>
+				<div class="h3 strong space-quarter-top text-green">Step 1 :</div>
+				<div class="h4 space-half-bottom">Please provide your phone number and we will connect you to a Business Development Manager.</div>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone">
 					<div class="container-phone-country-code">
@@ -74,11 +76,10 @@
 		<!-- [Screen A-A] -->
 		<div class="row hidden">
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-1 text-auto-align-large">
-				<div class="h2 strong">Hi, new Customer</div>
-				<div class="h5 space-quarter-top">Thank you for your interest in <span class="text-off-green">Secret Soil.</span></div>
+				<div class="h3 strong text-green">Step 2 :</div>
+				<div class="h4 space-half-bottom">Tell us who you are.</div>
 			</div>
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-5 large-offset-1 text-auto-align-large">
-				<div class="h4 strong space-quarter-top space-half-bottom">Tell us who you are:</div>
 				<form class="js_checkin_form">
 					<label class="label block space-quarter-bottom">
 						<span class="visuallyhidden">Your Name</span>
@@ -91,17 +92,17 @@
 					<button type="submit" class="button button-large block fill-green">Send</button>
 				</form>
 
-				<div class="h5 space-quarter-top">Not a new Customer ? <br class="show-for-tablet"><a href="/checkin" class="h5 text-off-green">Enter an existing number</a></div>
+				<a href="/checkin"  class="h5 space-quarter-top">Not a new Customer ? <br class="show-for-tablet"><span class="h5 text-off-green">Enter an existing number</span></a>
 			</div>
 		</div>
 
 		<!-- [Screen A-A-A] -->
-		<div class="row hidden">
+		<div class="row">
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-4 large-offset-1 text-auto-align-large">
 				<div class="h2 strong">Welcome, John Smith</div>
 			</div>
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-5 large-offset-1 text-auto-align-large">
-				<div class="h4 space-quarter-top-bottom">Our Sales Executive <span class="text-off-green">Mr.Vivek</span> has been assigned to you. He will be with you shortly.</div>
+				<div class="h4 space-quarter-top-bottom">Our Business Development Manager <span class="text-off-green">Mr.Vivek</span> has been assigned to you. He will be with you shortly.</div>
 				<a href="/checkin" class="text-off-green" tabindex="-1">Refresh &nbsp; &#x21bb;</a>
 			</div>
 		</div>
@@ -112,7 +113,7 @@
 				<div class="h2 strong">Welcome, John Smith</div>
 			</div>
 			<div class="columns small-10 small-offset-1 medium-8 medium-offset-2 large-5 large-offset-1 text-auto-align-large">
-				<div class="h4 space-quarter-top-bottom">Our Sales Executive <span class="text-off-green">Mr.Vivek</span> has been Notified of your presence on site. He will be with you shortly.</div>
+				<div class="h4 space-quarter-top-bottom">Our Business Development Manager <span class="text-off-green">Mr.Vivek</span> has been Notified of your presence on site. He will be with you shortly.</div>
 				<a href="/checkin" class="text-off-green" tabindex="-1">Refresh &nbsp; &#x21bb;</a>
 			</div>
 		</div>
