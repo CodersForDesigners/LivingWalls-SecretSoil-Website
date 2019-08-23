@@ -1,7 +1,7 @@
 <?php
 
 if ( function_exists( 'home_url' ) )
-	$navigationBaseURL = home_url();
+	$navigationBaseURL = home_url() . '/';
 else {
 	if ( empty( $baseURL ) )
 		$navigationBaseURL = '/';
