@@ -1840,9 +1840,29 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 
 	<div class="timelapse row fill-dark space-half-top-bottom">
 		<div class="container">
-			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right">
+			<div class="columns small-12 large-4 text-auto-align-large space-quarter-left-right" data-loginner="Construction Updates" data-context="construction-updates">
 				<div class="h3 space-quarter-bottom">Construction Update Archive</div>
-				<div class="button button-large fill-green js_modal_trigger" tabindex="-1" data-mod-id="updates-coming-soon"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</div>
+				<a class="button button-large fill-green js_user_required" href="construction" tabindex="-1"><img src="media/glyph/32-leftarrow.svg<?php echo $ver ?>">View All Updates</a>
+				<!-- Phone Trap -->
+				<form class="phone-form loginner_form_phone hidden">
+					<div class="container-phone-country-code">
+						<select class="input-large fill-green js_phone_country_code">
+							<?php require __DIR__ . '/../inc/phone-country-codes.php'; ?>
+						</select>
+						<div class="container-country-code-label button button-large fill-off-light">
+							<span class="js_phone_country_code_label">+91</span>
+						</div>
+					</div>
+					<input class="text-field input-large block js_phone_number" type="text" name="phone" placeholder="Phone number">
+					<button class="submit button button-large fill-green" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">Enter your phone number</div>
+				</form>
+				<form class="otp-form loginner_form_otp hidden">
+					<input class="text-field input-large block js_otp" type="text" name="otp" placeholder="OTP">
+					<button class="submit button button-large" type="submit">→</button>
+					<div class="feedback-message label strong text-uppercase text-center js_feedback_message">We've sent you an OTP.</div>
+				</form>
+				<!-- END: Phone Trap -->
 			</div>
 			<div class="timelapse-container columns small-12 large-8 large-offset-4">
 				<div class="timelapse-box">

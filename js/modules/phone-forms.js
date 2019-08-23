@@ -393,6 +393,32 @@ Loginner.registerLoginPrompt( "Amenities", {
 	}
 } );
 
+// Construction Updates section
+var $constructionUpdatesFormSite = $( "[ data-loginner = 'Construction Updates' ]" );
+Loginner.registerLoginPrompt( "Construction Updates", {
+	onTrigger: onTrigger,
+	onPhoneValidationError: onPhoneValidationError,
+	onPhoneSend: onPhoneSend,
+	onShowOTP: onShowOTP,
+	onOTPSend: onOTPSend,
+	onPhoneError: onPhoneError,
+	onOTPError: onOTPError,
+	onOTPVerified: onOTPVerified,
+	onLogin: function ( user, context ) {
+		if ( this ) {
+			// Disable and Hide the form
+			$( this )
+				.find( "input, select, button" )
+				.prop( "disabled", true );
+			$( this ).addClass( "hidden" );
+
+			// Bring back the button
+			$constructionUpdatesFormSite.find( ".js_user_required" )
+				.removeClass( "hidden" )
+		}
+	}
+} );
+
 // Enquiry section
 var $enquiryFormSite = $( "[ data-loginner = 'Enquiry' ]" );
 Loginner.registerLoginPrompt( "Enquiry", {
