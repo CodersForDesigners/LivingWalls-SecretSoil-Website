@@ -323,7 +323,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/zV26jURU1X4?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -898,7 +898,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section id="uncle-agastya" class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/IfII8Om6OYc?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -1058,7 +1058,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/5b7ci76Tjgs?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -1238,7 +1238,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/_eywpSVgHoU?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -1507,7 +1507,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZQxYyOwxwP8?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -1786,7 +1786,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/PQeO5JmnD7g?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
@@ -1925,7 +1925,7 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 <section class="film-section">
 	<div class="row fill-dark space-half-top-bottom">
 		<div class="container fill-light show-for-tablet" tabindex="-1" style="background-color: #D9E0E3">
-			<div class="thumbnail-hero columns small-12 large-4 youtube_embed">
+			<div class="thumbnail-hero columns small-12 large-4 video-embed">
 				<iframe width="1280" height="720" src="https://www.youtube.com/embed/u17UzMzAJ3o?enablejsapi=1&html5=1&controls=1&disablekb=0&loop=0&modestbranding=1&rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="columns small-12 medium-6 large-4 text-auto-align-large space-half-top-bottom space-half-left-right">
