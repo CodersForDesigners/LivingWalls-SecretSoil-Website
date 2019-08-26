@@ -9,7 +9,7 @@
 
 .construction-section .timelapse {}
 
-.construction-section .timelapse .timelapse-container .timelapse-box { 
+.construction-section .timelapse .timelapse-container .timelapse-box {
 	position: relative;
 	z-index: 1;
 	height: 0;
@@ -33,7 +33,7 @@
 @media( min-width: 640px )  {}
 
 @media( min-width: 1040px ) {
-	.construction-section .timelapse { 
+	.construction-section .timelapse {
 		margin-top: 120px;
 		margin-bottom: 320px;
 	}
@@ -43,19 +43,19 @@
 		left: 0;
 	}
 
-	.construction-section .timelapse .timelapse-container .timelapse-box { 
+	.construction-section .timelapse .timelapse-container .timelapse-box {
 		padding-top: 90%;
 		margin-top: 0;
 		transform: translateY(-25%);
 	}
 
-	.construction-section .timelapse .timelapse-container .timelapse-box img {
-		transform: translateY(10%);
+	.construction-section .timelapse .timelapse-container .timelapse-box iframe {
+		transform: translateY( -53% );
 	}
-	
+
 }
 @media( min-width: 1480px ) {
-	.construction-section .timelapse { 
+	.construction-section .timelapse {
 		margin-top: 180px;
 		margin-bottom: 460px;
 	}

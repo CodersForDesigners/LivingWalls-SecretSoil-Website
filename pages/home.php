@@ -31,6 +31,9 @@ else {
 }
 array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage );
 
+$constructionUpdateYouTubeId = getContent( 'ATMR5ettHz8', 'construction_updates_video_youtube_id', 'home' );
+$constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500', 'construction_updates_video_placeholder_image', 'home' );
+
 ?>
 
 
@@ -1865,11 +1868,8 @@ array_unshift( $constructionUpdate__gallery, $constructionUpdate__featuredImage 
 				<!-- END: Phone Trap -->
 			</div>
 			<div class="timelapse-container columns small-12 large-8 large-offset-4">
-				<div class="timelapse-box">
-					<picture>
-						<source srcset="media/construction/timelapse/1200/ss-timelapse-1.gif<?php echo $ver ?>" media="(min-width: 640px)">
-						<img class="block" src="media/construction/timelapse/300/ss-timelapse-1.gif<?php echo $ver ?>">
-					</picture>
+				<div class="timelapse-box video-embed video-embed-bg js_video_embed js_video_get_player" data-src="<?= $constructionUpdateYouTubeId ?>" data-loop="true" data-autoplay="true">
+					<div class="video-embed-placeholder" style="background-image: url( '<?= $constructionUpdatePlaceholder ?>' );"></div>
 				</div>
 			</div>
 		</div>
