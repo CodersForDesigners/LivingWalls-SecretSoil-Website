@@ -134,6 +134,7 @@
 
 	<!-- JS Modules -->
 	<!-- <script type="text/javascript" src="js/modules/device-charge.js"></script> -->
+	<script type="text/javascript" src="js/modules/utils.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="js/modules/video_embed.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="js/modules/modal_box.js<?= $ver ?>"></script>
 	<script type="text/javascript" src="js/modules/omega/utils.js<?= $ver ?>"></script>
