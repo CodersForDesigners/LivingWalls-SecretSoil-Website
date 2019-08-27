@@ -120,3 +120,91 @@
 	}
 }
 
+/* Minimum aspect ratio */
+.construction-single-banner {}
+.construction-single-banner .scroll {
+		display: none;
+		position: fixed;
+		bottom: 50px;
+		left: 50%;
+		text-align: center;
+		width: auto;
+		/*background-color: rgba(0,255,255,0.5);*/
+		padding: 10px 20px 25px 20px;
+		transform: translateX(-50%);
+}
+
+.construction-single-banner .scroll .icon-scroll {
+	display: inline-block;
+	position: relative;
+}
+
+.construction-single-banner .scroll .icon-scroll:before {
+	position: absolute;
+	left: 50%;
+}
+
+.construction-single-banner .scroll .icon-scroll:after {
+	display: block;
+	left: 50%;
+	content: 'Scroll';
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+	transform: translate(-50%, 12px);
+	color: var(--light);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.construction-single-banner .scroll .icon-scroll {
+	width: 30px;
+	height: 50px;
+	/*margin-left: -20px;*/
+	bottom: 0;
+	/*margin-top: -25px;*/
+	box-shadow: inset 0 0 0 2px #fff;
+	border-radius: 25px;
+}
+.construction-single-banner .scroll .icon-scroll:before {
+	content: '';
+	width: 4px;
+	height: 10px;
+	background: #fff;
+	margin-left: -2px;
+	top: 15px;
+	border-radius: 4px;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-name: scroll;
+	animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+	opacity: 1;
+  }
+  100% {
+	opacity: 0;
+	-webkit-transform: translateY(30px);
+	transform: translateY(30px);
+  }
+}
+@keyframes scroll {
+  0% {
+	opacity: 1;
+  }
+  100% {
+	opacity: 0;
+	-webkit-transform: translateY(30px);
+	transform: translateY(30px);
+  }
+}
+
+	
+@media (min-aspect-ratio: 16/9) {
+	.construction-single-banner .scroll {
+		display: block;
+	}
+}

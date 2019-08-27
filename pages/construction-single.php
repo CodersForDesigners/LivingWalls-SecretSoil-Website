@@ -80,6 +80,10 @@ $parentPageURL = substr(
 			</div>
 		</div>
 	</div>
+	<a href="#content" class="scroll">
+		<div class="icon-scroll"></div>
+		<!-- <div class="label strong text-uppercase text-light">Scroll</a> -->
+	</a>
 </section>
 <!-- END: Construction Banner -->
 
