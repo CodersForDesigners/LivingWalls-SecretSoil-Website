@@ -116,8 +116,8 @@ Loginner.registerLoginPrompt( "Large 4BHK", {
 } );
 
 // Large 4BHK Download Details section
-var $large4BHKDetailsFormSite = $( "[ data-loginner = 'Large 4BHK House' ]" );
-Loginner.registerLoginPrompt( "Large 4BHK House", {
+var $large4BHKEastFacingFormSite = $( "[ data-loginner = 'Large 4BHK House East Facing' ]" );
+Loginner.registerLoginPrompt( "Large 4BHK House East Facing", {
 	onTrigger: onTrigger,
 	onPhoneValidationError: onPhoneValidationError,
 	onPhoneSend: onPhoneSend,
@@ -134,14 +134,14 @@ Loginner.registerLoginPrompt( "Large 4BHK House", {
 				.prop( "disabled", true )
 			$( this ).addClass( "hidden" );
 			// Bring back the button
-			$large4BHKDetailsFormSite.find( ".js_user_required" )
+			$large4BHKEastFacingFormSite.find( ".js_user_required" )
 				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
 } );
-var $large4BHKWithGardenDetailsFormSite = $( "[ data-loginner = 'Large 4BHK with Private Garden' ]" );
-Loginner.registerLoginPrompt( "Large 4BHK with Private Garden", {
+var $large4BHKWestFacingFormSite = $( "[ data-loginner = 'Large 4BHK House West Facing' ]" );
+Loginner.registerLoginPrompt( "Large 4BHK House West Facing", {
 	onTrigger: onTrigger,
 	onPhoneValidationError: onPhoneValidationError,
 	onPhoneSend: onPhoneSend,
@@ -158,7 +158,7 @@ Loginner.registerLoginPrompt( "Large 4BHK with Private Garden", {
 				.prop( "disabled", true )
 			$( this ).addClass( "hidden" );
 			// Bring back the button
-			$large4BHKWithGardenDetailsFormSite.find( ".js_user_required" )
+			$large4BHKWestFacingFormSite.find( ".js_user_required" )
 				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
@@ -319,8 +319,8 @@ Loginner.registerLoginPrompt( "XLarge 4BHK", {
 
 
 // XLarge 4BHK Download Details section
-var $xLarge4BHKDetailsFormSite = $( "[ data-loginner = 'XLarge 4BHK House' ]" );
-Loginner.registerLoginPrompt( "XLarge 4BHK House", {
+var $xLarge4BHKEastFacingFormSite = $( "[ data-loginner = 'XLarge 4BHK House East Facing' ]" );
+Loginner.registerLoginPrompt( "XLarge 4BHK House East Facing", {
 	onTrigger: onTrigger,
 	onPhoneValidationError: onPhoneValidationError,
 	onPhoneSend: onPhoneSend,
@@ -337,14 +337,14 @@ Loginner.registerLoginPrompt( "XLarge 4BHK House", {
 				.prop( "disabled", true )
 			$( this ).addClass( "hidden" );
 			// Bring back the button
-			$xLarge4BHKDetailsFormSite.find( ".js_user_required" )
+			$xLarge4BHKEastFacingFormSite.find( ".js_user_required" )
 				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
 	}
 } );
-var $xLarge4BHKWithGardenDetailsFormSite = $( "[ data-loginner = 'XLarge 4BHK House with Private Garden' ]" );
-Loginner.registerLoginPrompt( "XLarge 4BHK House with Private Garden", {
+var $xLarge4BHKWestFacingFormSite = $( "[ data-loginner = 'XLarge 4BHK House West Facing' ]" );
+Loginner.registerLoginPrompt( "XLarge 4BHK House West Facing", {
 	onTrigger: onTrigger,
 	onPhoneValidationError: onPhoneValidationError,
 	onPhoneSend: onPhoneSend,
@@ -361,7 +361,7 @@ Loginner.registerLoginPrompt( "XLarge 4BHK House with Private Garden", {
 				.prop( "disabled", true )
 			$( this ).addClass( "hidden" );
 			// Bring back the button
-			$xLarge4BHKWithGardenDetailsFormSite.find( ".js_user_required" )
+			$xLarge4BHKWestFacingFormSite.find( ".js_user_required" )
 				.text( "This Way →" )
 				.removeClass( "hidden" );
 		}
