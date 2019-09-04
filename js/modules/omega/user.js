@@ -797,6 +797,18 @@ __OMEGA.utils.loginUser = loginUser;
 
 /*
  *
+ * Log out the user
+ *
+ */
+function logoutUser ( user ) {
+	// Clear them cookies
+	__OMEGA.utils.setCookie( "omega-user", null );
+	__OMEGA.utils.setCookie( "omega-user-id", null );
+}
+__OMEGA.utils.logoutUser = logoutUser;
+
+/*
+ *
  * Handle error / exception response helper
  *
  */
