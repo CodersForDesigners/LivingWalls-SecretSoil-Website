@@ -18,6 +18,7 @@ RewriteRule ^/?quote(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/quote$1 [P]
 RewriteRule ^/?construction$ pages/construction.php?_post_type=construction_updates [QSA,L,NC]
 RewriteRule ^/?construction/(.+)$ pages/construction.php?_post_type=construction_updates&_slug=$1 [QSA,L,NC]
 
+RewriteRule ^/?checkin pages/checkin.php [QSA,L,NC]
 # Brochure page
 RewriteRule ^/?brochure pages/brochure.php [QSA,L,NC]
 # Review page
