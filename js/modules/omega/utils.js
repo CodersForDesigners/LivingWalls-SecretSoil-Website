@@ -134,8 +134,13 @@ utils.setCookie = function setCookie ( name, data, duration ) {
 			url += "/" + document.getElementsByTagName( "base" )[ 0 ].getAttribute( "href" ).replace( /\//g, "" );
 	}
 	url += "/inc/set-cookie-async.php";
-	var queryString = "?" + "_cookie=" + encodeURIComponent( name );
-	queryString += "&_duration=" + encodeURIComponent( duration );
+	var queryString = "?" + "name=" + encodeURIComponent( name );
+
+	// A convenience users of the function
+	if ( data === null )
+		duration = -1;
+
+	queryString += "&duration=" + encodeURIComponent( duration );
 	if ( typeof data == "string" )
 		queryString += "&value=" + encodeURIComponent( data );
 	else
