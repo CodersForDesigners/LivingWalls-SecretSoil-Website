@@ -18,6 +18,10 @@ $ver = '?v=20190725';
 http_response_code( 200 );
 
 
+// Pull some data from the request
+$urlSlug = $_GET[ '_slug' ] ?? null;
+$postType = $_GET[ '_post_type' ] ?? null;
+
 $urlPath = strstr( $_SERVER[ 'REQUEST_URI' ], '?', true );
 if ( ! $urlPath )
 	$urlPath = $_SERVER[ 'REQUEST_URI' ];
@@ -46,7 +50,7 @@ $pageUrl = $siteUrl . $urlPath;
 if ( pageIsStatic() )
 	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
 else if ( cmsIsEnabled() ) {
-	$the_post = getCurrentPost( $_GET[ '_slug' ], $_GET[ '_post_type' ] );
+	$the_post = getCurrentPost( $urlSlug, $postType );
 	if ( empty( $the_post ) ) {
 		http_response_code( 404 );
 		exit;

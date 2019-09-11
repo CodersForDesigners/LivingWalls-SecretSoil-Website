@@ -56,6 +56,8 @@
 	- -->
 	<!-- Theme Color for Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="<?php echo getContent( '#f9f9f9', 'theme_color' ); ?>">
+	<meta name="application-name" content="<?php echo getContent( 'LivingWalls Secret Soil', 'application_name' ); ?>">
+	<link rel="manifest" href="manifest.json">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="media/favicon/apple-icon-57x57.png">
@@ -82,11 +84,11 @@
 	<!-- Launch Screen Image -->
 	<!-- <link rel="apple-touch-startup-image" href="/path/to/launch.png"> -->
 	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( 'LivingWalls Secret Soil', 'apple -> ios_app_title' ); ?>">
+	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( getContent( 'LivingWalls Secret Soil', 'application_name' ), 'apple -> ios_app_title', $urlSlug ); ?>">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="<?php echo getContent( 'default', 'apple -> ios_status_bar_style' ); ?>">
+	<meta name="apple-mobile-web-app-status-bar-style" content="<?php echo getContent( getContent( 'default', 'apple -> ios_status_bar_style' ), 'apple -> ios_status_bar_style', $urlSlug ); ?>">
 
 	<!-- ~ Android ~ -->
 	<!-- Add to home screen -->
