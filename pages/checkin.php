@@ -25,7 +25,7 @@
 
 
 <!-- Navigation Section : Menu 1 -->
-<?php require_once __DIR__ . '/../inc/navigation.php' ?>
+<?php // require_once __DIR__ . '/../inc/navigation.php' ?>
 <!-- END: Navigation Section -->
 
 <style type="text/css">
