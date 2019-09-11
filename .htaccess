@@ -4,7 +4,7 @@
 RewriteEngine On
 
 # The Home Page
-RewriteRule ^/?$ pages/home.php [QSA,L,NC]
+RewriteRule ^/?$ pages/home.php?_slug=home [QSA,L,NC]
 
 # The Pricing page
 RewriteCond "%{DOCUMENT_ROOT}%{REQUEST_URI}" !-f
@@ -18,15 +18,15 @@ RewriteRule ^/?quote(/.*)?$ https://%{HTTP_HOST}/secret-soil-pricing/quote$1 [P]
 RewriteRule ^/?construction$ pages/construction.php?_post_type=construction_updates [QSA,L,NC]
 RewriteRule ^/?construction/(.+)$ pages/construction.php?_post_type=construction_updates&_slug=$1 [QSA,L,NC]
 
-RewriteRule ^/?checkin pages/checkin.php [QSA,L,NC]
+RewriteRule ^/?(checkin) pages/checkin.php?_slug=$1 [QSA,L,NC]
 # Brochure page
-RewriteRule ^/?brochure pages/brochure.php [QSA,L,NC]
+RewriteRule ^/?(brochure) pages/brochure.php?_slug=$1 [QSA,L,NC]
 # Review page
-RewriteRule ^/?review pages/review.php [QSA,L,NC]
+RewriteRule ^/?(review) pages/review.php?_slug=$1 [QSA,L,NC]
 
 
 # Tracking and Analytics
-RewriteRule ^/?trac/ pages/tracking.php [QSA,L,NC]
+RewriteRule ^/?(trac)/ pages/tracking.php?_slug=$1 [QSA,L,NC]
 
 # (smart?) Page routing
 # RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
