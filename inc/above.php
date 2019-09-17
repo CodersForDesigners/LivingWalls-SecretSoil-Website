@@ -45,7 +45,7 @@ else
 /*
  * Get the title and URL of the website and current page
  */
-$siteTitle = getContent( 'Secretly Kickass 4BHK House | Secret Soil | LivingWalls', 'site_title' );
+$siteTitle = getContent( '', 'page_title', $urlSlug ) ?: getContent( 'Secretly Kickass 4BHK House | Secret Soil | LivingWalls', 'page_title' );
 $pageUrl = $siteUrl . $urlPath;
 if ( pageIsStatic() )
 	$pageTitle = getCurrentPageTitle( $links, $baseURL, $siteTitle );
@@ -59,6 +59,9 @@ else if ( cmsIsEnabled() ) {
 }
 else
 	$pageTitle = $siteTitle;
+
+$pageImage = getContent( '', 'page_image', $urlSlug ) ?: getContent( '', 'page_image' );
+$pageImage = $pageImage[ 'sizes' ][ 'medium' ] ?: $pageImage[ 'sizes' ][ 'thumbnail' ] ?: $pageImage[ 'url' ];
 
 http_response_code( 200 );
 

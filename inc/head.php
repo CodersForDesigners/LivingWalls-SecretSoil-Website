@@ -22,9 +22,9 @@
 	- -->
 	<!-- Short description of the document (limit to 150 characters) -->
 	<!-- This content *may* be used as a part of search engine results. -->
-	<meta name="description" content="<?php echo getContent( '', 'description' ); ?>">
+	<meta name="description" content="<?php echo getContent( getContent( '', 'page_description' ), 'page_description', $urlSlug ); ?>">
 	<!-- Short description of your document's subject -->
-	<meta name="subject" content="<?php echo getContent( '', 'subject' ); ?>">
+	<meta name="subject" content="<?php echo getContent( getContent( '', 'page_subject' ), 'page_subject', $urlSlug ); ?>">
 
 
 	<!--
@@ -84,7 +84,7 @@
 	<!-- Launch Screen Image -->
 	<!-- <link rel="apple-touch-startup-image" href="/path/to/launch.png"> -->
 	<!-- Launch Icon Title -->
-	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( getContent( 'LivingWalls Secret Soil', 'application_name' ), 'apple -> ios_app_title', $urlSlug ); ?>">
+	<meta name="apple-mobile-web-app-title" content="<?php echo getContent( getContent( 'LivingWalls Secret Soil', 'apple -> ios_app_title' ), 'apple -> ios_app_title', $urlSlug ); ?>">
 	<!-- Enable standalone (full-screen) mode -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
@@ -105,15 +105,15 @@
 	<meta property="og:url" content="<?php echo $pageUrl ?>">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="<?php echo $pageTitle ?>">
-	<meta property="og:image" content="<?php echo getContent( 'https://livingwalls.in/secret-soil/cms/wp-content/uploads/2019/03/facebook.jpg', 'og -> image' ) ?>">
-	<meta property="og:description" content="<?php echo getContent( '', 'og -> description' ) ?>">
-	<meta property="og:site_name" content="<?php echo getContent( '', 'site_title' ) ?>">
+	<meta property="og:image" content="<?php echo $pageImage ?: '' ?>">
+	<meta property="og:description" content="<?php echo getContent( getContent( '', 'page_description' ), 'page_description', $urlSlug ); ?>">
+	<meta property="og:site_name" content="<?php echo getContent( '', 'page_title' ) ?>">
 
 
 	<!-- Schema.org / Google+ -->
 	<meta itemprop="name" content="<?php echo $pageTitle ?>">
-	<meta itemprop="description" content="<?php echo getContent( 'This is a website', 'schema -> description' ) ?>">
-	<meta itemprop="image" content="<?php echo getContent( '', 'schema -> image' ) ?>">
+	<meta itemprop="description" content="<?php echo getContent( getContent( '', 'page_description' ), 'page_description', $urlSlug ); ?>">
+	<meta itemprop="image" content="<?php echo $pageImage ?: '' ?>">
 
 
 	<!--
