@@ -24,6 +24,9 @@ RewriteRule ^/?(brochure) pages/brochure.php?_slug=$1 [QSA,L,NC]
 # Review page
 RewriteRule ^/?(review) pages/review.php?_slug=$1 [QSA,L,NC]
 
+# Blog Single
+RewriteRule ^/?(blog-single) pages/blog-single.php?_slug=$1 [QSA,L,NC]
+
 
 # Tracking and Analytics
 RewriteRule ^/?(trac)/ pages/tracking.php?_slug=$1 [QSA,L,NC]
