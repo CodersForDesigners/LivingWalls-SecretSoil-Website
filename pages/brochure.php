@@ -33,12 +33,17 @@
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-2 text-auto-align-large space-half-bottom space-quarter-left-right">
-				<div class="title h2 strong space-quarter-bottom">
+				<!-- <div class="title h2 strong space-quarter-bottom">
 					Get a Kickass<br>
 					Brochure
+				</div> -->
+				<!-- <div class="h4 space-quarter-bottom">Please provide the following details so that we can courier a physical copy to you.</div> -->
+				<!-- <div class="label text-uppercase hidden">It contains some secrets not found anywhere else.</div> -->
+				<div class="title h2 strong space-quarter-bottom">
+					Get a Physical Brochure
 				</div>
-				<div class="h4 space-quarter-bottom">Please provide the following details so that we can courier a physical copy to you.</div>
-				<div class="label text-uppercase hidden">It contains some secrets not found anywhere else.</div>
+				<div class="h5 space-quarter-bottom strong"><span class="text-green">NOTICE:</span> Due to the lockdown we have currently run out of stock and are unable to procure additional copies of the physical brochure.</div>
+				<div class="h6">Meanwhile, please provide the following details and we will courier a physical copy to you once the lockdown has ended.</div>
 			</div>
 			<div class="columns small-12 large-4">
 				<div class="row">
