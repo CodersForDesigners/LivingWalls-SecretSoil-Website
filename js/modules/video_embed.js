@@ -34,7 +34,8 @@ function initialiseVideoEmbeds () {
  */
 function setVideoEmbed ( domEl ) {
 	var $el = $( domEl );
-	var src = $el.find( "iframe" ).data( "src" );
+	var src;
+	src = $el.find( "iframe" ).data( "src" ) || $el.data( "src" );
 	if ( src )
 		$el.find( "iframe" ).attr( "src", src );
 }
@@ -44,8 +45,7 @@ function setVideoEmbed ( domEl ) {
  */
 function unsetVideoEmbed ( domEl ) {
 	var $el = $( domEl );
-	var src = $el.find( "iframe" ).attr( "src" );
-	$el.find( "iframe" ).data( "src", src );
+	$el.find( "iframe" ).removeAttr( "src" );
 }
 
 /*

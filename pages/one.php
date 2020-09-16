@@ -31,7 +31,7 @@
 				<br>
 				<br>
 
-				<div class="youtube_embed ga_video" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
+				<div class="video-embed ga_video js_video_embed" data-src="https://www.youtube.com/embed/lncVHzsc_QA?rel=0&amp;showinfo=0" data-ga-video-src="Sample - Video">
 					<div class="youtube_load"></div>
 					<iframe width="1280" height="720" src="" frameborder="0" allowfullscreen></iframe>
 				</div>

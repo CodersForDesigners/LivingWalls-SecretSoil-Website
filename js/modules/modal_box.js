@@ -8,6 +8,12 @@ $(document).ready(function() {
 		$('.body').addClass('modal-open'); // Freeze Page Layer
 		$('.js_modal_box_content[data-mod-id="'+ modId +'"]').addClass('active'); // Activate Appropriate Modal Content
 
+		var $videoEmbeds = $( ".js_modal_box_content[ data-mod-id = '" + modId + "' ]" )
+			.find( ".js_video_embed" );
+		$videoEmbeds.each( function ( _i, el ) {
+			setVideoEmbed( el );
+		} )
+
 	});
 
 
@@ -23,10 +29,9 @@ $(document).ready(function() {
 
 		var $videoEmbeds = $( event.target )
 			.closest( ".js_modal_box" )
-			.find( ".youtube_embed" );
+			.find( ".js_video_embed" );
 		$videoEmbeds.each( function ( _i, el ) {
 			unsetVideoEmbed( el );
-			setVideoEmbed( el );
 		} )
 
 		// Form reset operations
