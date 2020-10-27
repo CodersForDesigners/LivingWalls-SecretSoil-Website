@@ -187,10 +187,10 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House East Facing" data-context="large-4bhk-house-east-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK East Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.3Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/25" target="_blank">Download Details</a>
+								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/26" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -215,10 +215,10 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House West Facing" data-context="large-4bhk-house-west-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-off-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK West Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.2Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/20" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1383,10 +1383,10 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House East Facing" data-context="xlarge-4bhk-house-east-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK East Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.8Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 3.0Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/56" target="_blank">Download Details</a>
+								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/17" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1411,10 +1411,10 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House West Facing" data-context="xlarge-4bhk-house-west-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-off-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK West Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.6Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.9Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/22" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/53" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
