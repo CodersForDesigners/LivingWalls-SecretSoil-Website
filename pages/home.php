@@ -218,7 +218,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/21" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1386,7 +1386,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 3.0Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/17" target="_blank">Download Details</a>
+								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1414,7 +1414,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.9Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing/53" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
