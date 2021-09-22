@@ -27,7 +27,7 @@ else {
 					<a class="link h5 text-uppercase" href="<?= $navigationBaseURL ?>#contact">Contact us</a>
 					<a class="link h5 text-uppercase" href="<?= $navigationBaseURL ?>#location">Location</a>
 					<a class="link h5 text-uppercase" href="tel:+919663396979">Call 9663396979</a>
-					<a class="link h5 text-uppercase fill-green" href="<?= $navigationBaseURL ?>pricing">Real-time Pricing</a>
+					<a class="link h5 text-uppercase fill-green hidden" href="<?= $navigationBaseURL ?>pricing">Real-time Pricing</a>
 				</div>
 			</div>
 		</div>

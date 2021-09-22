@@ -1104,7 +1104,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 
 
 <!-- Flexiplan Section -->
-<section class="flexiplan-section space-one-top-bottom section-bg top small rera-tag generic top-left" style="color: #EF6135; background-color: #17191B; background-image: url('media/section-bg/architects.png<?php echo $ver ?>'), url('media/section-bg/architects-bg-px.png<?php echo $ver ?>');" id="flexiplan" data-section="Flexi-Plan">
+<section class="flexiplan-section space-one-top-bottom section-bg top small rera-tag generic top-left hidden" style="color: #EF6135; background-color: #17191B; background-image: url('media/section-bg/architects.png<?php echo $ver ?>'), url('media/section-bg/architects-bg-px.png<?php echo $ver ?>');" id="flexiplan" data-section="Flexi-Plan">
 	<div class="row">
 		<div class="container">
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
