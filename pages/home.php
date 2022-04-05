@@ -97,7 +97,8 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 				<div class="h3">Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Large 4BHK" data-context="large-4bhk-unlock-now">
+			<!-- This is a CTA to get to the Pricing Engine; it's now decommissioned -->
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="Large 4BHK" data-context="large-4bhk-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> Large 4BHK</div>
 				<div class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</div>
 				<!-- Phone Trap -->
@@ -190,7 +191,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-green js_user_required" href="https://livingwalls.in/secret-soil/pricing/26" target="_blank">Download Details</a>
+								<a class="button button-large fill-green _js_user_required" href="https://livingwalls.in/secret-soil/pricing/26" target="_blank" disabled>Sold out</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -218,7 +219,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-green js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-green _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -678,7 +679,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 				<div class="h3">Minimised Concrete Footprint</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Masterplan" data-context="masterplan-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="Masterplan" data-context="masterplan-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 7 more secrets behind the</span> Masterplan</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -950,7 +951,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 			<div class="columns small-12 large-8 large-offset-4 text-auto-align-large space-half-bottom space-quarter-left-right">
 				<div class="h2 strong text-light">The charm of a BDA Layout House without the hassles</div>
 			</div>
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="BDA Layout" data-context="bda-layout-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="BDA Layout" data-context="bda-layout-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 10 more reasons to</span> buy a house vs build one</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -1111,7 +1112,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 				<div class="h1 strong text-light">Flexi-plan</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Flexi-plan" data-context="flexi-plan-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="Flexi-plan" data-context="flexi-plan-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 14 more</span>  Flexi-Plan <span class="text-light">secrets</span></div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -1293,7 +1294,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 				<div class="h3">Spacious Standalone Houses</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="XLarge 4BHK" data-context="xlarge-4bhk-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="XLarge 4BHK" data-context="xlarge-4bhk-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock 13 more secrets of the</span> XLarge 4BHK</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -1386,7 +1387,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 3.0Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+								<a class="button button-large fill-dark _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1414,7 +1415,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.9Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
-								<a class="button button-large fill-off-dark js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Details</a>
+								<a class="button button-large fill-off-dark _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
 								<!-- Phone Trap -->
 								<form class="phone-form loginner_form_phone hidden">
 									<div class="container-phone-country-code">
@@ -1560,7 +1561,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 				<div class="h1 strong text-light space-quarter-bottom">Amenities</div>
 			</div>
 
-			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile" data-loginner="Amenities" data-context="amenities-unlock-now">
+			<div class="columns small-12 medium-8 medium-offset-2 large-4 large-offset-0 text-auto-align-large space-half-bottom space-quarter-left-right hide-for-mobile hide-for-tablet invisible" data-loginner="Amenities" data-context="amenities-unlock-now">
 				<div class="h3 space-quarter-bottom"><span class="text-light">Unlock detailed floorplans of the</span> clubhouse</div>
 				<a class="button button-large fill-green js_modal_trigger js_user_required" data-mod-id="secrets-coming-soon"><img src="media/glyph/32-lock.svg<?php echo $ver ?>">Unlock Now</a>
 				<!-- Phone Trap -->
@@ -2015,7 +2016,8 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 			<div class="pricing columns small-12 medium-6 large-4 fill-off-green text-auto-align-medium space-half-top-bottom space-half-left-right" data-loginner="Contact" data-context="contact-download-price">
 				<div class="h3 strong space-quarter-bottom">Pick your house online now.</div>
 				<div class="h5 strong space-half-bottom">Use our Real-time Pricing Engine. </div>
-				<a class="button button-large js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank">Download Prices</a>
+				<!-- This is a CTA to get to the Pricing Engine; it's now decommissioned -->
+				<a class="button button-large _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
 				<!-- Phone Trap -->
 				<form class="phone-form loginner_form_phone hidden">
 					<div class="container-phone-country-code">
