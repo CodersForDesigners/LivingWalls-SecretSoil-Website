@@ -188,7 +188,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House East Facing" data-context="large-4bhk-house-east-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK East Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right invisible">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-green _js_user_required" href="https://livingwalls.in/secret-soil/pricing/26" target="_blank" disabled>Sold out</a>
@@ -216,7 +216,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="Large 4BHK House West Facing" data-context="large-4bhk-house-west-facing" style="border: solid 1px var(--green);">
 							<div class="h3 strong text-off-green space-quarter-bottom space-half-top space-half-left-right">Large 4BHK West Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.5Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right invisible">Basic Price 2.5Cr</div>
 							<img class="block" src="media/keyplan/large-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-off-green _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
@@ -1384,7 +1384,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House East Facing" data-context="xlarge-4bhk-house-east-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK East Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 3.0Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right invisible">Basic Price 3.0Cr</div>
 							<img class="block" src="media/keyplan/xlarge-east-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-dark _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
@@ -1412,7 +1412,7 @@ $constructionUpdatePlaceholder = getContent( 'https://via.placeholder.com/1500',
 						</div>
 						<div class="columns small-12 medium-6 large-4 fill-light text-auto-align-large" data-loginner="XLarge 4BHK House West Facing" data-context="xlarge-4bhk-house-west-facing" style="border: solid 1px var(--dark);">
 							<div class="h3 strong text-off-dark space-quarter-bottom space-half-top space-half-left-right">XLarge 4BHK West Facing</div>
-							<div class="h4 space-quarter-bottom space-half-left-right">Basic Price 2.9Cr</div>
+							<div class="h4 space-quarter-bottom space-half-left-right invisible">Basic Price 2.9Cr</div>
 							<img class="block" src="media/keyplan/xlarge-west-facing.svg<?php echo $ver ?>">
 							<div class="space-half-bottom space-half-left-right">
 								<a class="button button-large fill-off-dark _js_user_required" href="https://livingwalls.in/secret-soil/pricing" target="_blank" disabled>Sold out</a>
