@@ -15,8 +15,8 @@ else {
 	<div class="menu-1 row js_primary_nav">
 		<div class="container">
 			<div class="columns small-12 clearfix">
-				<a class="logo" href="<?= $navigationBaseURL ?>">
-					<img src="media/ss-logo-long-green-light.svg<?php echo $ver ?>">
+				<a class="logo" href="https://livingwalls.in/" style="margin-top: 0.5rem">
+					<img src="media/LW_Logos_2022_lw-SS-large-light.svg<?php echo $ver ?>">
 				</a>
 				<div class="menu-toggle js_primary_nav_menu_toggle float-right show-for-tablet" tabindex="-1">
 					<span class="h5 text-uppercase inline-middle">Menu</span>
