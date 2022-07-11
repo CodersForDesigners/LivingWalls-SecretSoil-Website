@@ -105,6 +105,18 @@
 	background-color: var(--light);
 }
 
+.navigation-section .menu-1 .link-tray .link.back {
+	display: inline-flex;
+	align-items: baseline;
+	justify-content: flex-end;
+	width: 100%;
+	padding-left: 0;
+}
+	.navigation-section .menu-1 .link-tray .link.back img {
+		align-self: center;
+		width: 3rem;
+	}
+
 @media( min-width: 640px )  {
 	.navigation-section .menu-1 .link-tray {
 		width: 50%;
@@ -136,6 +148,11 @@
 	.navigation-section .menu-1 .link-tray .link {
 		display: inline-block;
 		line-height: var(--space-three-quarter);
+	}
+
+	.navigation-section .menu-1 .link-tray .link.back {
+		width: auto;
+		justify-content: normal;
 	}
 }
 @media( min-width: 1480px ) {

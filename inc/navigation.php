@@ -28,6 +28,10 @@ else {
 					<a class="link h5 text-uppercase" href="<?= $navigationBaseURL ?>#location">Location</a>
 					<a class="link h5 text-uppercase hidden" href="tel:+919663396979">Call 9663396979</a>
 					<a class="link h5 text-uppercase fill-green hidden" href="<?= $navigationBaseURL ?>pricing">Real-time Pricing</a>
+					<a class="link h5 text-uppercase back" href="https://livingwalls.in">
+						<img src="media/left-arrow.svg">
+						<span>Back</span>
+					</a>
 				</div>
 			</div>
 		</div>
